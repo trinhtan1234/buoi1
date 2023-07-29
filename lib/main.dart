@@ -28,7 +28,7 @@ class MyHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _buildAppbar(),
+      appBar: _buildAppbar(context),
       body: _buildBody(),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
@@ -41,7 +41,7 @@ class MyHomePage extends StatelessWidget {
     );
   }
 
-  AppBar _buildAppbar() {
+  AppBar _buildAppbar(BuildContext context) {
     return AppBar(
       centerTitle: true,
       title: const Text(
