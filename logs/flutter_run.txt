@@ -1,0 +1,22 @@
+[22:34:08]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9101/","--target","lib\\main.dart"]
+[22:34:08]: ..  in D:\Flutter\buoi1
+[22:34:08]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[22:34:08]: PID: 5712
+[22:34:11]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":14052}}]
+[22:34:11]: <== [{"event":"app.start","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","deviceId":"emulator-5554","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
+[22:34:11]: <== Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+[22:34:14]: <== [{"event":"app.progress","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
+[22:35:32]: <== [{"event":"app.progress","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","id":"0","progressId":null,"finished":true}}]
+[22:35:33]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
+[22:35:33]: <== [{"event":"app.progress","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
+[22:35:40]: <== [{"event":"app.progress","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","id":"1","progressId":null,"finished":true}}]
+[22:35:51]: <== [{"event":"app.debugPort","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","port":52516,"wsUri":"ws://127.0.0.1:52516/hlWIYlN1qdI=/ws","baseUri":"file:///data/user/0/com.example.buoi1/code_cache/buoi1QRWORO/buoi1/"}}]
+[22:35:51]: <== [{"event":"app.progress","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","id":"2","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[22:35:51]: <== I/Choreographer( 5524): Skipped 71 frames!  The application may be doing too much work on its main thread.
+[22:35:53]: <== [{"event":"app.progress","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","id":"2","progressId":null,"finished":true}}]
+[22:35:53]: <== [{"event":"app.started","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed"}}]
+[22:36:16]: <== D/EGL_emulation( 5524): app_time_stats: avg=4757.95ms min=347.45ms max=13527.63ms count=3
+[22:36:17]: <== D/EGL_emulation( 5524): app_time_stats: avg=16.30ms min=2.89ms max=163.77ms count=27
+[22:37:48]: <== D/EGL_emulation( 5524): app_time_stats: avg=7562.11ms min=3.22ms max=90675.31ms count=12
+[23:19:44]: ==> [{"id":"1","method":"app.restart","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[23:19:44]: <== [{"event":"app.progress","params":{"appId":"fbaa6ed3-b4a0-4b65-b0cd-2634e5d123ed","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
