@@ -6,83 +6,127 @@ void main() {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
-      ),
-      home: const MyHomePage(),
+      home: MyHomePage(),
     );
   }
 }
 
-class MyHomePage extends StatelessWidget {
+class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
+
+  @override
+  State<MyHomePage> createState() => _MyHomePageState();
+}
+
+class _MyHomePageState extends State<MyHomePage> {
+  int _selectedIndex = 0;
+
+  static const List<Widget> _widgetOptions = <Widget>[
+    Text(
+      'Index 0: Tin nhắn',
+    ),
+    Text(
+      'Index 1: Danh bạ',
+    ),
+    Text(
+      'Index 2: Khám phá',
+    ),
+    Text(
+      'Index 3: Nhật ký',
+    ),
+    Text(
+      'Index 3: Cá nhân',
+    ),
+  ];
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: _buildAppbar(context),
-      body: _buildBody(),
-      bottomNavigationBar: BottomNavigationBar(
-        items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.settings), label: 'Setting'),
-          BottomNavigationBarItem(
-              icon: Icon(Icons.camera_alt_outlined), label: 'Camera'),
+      appBar: AppBar(
+        backgroundColor: const Color.fromARGB(255, 11, 155, 226),
+        title: const Text(
+          'Tìm kiếm',
+          textAlign: TextAlign.center,
+          style: TextStyle(color: Colors.white),
+        ),
+        leading: IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              Icons.search,
+              color: Colors.white,
+              size: 30,
+            )),
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              Icons.qr_code_2_sharp,
+              color: Colors.white,
+              size: 25,
+            ),
+          ),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(
+              Icons.add,
+              color: Colors.white,
+              size: 30,
+            ),
+          ),
         ],
       ),
-    );
-  }
-
-  AppBar _buildAppbar(BuildContext context) {
-    return AppBar(
-      centerTitle: true,
-      title: const Text(
-        'Trinh Tan',
-        style: TextStyle(
-          color: Colors.white,
-        ),
+      body: Center(
+        child: _widgetOptions.elementAt(_selectedIndex),
       ),
-      backgroundColor: Colors.blue,
-      leading: IconButton(
-        onPressed: () {},
-        icon: const Icon(
-          Icons.menu,
-          color: Colors.white,
-        ),
-      ),
-      actions: [
-        IconButton(
-          onPressed: () {},
-          icon: const Icon(
-            Icons.notifications,
-            color: Colors.white,
-          ),
-        ),
-      ],
-    );
-  }
-
-  Widget _buildBody() {
-    return Container(
-        margin: const EdgeInsets.only(top: 5),
-        color: Colors.grey,
-        child: const Column(
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: [
-            Text('data'),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [Text('data'), Icon(Icons.arrow_right)],
+      bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed,
+        backgroundColor: Colors.white,
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.maps_ugc_outlined,
             ),
-          ],
-        ));
+            label: 'Tin nhắn',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.perm_contact_calendar_outlined,
+            ),
+            label: 'Danh bạ',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.grid_view_outlined,
+            ),
+            label: 'Khám phá',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.watch_later_outlined,
+            ),
+            label: 'Nhật ký',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(
+              Icons.perm_identity_outlined,
+            ),
+            label: 'Cá nhân',
+          ),
+        ],
+        currentIndex: _selectedIndex,
+        selectedItemColor: Colors.blue[800],
+        onTap: _onItemTapped,
+      ),
+    );
   }
 }
