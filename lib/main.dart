@@ -1,3 +1,4 @@
+import 'package:buoi1/search/custom_search_delegate.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,14 +19,12 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key});
-
   @override
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedIndex = 0;
-
   static const List<Widget> _widgetOptions = <Widget>[
     Text(
       'Index 0: Tin nhắn',
@@ -60,12 +59,14 @@ class _MyHomePageState extends State<MyHomePage> {
           style: TextStyle(color: Colors.white),
         ),
         leading: IconButton(
-            onPressed: () {},
-            icon: const Icon(
-              Icons.search,
-              color: Colors.white,
-              size: 30,
-            )),
+          onPressed: () {
+            showSearch(
+              context: context,
+              delegate: CustomSearchDelegate(),
+            );
+          },
+          icon: const Icon(Icons.search, color: Colors.white, size: 30),
+        ),
         actions: [
           IconButton(
             onPressed: () {},
