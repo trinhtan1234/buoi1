@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
         leading: IconButton(
-          icon: const Icon(Icons.clear),
+          icon: const Icon(Icons.search),
           onPressed: () {
             _searchController.clear();
             _onSearchTextChanged('');

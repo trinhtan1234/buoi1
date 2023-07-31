@@ -10,25 +10,34 @@ class MyHome extends StatefulWidget {
 class _MyHomeState extends State<MyHome> {
   @override
   Widget build(BuildContext context) {
-    return const DefaultTabController(
-      length: 3,
+    return DefaultTabController(
+      length: 2,
       child: SizedBox(
-        height: 660,
         child: Column(
           children: [
-            TabBar(
-              indicatorSize: TabBarIndicatorSize.tab,
-              indicatorColor: Colors.blue,
-              labelColor: Colors.blue,
-              unselectedLabelColor: Colors.black,
-              labelStyle:
-                  TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
-              tabs: [
-                Tab(text: 'Ưu tiên'),
-                Tab(text: 'Khác'),
-              ],
-            ),
             Expanded(
+              child: Container(
+                margin: const EdgeInsets.only(right: 190),
+                child: const Column(
+                  mainAxisAlignment: MainAxisAlignment.start,
+                  children: [
+                    TabBar(
+                      indicatorSize: TabBarIndicatorSize.tab,
+                      indicatorColor: Colors.blue,
+                      labelColor: Colors.blue,
+                      unselectedLabelColor: Colors.black,
+                      labelStyle: TextStyle(
+                          fontSize: 18, fontWeight: FontWeight.normal),
+                      tabs: [
+                        Tab(text: 'Ưu tiên'),
+                        Tab(text: 'Khác'),
+                      ],
+                    ),
+                  ],
+                ),
+              ),
+            ),
+            const Expanded(
               child: TabBarView(
                 children: [
                   Center(child: Text('Content of Tab 1')),
