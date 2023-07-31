@@ -1,42 +1,43 @@
-// ignore_for_file: library_private_types_in_public_api
-
 import 'package:flutter/material.dart';
 
 class MyHome extends StatefulWidget {
-  const MyHome({Key? key}) : super(key: key);
+  const MyHome({super.key});
 
   @override
-  _MyHomeState createState() => _MyHomeState();
+  State<MyHome> createState() => _MyHomeState();
 }
 
-class _MyHomeState extends State<MyHome> with SingleTickerProviderStateMixin {
-  TabController? _tabController;
-
-  @override
-  void initState() {
-    super.initState();
-    _tabController = TabController(length: 3, vsync: this);
-  }
-
-  @override
-  void dispose() {
-    _tabController?.dispose();
-    super.dispose();
-  }
-
+class _MyHomeState extends State<MyHome> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: TabBarView(
-        controller: _tabController,
-        children: const [
-          Center(
-            child: Text('Nội dung cho tab 1'),
-          ),
-          Center(
-            child: Text('Nội dung cho tab 2'),
-          ),
-        ],
+    return const DefaultTabController(
+      length: 3,
+      child: SizedBox(
+        height: 660,
+        child: Column(
+          children: [
+            TabBar(
+              indicatorSize: TabBarIndicatorSize.tab,
+              indicatorColor: Colors.blue,
+              labelColor: Colors.blue,
+              unselectedLabelColor: Colors.black,
+              labelStyle:
+                  TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
+              tabs: [
+                Tab(text: 'Ưu tiên'),
+                Tab(text: 'Khác'),
+              ],
+            ),
+            Expanded(
+              child: TabBarView(
+                children: [
+                  Center(child: Text('Content of Tab 1')),
+                  Center(child: Text('Content of Tab 2')),
+                ],
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

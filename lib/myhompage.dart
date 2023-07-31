@@ -18,6 +18,7 @@ class _MyHomePageState extends State<MyHomePage> {
     setState(() {});
   }
 
+// tạo page cho từng tabbar
   final List<Widget> _pages = <Widget>[
     const MyHome(),
     const DanhBa(),
