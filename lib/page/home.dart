@@ -1,3 +1,5 @@
+// ignore_for_file: library_private_types_in_public_api
+
 import 'package:flutter/material.dart';
 
 class MyHome extends StatefulWidget {
@@ -25,42 +27,17 @@ class _MyHomeState extends State<MyHome> with SingleTickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      bottomSheet: TabBar(
-        controller: _tabController,
-        tabs: [
-          Tab(text: 'Ưu tiên'),
-          Tab(text: 'Khác'),
-        ],
-      ),
       body: TabBarView(
         controller: _tabController,
-        children: [
-          Column(
-            children: [],
-          )
+        children: const [
+          Center(
+            child: Text('Nội dung cho tab 1'),
+          ),
+          Center(
+            child: Text('Nội dung cho tab 2'),
+          ),
         ],
       ),
-      // appBar: AppBar(
-      //   bottom: TabBar(
-      //     controller: _tabController,
-      //     isScrollable: true,
-      //     tabs: [
-      //       const Tab(text: 'Ưu tiên'),
-      //       const Tab(text: 'Khác'),
-      //     ],
-      //   ),
-      // ),
-      // body: TabBarView(
-      //   controller: _tabController,
-      //   children: const [
-      //     Center(
-      //       child: Text('Nội dung cho tab 1'),
-      //     ),
-      //     Center(
-      //       child: Text('Nội dung cho tab 2'),
-      //     ),
-      //   ],
-      // ),
     );
   }
 }

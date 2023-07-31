@@ -13,12 +13,9 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final TextEditingController _searchController = TextEditingController();
-  String? _searchText = "";
 
   void _onSearchTextChanged(String searchText) {
-    setState(() {
-      _searchText = searchText;
-    });
+    setState(() {});
   }
 
   final List<Widget> _pages = <Widget>[
@@ -61,21 +58,6 @@ class _MyHomePageState extends State<MyHomePage> {
             _onSearchTextChanged('');
           },
         ),
-
-        // title: const Text(
-        //   'Tìm kiếm',
-        //   textAlign: TextAlign.center,
-        //   style: TextStyle(color: Colors.white),
-        // ),
-        // leading: IconButton(
-        //   onPressed: () {
-        //     showSearch(
-        //       context: context,
-        //       delegate: CustomSearchDelegate(),
-        //     );
-        //   },
-        //   icon: const Icon(Icons.search, color: Colors.white, size: 30),
-        // ),
         actions: [
           IconButton(
             onPressed: () {},
