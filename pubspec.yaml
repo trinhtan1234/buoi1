@@ -17,6 +17,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
+  dart:convert: ^2.0.0
 
   
   flutter_lints: ^2.0.0
@@ -24,4 +26,8 @@ dev_dependencies:
 flutter:
   uses-material-design: true
 
+
+
+assets:
+    - assets/danhba.json
   

@@ -1,3 +1,4 @@
+import 'package:buoi1/model/model.dart';
 import 'package:flutter/material.dart';
 
 class MyHome extends StatefulWidget {
@@ -38,11 +39,11 @@ class _MyHomeState extends State<MyHome> {
               ),
             ),
             SizedBox(
-              height: 580,
+              height: 595,
               child: TabBarView(
                 children: [
                   Center(child: ListBanBe()),
-                  const Center(child: Text('Content of Tab 2')),
+                  Center(child: LisChatKhac()),
                 ],
               ),
             ),
@@ -53,18 +54,7 @@ class _MyHomeState extends State<MyHome> {
 
 // ignore: must_be_immutable
 class ListBanBe extends StatelessWidget {
-  List<String> dataList = [
-    'Item 1',
-    'Item 2',
-    'Item 3',
-    'Item 4',
-    'Item 5',
-    'Item 1',
-    'Item 2',
-    'Item 3',
-    'Item 4',
-    'Item 5',
-  ];
+  List<DanhBaBan> dataList = [];
 
   ListBanBe({super.key});
 
@@ -73,11 +63,33 @@ class ListBanBe extends StatelessWidget {
     return ListView.builder(
       itemCount: dataList.length,
       itemBuilder: (BuildContext context, index) {
-        String item = dataList[index];
+        DanhBaBan danhBa = dataList[index];
         return ListTile(
-          title: Text(item),
+          title: Text(danhBa.name ?? ''),
+          subtitle: Text(danhBa.phone?.toString() ?? ''),
         );
       },
     );
+  }
+}
+
+// ignore: must_be_immutable
+class LisChatKhac extends StatelessWidget {
+  List<String> dataList = [
+    'Item khác 1',
+    'Item khác 2',
+    'Item khác 3',
+  ];
+  LisChatKhac({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return ListView.builder(
+        itemCount: dataList.length,
+        itemBuilder: (BuildContext context, index) {
+          String item = dataList[index];
+          return ListTile(
+            title: Text(item),
+          );
+        });
   }
 }
