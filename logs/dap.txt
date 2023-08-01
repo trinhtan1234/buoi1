@@ -1,6 +1,6 @@
 !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
 
-Dart Code extension: 3.69.20230719
+Dart Code extension: 3.69.20230731
 Flutter extension: 3.68.0 (not activated)
 
 App: Visual Studio Code
@@ -13,4 +13,4 @@ NO_PROXY: undefined
 Logging Categories:
     DAP
 
-Mon Jul 31 2023 [09:03:30 GMT+0700 (Indochina Time)] Log file started
+Tue Aug 01 2023 [10:28:06 GMT+0700 (Indochina Time)] Log file started

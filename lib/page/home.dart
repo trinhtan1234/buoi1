@@ -11,10 +11,9 @@ class _MyHomeState extends State<MyHome> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      length: 2,
-      child: SizedBox(
-        child: Column(
-          children: [
+        length: 2,
+        child: SizedBox(
+          child: Column(children: [
             Expanded(
               child: Container(
                 margin: const EdgeInsets.only(right: 190),
@@ -38,7 +37,8 @@ class _MyHomeState extends State<MyHome> {
                 ),
               ),
             ),
-            Expanded(
+            SizedBox(
+              height: 580,
               child: TabBarView(
                 children: [
                   Center(child: ListBanBe()),
@@ -46,10 +46,8 @@ class _MyHomeState extends State<MyHome> {
                 ],
               ),
             ),
-          ],
-        ),
-      ),
-    );
+          ]),
+        ));
   }
 }
 
