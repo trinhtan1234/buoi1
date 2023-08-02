@@ -11,38 +11,30 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      child: Scaffold(
-        body: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(
-                colors: [
-                  Colors.white,
-                  Colors.blue,
-                ],
-                stops: [
-                  0.0,
-                  1.0
-                ],
-                begin: FractionalOffset.topCenter,
-                end: FractionalOffset.bottomCenter,
-                tileMode: TileMode.repeated),
-          ),
-          child: Column(
+        child: Scaffold(
+      body: Container(
+        decoration: BoxDecoration(
+          gradient: LinearGradient(
+              colors: [
+                Colors.white,
+                Colors.blue,
+              ],
+              stops: [
+                0.0,
+                1.0
+              ],
+              begin: FractionalOffset.topCenter,
+              end: FractionalOffset.bottomCenter,
+              tileMode: TileMode.repeated),
+        ),
+        child: Column(children: [
+          Row(
             children: [
-              Row(
-                children: [
-                  Padding(
-                    padding: EdgeInsets.all(20),
-                  ),
-                  Expanded(
-                    child: Image.asset('assets/logo.png'),
-                  )
-                ],
-              )
+              Image.network('https://picsum.photos/250?image=9'),
             ],
           ),
-        ),
+        ]),
       ),
-    );
+    ));
   }
 }
