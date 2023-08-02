@@ -10,29 +10,38 @@ class LoginScreen extends StatefulWidget {
 class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      width: double.infinity,
-      height: double.infinity,
-      decoration: BoxDecoration(
-        gradient: LinearGradient(
-          begin: Alignment.topRight,
-          end: Alignment.bottomLeft,
-          colors: [
-            Colors.white,
-            Colors.blue,
-          ],
-        ),
-      ),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.start,
-        mainAxisSize: MainAxisSize.max,
-        children: [
-          Image.asset(
-            'assets/image/logo.png',
-            width: 100,
-            height: 100,
+    return GestureDetector(
+      child: Scaffold(
+        body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+                colors: [
+                  Colors.white,
+                  Colors.blue,
+                ],
+                stops: [
+                  0.0,
+                  1.0
+                ],
+                begin: FractionalOffset.topCenter,
+                end: FractionalOffset.bottomCenter,
+                tileMode: TileMode.repeated),
           ),
-        ],
+          child: Column(
+            children: [
+              Row(
+                children: [
+                  Padding(
+                    padding: EdgeInsets.all(20),
+                  ),
+                  Expanded(
+                    child: Image.asset('assets/logo.png'),
+                  )
+                ],
+              )
+            ],
+          ),
+        ),
       ),
     );
   }
