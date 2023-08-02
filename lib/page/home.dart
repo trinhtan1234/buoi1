@@ -1,4 +1,3 @@
-import 'package:buoi1/model/model.dart';
 import 'package:flutter/material.dart';
 
 class MyHome extends StatefulWidget {
@@ -53,43 +52,30 @@ class _MyHomeState extends State<MyHome> {
 }
 
 // ignore: must_be_immutable
-class ListBanBe extends StatelessWidget {
-  List<DanhBaBan> dataList = [];
-
-  ListBanBe({super.key});
+class ListBanBe extends StatefulWidget {
+  const ListBanBe({super.key});
 
   @override
+  State<ListBanBe> createState() => _ListBanBeState();
+}
+
+class _ListBanBeState extends State<ListBanBe> {
+  @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-      itemCount: dataList.length,
-      itemBuilder: (BuildContext context, index) {
-        DanhBaBan danhBa = dataList[index];
-        return ListTile(
-          title: Text(danhBa.name ?? ''),
-          subtitle: Text(danhBa.phone?.toString() ?? ''),
-        );
-      },
-    );
+    return Container();
   }
 }
 
-// ignore: must_be_immutable
-class LisChatKhac extends StatelessWidget {
-  List<String> dataList = [
-    'Item khác 1',
-    'Item khác 2',
-    'Item khác 3',
-  ];
-  LisChatKhac({super.key});
+class LisChatKhac extends StatefulWidget {
+  const LisChatKhac({super.key});
+
+  @override
+  State<LisChatKhac> createState() => _LisChatKhacState();
+}
+
+class _LisChatKhacState extends State<LisChatKhac> {
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-        itemCount: dataList.length,
-        itemBuilder: (BuildContext context, index) {
-          String item = dataList[index];
-          return ListTile(
-            title: Text(item),
-          );
-        });
+    return const Placeholder();
   }
 }
