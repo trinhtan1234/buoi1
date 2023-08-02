@@ -1,6 +1,5 @@
+import 'package:buoi1/page/login.dart';
 import 'package:flutter/material.dart';
-
-import 'myhompage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +12,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tạo màn hình zalo',
-      home: MyHomePage(),
+      home: LoginScreen(),
     );
   }
 }

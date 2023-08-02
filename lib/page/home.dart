@@ -76,6 +76,6 @@ class LisChatKhac extends StatefulWidget {
 class _LisChatKhacState extends State<LisChatKhac> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Container();
   }
 }
