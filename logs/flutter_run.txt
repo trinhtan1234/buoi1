@@ -1,35 +1,41 @@
-[08:11:37]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
-[08:11:37]: ..  in C:\Users\tantv\buoi1
-[08:11:37]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[08:11:37]: PID: 4780
-[08:11:40]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":21788}}]
-[08:11:40]: <== [{"event":"app.start","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","deviceId":"emulator-5554","directory":"C:\\Users\\tantv\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
-[08:11:40]: <== Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
-[08:11:42]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
-[08:13:22]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"0","progressId":null,"finished":true}}]
-[08:13:23]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
-[08:13:24]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
-[08:13:31]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"1","progressId":null,"finished":true}}]
-[08:13:47]: <== [{"event":"app.debugPort","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","port":50783,"wsUri":"ws://127.0.0.1:50783/hOxNxU53FNU=/ws","baseUri":"file:///data/user/0/com.example.buoi1/code_cache/buoi1AYWIIF/buoi1/"}}]
-[08:13:47]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"2","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[08:13:49]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"2","progressId":null,"finished":true}}]
-[08:13:49]: <== [{"event":"app.started","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2"}}]
-[08:13:57]: <== I/OpenGLRenderer( 5695): Davey! duration=748ms; Flags=1, FrameTimelineVsyncId=16348, IntendedVsync=231950679890, Vsync=232317346542, InputEventId=0, HandleInputStart=232331430300, AnimationStart=232331482500, PerformTraversalsStart=232331539100, DrawStart=232435586400, FrameDeadline=231967346556, FrameInterval=232325825200, FrameStartTime=16666666, SyncQueued=232520296800, SyncStart=232523324600, IssueDrawCommandsStart=232546930000, SwapBuffers=232667361100, FrameCompleted=232702243900, DequeueBufferDuration=7912900, QueueBufferDuration=1036100, GpuCompleted=232702243900, SwapBuffersCompleted=232692824200, DisplayPresentTime=0, CommandSubmissionCompleted=232667361100,
-[08:13:59]: <== D/EGL_emulation( 5695): app_time_stats: avg=1028.07ms min=454.59ms max=1601.55ms count=2
-[08:14:49]: ==> [{"id":"1","method":"app.restart","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[08:14:49]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[08:14:49]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"4","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[08:14:51]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"4","progressId":null,"finished":true}}]
-[08:14:52]: <== [{"event":"app.progress","params":{"appId":"fe9f7f3b-57ca-4de0-b389-76c5c476e6b2","id":"3","progressId":"hot.reload","finished":true}}]
-[08:14:52]: <== Reloaded 1 of 666 libraries in 2.815ms (compile: 1267 ms, reload: 487 ms, reassemble: 468 ms).
-[08:14:52]: <== [{"id":"1","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[08:14:52]: <== D/EGL_emulation( 5695): app_time_stats: avg=26382.71ms min=836.04ms max=51929.37ms count=2
-[08:14:53]: <== E/FlutterJNI( 5695): Failed to decode image
-[08:14:53]: <== E/FlutterJNI( 5695): android.graphics.ImageDecoder$DecodeException: Failed to create image decoder with message 'unimplemented'Input contained an error.
-[08:14:53]: <== E/FlutterJNI( 5695): 	at android.graphics.ImageDecoder.nCreate(Native Method)
-[08:14:53]: <== E/FlutterJNI( 5695): 	at android.graphics.ImageDecoder.-$$Nest$smnCreate(Unknown Source:0)
-[08:14:53]: <== E/FlutterJNI( 5695): 	at android.graphics.ImageDecoder$ByteBufferSource.createImageDecoder(ImageDecoder.java:254)
-[08:14:53]: <== E/FlutterJNI( 5695): 	at android.graphics.ImageDecoder.decodeBitmapImpl(ImageDecoder.java:1981)
-[08:14:53]: <== E/FlutterJNI( 5695): 	at android.graphics.ImageDecoder.decodeBitmap(ImageDecoder.java:1973)
-[08:14:53]: <== E/FlutterJNI( 5695): 	at io.flutter.embedding.engine.FlutterJNI.decodeImage(FlutterJNI.java:538)
-[08:14:56]: <== D/EGL_emulation( 5695): app_time_stats: avg=4314.73ms min=4314.73ms max=4314.73ms count=1
+[08:23:32]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9101/","--target","lib\\main.dart"]
+[08:23:32]: ..  in D:\Flutter\buoi1
+[08:23:32]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[08:23:32]: PID: 21976
+[08:23:34]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":10620}}]
+[08:23:34]: <== [{"event":"app.start","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","deviceId":"emulator-5554","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
+[08:23:34]: <== Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+[08:23:35]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
+[08:24:03]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"0","progressId":null,"finished":true}}]
+[08:24:03]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
+[08:24:04]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
+[08:24:07]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"1","progressId":null,"finished":true}}]
+[08:24:15]: <== [{"event":"app.debugPort","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","port":51708,"wsUri":"ws://127.0.0.1:51708/_ZqERUWLwS4=/ws","baseUri":"file:///data/user/0/com.example.buoi1/code_cache/buoi1LMLUDB/buoi1/"}}]
+[08:24:15]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"2","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[08:24:16]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"2","progressId":null,"finished":true}}]
+[08:24:16]: <== [{"event":"app.started","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239"}}]
+[08:24:21]: <== E/FlutterJNI( 6718): Failed to decode image
+[08:24:21]: <== E/FlutterJNI( 6718): android.graphics.ImageDecoder$DecodeException: Failed to create image decoder with message 'unimplemented'Input contained an error.
+[08:24:21]: <== E/FlutterJNI( 6718): 	at android.graphics.ImageDecoder.nCreate(Native Method)
+[08:24:21]: <== E/FlutterJNI( 6718): 	at android.graphics.ImageDecoder.-$$Nest$smnCreate(Unknown Source:0)
+[08:24:21]: <== E/FlutterJNI( 6718): 	at android.graphics.ImageDecoder$ByteBufferSource.createImageDecoder(ImageDecoder.java:254)
+[08:24:21]: <== E/FlutterJNI( 6718): 	at android.graphics.ImageDecoder.decodeBitmapImpl(ImageDecoder.java:1981)
+[08:24:21]: <== E/FlutterJNI( 6718): 	at android.graphics.ImageDecoder.decodeBitmap(ImageDecoder.java:1973)
+[08:24:21]: <== E/FlutterJNI( 6718): 	at io.flutter.embedding.engine.FlutterJNI.decodeImage(FlutterJNI.java:538)
+[08:24:44]: <== D/EGL_emulation( 6718): app_time_stats: avg=8146.15ms min=414.47ms max=23463.59ms count=3
+[08:24:58]: ==> [{"id":"1","method":"app.restart","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[08:24:58]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[08:24:59]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"4","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[08:24:59]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"4","progressId":null,"finished":true}}]
+[08:24:59]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"3","progressId":"hot.reload","finished":true}}]
+[08:24:59]: <== Reloaded 1 of 666 libraries in 561ms (compile: 84 ms, reload: 141 ms, reassemble: 157 ms).
+[08:24:59]: <== [{"id":"1","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[08:24:59]: <== D/EGL_emulation( 6718): app_time_stats: avg=15181.02ms min=15181.02ms max=15181.02ms count=1
+[08:26:57]: ==> [{"id":"2","method":"app.restart","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[08:26:57]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"5","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[08:26:57]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"6","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[08:26:57]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"6","progressId":null,"finished":true}}]
+[08:26:57]: <== [{"event":"app.progress","params":{"appId":"fe064f0d-e4cb-4485-a041-50ddebc1f239","id":"5","progressId":"hot.reload","finished":true}}]
+[08:26:57]: <== Reloaded 1 of 666 libraries in 364ms (compile: 42 ms, reload: 125 ms, reassemble: 126 ms).
+[08:26:57]: <== [{"id":"2","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[08:26:57]: <== D/EGL_emulation( 6718): app_time_stats: avg=118267.07ms min=118267.07ms max=118267.07ms count=1

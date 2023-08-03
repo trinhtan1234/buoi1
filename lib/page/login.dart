@@ -29,10 +29,7 @@ class _LoginScreenState extends State<LoginScreen> {
         ),
         child: Column(children: [
           Row(
-            children: [
-              Image.network(
-                  'https://photos.google.com/photo/AF1QipNRJfc7g4i3vOCov0XfEE0DWowmr9eAR66LNETJ'),
-            ],
+            children: [Image.asset('assets/logo.png')],
           ),
         ]),
       ),
