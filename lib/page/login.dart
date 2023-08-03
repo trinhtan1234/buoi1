@@ -7,8 +7,7 @@ class LoginScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       child: Image.asset(
-        'assets/images/logo1.png',
-        alignment: Alignment.center,
+        'assets/images/1.jpg',
       ),
     );
   }
