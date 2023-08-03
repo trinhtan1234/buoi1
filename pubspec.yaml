@@ -29,5 +29,5 @@ flutter:
 
 
 assets:
-    - assets/data/danhba.json
-    - assets/logo.png
+    - assets/danhba.json
+    - assets/images/logo1.png
