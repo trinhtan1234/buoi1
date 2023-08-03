@@ -1556,3 +1556,6 @@ Content-Type: application/vscode-jsonrpc; charset=utf-8
 Content-Type: application/vscode-jsonrpc; charset=utf-8
 
 {"id":154,"jsonrpc":"2.0","result":[{"color":{"alpha":1.0,"blue":1.0,"green":1.0,"red":1.0},"range":{"end":{"character":28,"line":18},"start":{"character":16,"line":18}}},{"color":{"alpha":1.0,"blue":0.9529411764705882,"green":0.5882352941176471,"red":0.12941176470588237},"range":{"end":{"character":27,"line":19},"start":{"character":16,"line":19}}}]}
+[8:27:09 AM] [Analyzer] [Info] <== Content-Length: 132
+Content-Type: application/vscode-jsonrpc; charset=utf-8
+[8:27:09 AM] [Analyzer] [Info] <== {"jsonrpc":"2.0","method":"textDocument/publishDiagnostics","params":{"diagnostics":[],"uri":"file:///D:/Flutter/buoi1/.git/index"}}
