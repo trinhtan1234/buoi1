@@ -64,7 +64,7 @@ class LoginScreen extends StatelessWidget {
                 child: Padding(
                   padding: EdgeInsets.only(top: 50),
                   child: TextFormField(
-                    obscureText: false,
+                    // obscureText: false,
                     style: TextStyle(fontSize: 20.0, color: Color(0xFFbdc6cf)),
                     decoration: InputDecoration(
                       filled: true,
@@ -72,17 +72,19 @@ class LoginScreen extends StatelessWidget {
                       contentPadding: EdgeInsets.only(
                           left: 20, right: 20, bottom: 20, top: 20),
                       hintText: 'Enter your email here..',
+                      suffixIcon: Icon(Icons.mail_outline),
                       focusedBorder: OutlineInputBorder(
                           borderSide: BorderSide(
-                        color: Colors.white,
-                      )),
-                      enabledBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Color(0x0000000),
-                          width: 2,
-                        ),
-                        borderRadius: BorderRadius.circular(30),
-                      ),
+                            color: Colors.white,
+                          ),
+                          borderRadius: BorderRadius.circular(30)),
+                      // enabledBorder: OutlineInputBorder(
+                      //   borderSide: BorderSide(
+                      //     color: Color(0x0000000),
+                      //     width: 2,
+                      //   ),
+                      //   borderRadius: BorderRadius.circular(30),
+                      // ),
                     ),
                   ),
                 ),
@@ -98,18 +100,16 @@ class LoginScreen extends StatelessWidget {
                       fillColor: Colors.white,
                       contentPadding: EdgeInsets.only(
                           left: 20, right: 20, bottom: 20, top: 20),
-                      hintText: 'Enter your email here..',
+                      hintText: 'Enter your password here ...',
+                      suffixIcon: Icon(Icons.lock),
                       focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                        color: Colors.white,
-                      )),
-                      enabledBorder: OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Color(0x0000000),
-                          width: 2,
-                        ),
-                        borderRadius: BorderRadius.circular(30),
-                      ),
+                          borderSide: BorderSide(color: Colors.white),
+                          borderRadius: BorderRadius.circular(30)),
+                      // enabledBorder: OutlineInputBorder(
+                      //   borderSide:
+                      //       BorderSide(color: Color(0x0000000), width: 2),
+                      //   borderRadius: BorderRadius.circular(30),
+                      // ),
                     ),
                   ),
                 ),
@@ -128,7 +128,12 @@ class LoginScreen extends StatelessWidget {
                         textStyle: TextStyle(fontSize: 20),
                       ),
                       onPressed: () {},
-                      child: Text('Forgot Password ?'),
+                      child: Text(
+                        'Forgot Password ?',
+                        style: TextStyle(
+                          fontSize: 15,
+                        ),
+                      ),
                     ),
                   ),
                   Container(
@@ -152,18 +157,51 @@ class LoginScreen extends StatelessWidget {
                   'Use a social platform to continue',
                   style: TextStyle(
                     fontSize: 15,
-                    color: Colors.black87,
+                    color: Colors.black54,
                   ),
                 ),
               ),
-              Padding(padding: EdgeInsets.only(top: 30)),
+              Padding(padding: EdgeInsets.only(top: 40)),
               Center(
-                child: Container(
-                  child: Image.asset(
-                    'assets/images/google.png',
-                    width: 50,
-                    height: 50,
-                  ),
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Container(
+                      child: Image.asset(
+                        'assets/images/google.png',
+                        width: 50,
+                        height: 50,
+                      ),
+                    ),
+                    Padding(padding: EdgeInsets.only(right: 10)),
+                    Container(
+                      child: Image.asset(
+                        'assets/images/apple.png',
+                        width: 50,
+                        height: 50,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+              Padding(padding: EdgeInsets.only(top: 40)),
+              Container(
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text("Don't have an account ?     "),
+                    TextButton(
+                      onPressed: () {},
+                      child: Text(
+                        'Create Account',
+                        style: TextStyle(
+                          fontSize: 15,
+                          fontWeight: FontWeight.bold,
+                          color: Colors.black,
+                        ),
+                      ),
+                    )
+                  ],
                 ),
               ),
             ],
