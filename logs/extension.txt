@@ -13,142 +13,142 @@ NO_PROXY: undefined
 Logging Categories:
     General
 
-Thu Aug 03 2023 [18:52:54 GMT+0700 (Indochina Time)] Log file started
-[6:52:55 PM] [General] [Info] Searching for SDKs...
-[6:52:55 PM] [General] [Info] Environment PATH:
-[6:52:55 PM] [General] [Info]     C:\Program Files\Common Files\Oracle\Java\javapath
-[6:52:55 PM] [General] [Info]     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
-[6:52:55 PM] [General] [Info]     C:\Windows\system32
-[6:52:55 PM] [General] [Info]     C:\Windows
-[6:52:55 PM] [General] [Info]     C:\Windows\System32\Wbem
-[6:52:55 PM] [General] [Info]     C:\Windows\System32\WindowsPowerShell\v1.0\
-[6:52:55 PM] [General] [Info]     C:\Windows\System32\OpenSSH\
-[6:52:55 PM] [General] [Info]     C:\Program Files\Git\cmd
-[6:52:55 PM] [General] [Info]     C:\Program Files\Go\bin
-[6:52:55 PM] [General] [Info]     C:\Program Files\dotnet\
-[6:52:55 PM] [General] [Info]     C:\ProgramData\chocolatey\bin
-[6:52:55 PM] [General] [Info]     C:\Users\tantv\AppData\Local\Microsoft\WindowsApps
-[6:52:55 PM] [General] [Info]     C:\Users\tantv\AppData\Local\Programs\Microsoft VS Code\bin
-[6:52:55 PM] [General] [Info]     C:\Program Files\Go\bin
-[6:52:55 PM] [General] [Info]     C:\Users\tantv\.dotnet\tools
-[6:52:55 PM] [General] [Info]     C:\Program Files\Go
-[6:52:55 PM] [General] [Info]     C:\src\flutter\bin
-[6:52:55 PM] [General] [Info]     C:\tools\dart-sdk\bin
-[6:52:55 PM] [General] [Info]     C:\Users\tantv\AppData\Roaming\Pub\Cache\bin
-[6:52:55 PM] [General] [Info]     C:\Users\tantv\AppData\Local\GitHubDesktop\bin
-[6:53:02 PM] [General] [Info] Took 7476ms to search for projects (5 levels)
-[6:53:02 PM] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules)
-[6:53:02 PM] [General] [Info] Found Flutter project at D:\Flutter\buoi1:
+Fri Aug 04 2023 [08:39:10 GMT+0700 (Indochina Time)] Log file started
+[8:39:10 AM] [General] [Info] Searching for SDKs...
+[8:39:10 AM] [General] [Info] Environment PATH:
+[8:39:10 AM] [General] [Info]     C:\Program Files\Common Files\Oracle\Java\javapath
+[8:39:10 AM] [General] [Info]     C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[8:39:10 AM] [General] [Info]     C:\Windows\system32
+[8:39:10 AM] [General] [Info]     C:\Windows
+[8:39:10 AM] [General] [Info]     C:\Windows\System32\Wbem
+[8:39:10 AM] [General] [Info]     C:\Windows\System32\WindowsPowerShell\v1.0\
+[8:39:10 AM] [General] [Info]     C:\Windows\System32\OpenSSH\
+[8:39:10 AM] [General] [Info]     C:\Program Files\Git\cmd
+[8:39:10 AM] [General] [Info]     C:\Program Files\Go\bin
+[8:39:10 AM] [General] [Info]     C:\Program Files\dotnet\
+[8:39:10 AM] [General] [Info]     C:\ProgramData\chocolatey\bin
+[8:39:10 AM] [General] [Info]     C:\Users\tantv\AppData\Local\Microsoft\WindowsApps
+[8:39:10 AM] [General] [Info]     C:\Users\tantv\AppData\Local\Programs\Microsoft VS Code\bin
+[8:39:10 AM] [General] [Info]     C:\Program Files\Go\bin
+[8:39:10 AM] [General] [Info]     C:\Users\tantv\.dotnet\tools
+[8:39:10 AM] [General] [Info]     C:\Program Files\Go
+[8:39:10 AM] [General] [Info]     C:\src\flutter\bin
+[8:39:10 AM] [General] [Info]     C:\tools\dart-sdk\bin
+[8:39:10 AM] [General] [Info]     C:\Users\tantv\AppData\Roaming\Pub\Cache\bin
+[8:39:10 AM] [General] [Info]     C:\Users\tantv\AppData\Local\GitHubDesktop\bin
+[8:39:18 AM] [General] [Info] Took 7906ms to search for projects (5 levels)
+[8:39:18 AM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[8:39:18 AM] [General] [Info] Found Flutter project at D:\Flutter\buoi1:
 			Mobile? true
 			Web? false
 			Create Trigger? false
 			Flutter Repo? false
-[6:53:02 PM] [General] [Info] Searching for flutter.bat
-[6:53:02 PM] [General] [Info]     Looking for flutter.bat in:
-[6:53:02 PM] [General] [Info]         D:\Flutter\buoi1
-[6:53:02 PM] [General] [Info]         D:\Flutter\buoi1 -> D:\Flutter\buoi1\bin
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\
-[6:53:02 PM] [General] [Info]         D:\Flutter\buoi1\.flutter
-[6:53:02 PM] [General] [Info]         D:\Flutter\buoi1\.flutter -> D:\Flutter\buoi1\.flutter\bin
-[6:53:02 PM] [General] [Info]         D:\Flutter\buoi1\vendor\flutter
-[6:53:02 PM] [General] [Info]         D:\Flutter\buoi1\vendor\flutter -> D:\Flutter\buoi1\vendor\flutter\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\flutter-sdk
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\flutter-sdk -> C:\Users\tantv\flutter-sdk\bin
-[6:53:02 PM] [General] [Info]         /google/flutter
-[6:53:02 PM] [General] [Info]         /google/flutter -> \google\flutter\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
-[6:53:02 PM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath -> C:\Program Files\Common Files\Oracle\Java\javapath\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
-[6:53:02 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath -> C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
-[6:53:02 PM] [General] [Info]         C:\Windows\system32
-[6:53:02 PM] [General] [Info]         C:\Windows\system32 -> C:\Windows\system32\bin
-[6:53:02 PM] [General] [Info]         C:\Windows
-[6:53:02 PM] [General] [Info]         C:\Windows -> C:\Windows\bin
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\Wbem
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\Wbem -> C:\Windows\System32\Wbem\bin
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\ -> C:\Windows\System32\WindowsPowerShell\v1.0\bin
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\OpenSSH\
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\OpenSSH\ -> C:\Windows\System32\OpenSSH\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Git\cmd
-[6:53:02 PM] [General] [Info]         C:\Program Files\Git\cmd -> C:\Program Files\Git\cmd\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Go\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\dotnet\
-[6:53:02 PM] [General] [Info]         C:\Program Files\dotnet\ -> C:\Program Files\dotnet\bin
-[6:53:02 PM] [General] [Info]         C:\ProgramData\chocolatey\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Local\Microsoft\WindowsApps
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Local\Microsoft\WindowsApps -> C:\Users\tantv\AppData\Local\Microsoft\WindowsApps\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Local\Programs\Microsoft VS Code\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Go\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\.dotnet\tools
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\.dotnet\tools -> C:\Users\tantv\.dotnet\tools\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Go
-[6:53:02 PM] [General] [Info]         C:\Program Files\Go -> C:\Program Files\Go\bin
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin
-[6:53:02 PM] [General] [Info]         C:\tools\dart-sdk\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Roaming\Pub\Cache\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Local\GitHubDesktop\bin
-[6:53:02 PM] [General] [Info]     Found at:
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin
-[6:53:02 PM] [General] [Info]     Candidate paths to be post-filtered:
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\ -> C:\src\flutter
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin -> C:\src\flutter
-[6:53:02 PM] [General] [Info]     Found at C:\src\flutter\bin\ -> C:\src\flutter
-[6:53:02 PM] [General] [Info]     Returning SDK path C:\src\flutter for flutter.bat
-[6:53:02 PM] [General] [Info] Searching for dart.exe
-[6:53:02 PM] [General] [Info]     Looking for dart.exe in:
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk -> C:\src\flutter\bin\cache\dart-sdk\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
-[6:53:02 PM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath -> C:\Program Files\Common Files\Oracle\Java\javapath\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
-[6:53:02 PM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath -> C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
-[6:53:02 PM] [General] [Info]         C:\Windows\system32
-[6:53:02 PM] [General] [Info]         C:\Windows\system32 -> C:\Windows\system32\bin
-[6:53:02 PM] [General] [Info]         C:\Windows
-[6:53:02 PM] [General] [Info]         C:\Windows -> C:\Windows\bin
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\Wbem
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\Wbem -> C:\Windows\System32\Wbem\bin
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\ -> C:\Windows\System32\WindowsPowerShell\v1.0\bin
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\OpenSSH\
-[6:53:02 PM] [General] [Info]         C:\Windows\System32\OpenSSH\ -> C:\Windows\System32\OpenSSH\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Git\cmd
-[6:53:02 PM] [General] [Info]         C:\Program Files\Git\cmd -> C:\Program Files\Git\cmd\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Go\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\dotnet\
-[6:53:02 PM] [General] [Info]         C:\Program Files\dotnet\ -> C:\Program Files\dotnet\bin
-[6:53:02 PM] [General] [Info]         C:\ProgramData\chocolatey\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Local\Microsoft\WindowsApps
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Local\Microsoft\WindowsApps -> C:\Users\tantv\AppData\Local\Microsoft\WindowsApps\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Local\Programs\Microsoft VS Code\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Go\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\.dotnet\tools
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\.dotnet\tools -> C:\Users\tantv\.dotnet\tools\bin
-[6:53:02 PM] [General] [Info]         C:\Program Files\Go
-[6:53:02 PM] [General] [Info]         C:\Program Files\Go -> C:\Program Files\Go\bin
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin
-[6:53:02 PM] [General] [Info]         C:\tools\dart-sdk\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Roaming\Pub\Cache\bin
-[6:53:02 PM] [General] [Info]         C:\Users\tantv\AppData\Local\GitHubDesktop\bin
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk -> C:\src\flutter\bin\cache\dart-sdk\bin
-[6:53:02 PM] [General] [Info]     Found at:
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk -> C:\src\flutter\bin\cache\dart-sdk\bin
-[6:53:02 PM] [General] [Info]         C:\tools\dart-sdk\bin
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk -> C:\src\flutter\bin\cache\dart-sdk\bin
-[6:53:02 PM] [General] [Info]     Candidate paths to be post-filtered:
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
-[6:53:02 PM] [General] [Info]         C:\tools\dart-sdk\bin -> C:\tools\dart-sdk
-[6:53:02 PM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
-[6:53:02 PM] [General] [Info]     Found at C:\src\flutter\bin\cache\dart-sdk
-[6:53:02 PM] [General] [Info]     Returning SDK path C:\src\flutter\bin\cache\dart-sdk for dart.exe
-[6:53:02 PM] [General] [Info] Experiment random number is 33 for experiment 'sdkDaps'. Experiment is enabled for <= 75
-[6:53:02 PM] [General] [Info] Experiment 'sdkDaps' is activating (not first time)
-[6:53:02 PM] [General] [Info] Experiment random number is 33 for experiment 'sdkDaps'. Experiment is enabled for <= 10
-[6:53:02 PM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
-[6:53:02 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+[8:39:18 AM] [General] [Info] Searching for flutter.bat
+[8:39:18 AM] [General] [Info]     Looking for flutter.bat in:
+[8:39:18 AM] [General] [Info]         D:\Flutter\buoi1
+[8:39:18 AM] [General] [Info]         D:\Flutter\buoi1 -> D:\Flutter\buoi1\bin
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\
+[8:39:18 AM] [General] [Info]         D:\Flutter\buoi1\.flutter
+[8:39:18 AM] [General] [Info]         D:\Flutter\buoi1\.flutter -> D:\Flutter\buoi1\.flutter\bin
+[8:39:18 AM] [General] [Info]         D:\Flutter\buoi1\vendor\flutter
+[8:39:18 AM] [General] [Info]         D:\Flutter\buoi1\vendor\flutter -> D:\Flutter\buoi1\vendor\flutter\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\flutter-sdk
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\flutter-sdk -> C:\Users\tantv\flutter-sdk\bin
+[8:39:18 AM] [General] [Info]         /google/flutter
+[8:39:18 AM] [General] [Info]         /google/flutter -> \google\flutter\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[8:39:18 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath -> C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[8:39:18 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath -> C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[8:39:18 AM] [General] [Info]         C:\Windows\system32
+[8:39:18 AM] [General] [Info]         C:\Windows\system32 -> C:\Windows\system32\bin
+[8:39:18 AM] [General] [Info]         C:\Windows
+[8:39:18 AM] [General] [Info]         C:\Windows -> C:\Windows\bin
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\Wbem
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\Wbem -> C:\Windows\System32\Wbem\bin
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\ -> C:\Windows\System32\WindowsPowerShell\v1.0\bin
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\OpenSSH\
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\OpenSSH\ -> C:\Windows\System32\OpenSSH\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Git\cmd
+[8:39:18 AM] [General] [Info]         C:\Program Files\Git\cmd -> C:\Program Files\Git\cmd\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Go\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\dotnet\
+[8:39:18 AM] [General] [Info]         C:\Program Files\dotnet\ -> C:\Program Files\dotnet\bin
+[8:39:18 AM] [General] [Info]         C:\ProgramData\chocolatey\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Local\Microsoft\WindowsApps
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Local\Microsoft\WindowsApps -> C:\Users\tantv\AppData\Local\Microsoft\WindowsApps\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Local\Programs\Microsoft VS Code\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Go\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\.dotnet\tools
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\.dotnet\tools -> C:\Users\tantv\.dotnet\tools\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Go
+[8:39:18 AM] [General] [Info]         C:\Program Files\Go -> C:\Program Files\Go\bin
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin
+[8:39:18 AM] [General] [Info]         C:\tools\dart-sdk\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Roaming\Pub\Cache\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Local\GitHubDesktop\bin
+[8:39:18 AM] [General] [Info]     Found at:
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin
+[8:39:18 AM] [General] [Info]     Candidate paths to be post-filtered:
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\ -> C:\src\flutter
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin -> C:\src\flutter
+[8:39:18 AM] [General] [Info]     Found at C:\src\flutter\bin\ -> C:\src\flutter
+[8:39:18 AM] [General] [Info]     Returning SDK path C:\src\flutter for flutter.bat
+[8:39:18 AM] [General] [Info] Searching for dart.exe
+[8:39:18 AM] [General] [Info]     Looking for dart.exe in:
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk -> C:\src\flutter\bin\cache\dart-sdk\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath
+[8:39:18 AM] [General] [Info]         C:\Program Files\Common Files\Oracle\Java\javapath -> C:\Program Files\Common Files\Oracle\Java\javapath\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath
+[8:39:18 AM] [General] [Info]         C:\Program Files (x86)\Common Files\Oracle\Java\javapath -> C:\Program Files (x86)\Common Files\Oracle\Java\javapath\bin
+[8:39:18 AM] [General] [Info]         C:\Windows\system32
+[8:39:18 AM] [General] [Info]         C:\Windows\system32 -> C:\Windows\system32\bin
+[8:39:18 AM] [General] [Info]         C:\Windows
+[8:39:18 AM] [General] [Info]         C:\Windows -> C:\Windows\bin
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\Wbem
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\Wbem -> C:\Windows\System32\Wbem\bin
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\WindowsPowerShell\v1.0\ -> C:\Windows\System32\WindowsPowerShell\v1.0\bin
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\OpenSSH\
+[8:39:18 AM] [General] [Info]         C:\Windows\System32\OpenSSH\ -> C:\Windows\System32\OpenSSH\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Git\cmd
+[8:39:18 AM] [General] [Info]         C:\Program Files\Git\cmd -> C:\Program Files\Git\cmd\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Go\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\dotnet\
+[8:39:18 AM] [General] [Info]         C:\Program Files\dotnet\ -> C:\Program Files\dotnet\bin
+[8:39:18 AM] [General] [Info]         C:\ProgramData\chocolatey\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Local\Microsoft\WindowsApps
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Local\Microsoft\WindowsApps -> C:\Users\tantv\AppData\Local\Microsoft\WindowsApps\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Local\Programs\Microsoft VS Code\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Go\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\.dotnet\tools
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\.dotnet\tools -> C:\Users\tantv\.dotnet\tools\bin
+[8:39:18 AM] [General] [Info]         C:\Program Files\Go
+[8:39:18 AM] [General] [Info]         C:\Program Files\Go -> C:\Program Files\Go\bin
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin
+[8:39:18 AM] [General] [Info]         C:\tools\dart-sdk\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Roaming\Pub\Cache\bin
+[8:39:18 AM] [General] [Info]         C:\Users\tantv\AppData\Local\GitHubDesktop\bin
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk -> C:\src\flutter\bin\cache\dart-sdk\bin
+[8:39:18 AM] [General] [Info]     Found at:
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk -> C:\src\flutter\bin\cache\dart-sdk\bin
+[8:39:18 AM] [General] [Info]         C:\tools\dart-sdk\bin
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk -> C:\src\flutter\bin\cache\dart-sdk\bin
+[8:39:18 AM] [General] [Info]     Candidate paths to be post-filtered:
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
+[8:39:18 AM] [General] [Info]         C:\tools\dart-sdk\bin -> C:\tools\dart-sdk
+[8:39:18 AM] [General] [Info]         C:\src\flutter\bin\cache\dart-sdk
+[8:39:18 AM] [General] [Info]     Found at C:\src\flutter\bin\cache\dart-sdk
+[8:39:18 AM] [General] [Info]     Returning SDK path C:\src\flutter\bin\cache\dart-sdk for dart.exe
+[8:39:18 AM] [General] [Info] Experiment random number is 33 for experiment 'sdkDaps'. Experiment is enabled for <= 75
+[8:39:18 AM] [General] [Info] Experiment 'sdkDaps' is activating (not first time)
+[8:39:18 AM] [General] [Info] Experiment random number is 33 for experiment 'sdkDaps'. Experiment is enabled for <= 10
+[8:39:18 AM] [General] [Info] Experiment 'sdkDaps' does not apply and will not be activated
+[8:39:18 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
 
 Dart Code extension: 3.70.0
 Flutter extension: 3.70.0 (not activated)
@@ -170,12 +170,12 @@ Flutter SDK:
 
 HTTP_PROXY: undefined
 NO_PROXY: undefined
-[6:53:02 PM] [General] [Info] Returning cached results for project search
-[6:53:02 PM] [General] [Info] Activating Flutter extension for Flutter project...
-[6:53:02 PM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
-[6:53:02 PM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
-[6:53:02 PM] [General] [Info] Loaded 20000 package names from vscode-userdata:/c%3A/Users/tantv/AppData/Roaming/Code/User/globalStorage/dart-code.dart-code/package_cache.json
-[6:53:04 PM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
+[8:39:18 AM] [General] [Info] Returning cached results for project search
+[8:39:18 AM] [General] [Info] Activating Flutter extension for Flutter project...
+[8:39:18 AM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[8:39:18 AM] [General] [Info] Found 0 folders requiring "pub get" or "pub upgrade":
+[8:39:20 AM] [General] [Info] Loaded 20000 package names from vscode-userdata:/c%3A/Users/tantv/AppData/Roaming/Code/User/globalStorage/dart-code.dart-code/package_cache.json
+[8:39:20 AM] [General] [Info] !! PLEASE REVIEW THIS LOG FOR SENSITIVE INFORMATION BEFORE SHARING !!
 
 Dart Code extension: 3.70.0
 Flutter extension: 3.70.0 (activated)
@@ -197,36 +197,31 @@ Flutter SDK:
 
 HTTP_PROXY: undefined
 NO_PROXY: undefined
-[6:53:10 PM] [General] [Info] Returning cached results for project search
-[6:53:10 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
-[6:53:10 PM] [General] [Info] Returning cached promise for getSupportedPlatforms()
-[6:53:10 PM] [General] [Info] Checking 1 projects for supported platforms
-[6:53:10 PM] [General] [Info] Returning cached results for project search
-[6:53:10 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
-[6:53:37 PM] [General] [Info] Returning cached results for project search
-[6:53:37 PM] [General] [Info] Checking 1 projects for supported platforms
-[6:53:37 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
-[6:54:03 PM] [General] [Info] Saving emulator-5554 as preferred device
-[6:54:03 PM] [General] [Info] Returning cached results for project search
-[6:54:03 PM] [General] [Info] Checking 1 projects for supported platforms
-[6:54:03 PM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
-[6:54:57 PM] [General] [Info] Starting debug session...
-[6:54:57 PM] [General] [Info]     workspace: D:\Flutter\buoi1
-[6:54:57 PM] [General] [Info]     program  : D:\Flutter\buoi1\lib\main.dart
-[6:54:57 PM] [General] [Info] Setting cwd based on likely entry point: D:\Flutter\buoi1
-[6:54:57 PM] [General] [Info] Using workspace as cwd: D:\Flutter\buoi1
-[6:54:57 PM] [General] [Info] Detected launch project as Flutter
-[6:54:57 PM] [General] [Info] Using Flutter debug adapter for this session
-[6:54:57 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
-[6:54:57 PM] [General] [Info] Checking for errors before launching
-[6:54:57 PM] [General] [Info] Debug session starting...
+[8:39:26 AM] [General] [Info] Returning cached results for project search
+[8:39:26 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[8:39:26 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[8:39:26 AM] [General] [Info] Returning cached promise for getSupportedPlatforms()
+[8:39:26 AM] [General] [Info] Checking 1 projects for supported platforms
+[8:39:26 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[8:42:13 AM] [General] [Info] Returning cached results for project search
+[8:42:17 AM] [General] [Info] Starting debug session...
+[8:42:17 AM] [General] [Info]     workspace: D:\Flutter\buoi1
+[8:42:17 AM] [General] [Info]     program  : D:\Flutter\buoi1\lib\main.dart
+[8:42:17 AM] [General] [Info] Setting cwd based on likely entry point: D:\Flutter\buoi1
+[8:42:17 AM] [General] [Info] Using workspace as cwd: D:\Flutter\buoi1
+[8:42:17 AM] [General] [Info] Detected launch project as Flutter
+[8:42:17 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:42:17 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:42:17 AM] [General] [Info] Checking for errors before launching
+[8:42:17 AM] [General] [Info] Debug session starting...
     {
         "name": "Dart  (Pixel_3a_API_34_extension_level_7_x86_64)",
-        "noDebug": true,
+        "noDebug": false,
         "request": "launch",
         "type": "dart",
+        "groupId": 0,
         "program": "D:\\Flutter\\buoi1\\lib\\main.dart",
-        "dartCodeDebugSessionID": "session-e2b25",
+        "dartCodeDebugSessionID": "session-2c1ba",
         "cwd": "D:\\Flutter\\buoi1",
         "deviceId": "emulator-5554",
         "deviceName": "Pixel_3a_API_34_extension_level_7_x86_64 (android-x64)",
@@ -246,7 +241,7 @@ NO_PROXY: undefined
             "-d",
             "emulator-5554",
             "--devtools-server-address",
-            "http://127.0.0.1:9100/"
+            "http://127.0.0.1:9101/"
         ],
         "vmServicePort": 0,
         "dartSdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
@@ -265,33 +260,466 @@ NO_PROXY: undefined
         "showMemoryUsage": false,
         "debuggerType": 2
     }
-[6:54:57 PM] [General] [Info] Using flutter debugger for Flutter
-[6:54:57 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
-[6:54:57 PM] [General] [Info] Running debugger via node with c:\Users\tantv\.vscode\extensions\dart-code.dart-code-3.70.0\out\dist\debug.js    flutter
-[6:54:57 PM] [General] [Info] Did not find session 30f61db0-a9c1-4498-8adc-27065af23f3c to handle dart.progressStart. There were 0 sessions:
-[6:54:57 PM] [General] [Info] Event will be queued and processed when the session start event fires
-[6:54:57 PM] [General] [Info] Processing delayed event dart.progressStart for session 30f61db0-a9c1-4498-8adc-27065af23f3c
-[6:55:39 PM] [General] [Info] Exposing URL: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[6:55:39 PM] [General] [Info] Mapping URI: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[6:55:39 PM] [General] [Info] Mapped URI: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[6:55:39 PM] [General] [Info] Mapped URL: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[6:55:39 PM] [General] [Info] Final URL: http://127.0.0.1:50615/xhwCpFp6-Zc=/
-[6:55:40 PM] [General] [Info] Returning cached results for project search
-[7:00:54 PM] [General] [Info] Exposing URL: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[7:00:54 PM] [General] [Info] Mapping URI: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[7:00:55 PM] [General] [Info] Mapped URI: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[7:00:55 PM] [General] [Info] Mapped URL: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[7:00:55 PM] [General] [Info] Final URL: http://127.0.0.1:50615/xhwCpFp6-Zc=/
-[7:01:50 PM] [General] [Info] Exposing URL: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[7:01:50 PM] [General] [Info] Mapping URI: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[7:01:50 PM] [General] [Info] Mapped URI: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[7:01:50 PM] [General] [Info] Mapped URL: http://127.0.0.1:50615/xhwCpFp6-Zc%3D/
-[7:01:50 PM] [General] [Info] Final URL: http://127.0.0.1:50615/xhwCpFp6-Zc=/
-[7:24:01 PM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
-[7:24:02 PM] [General] [Info] Took 90ms to search for projects (5 levels)
-[7:24:02 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
-[7:24:02 PM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
-[7:24:02 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
-    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Thu Aug 03 2023 19:24:01 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Thu Aug 03 2023 17:17:59 GMT+0700 (Indochina Time)))
-[7:24:15 PM] [General] [Info] Returning cached results for project search
-[7:25:09 PM] [General] [Info] Returning cached results for project search
+[8:42:17 AM] [General] [Info] Using flutter debugger for Flutter
+[8:42:17 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[8:42:17 AM] [General] [Info] Running debugger via node with c:\Users\tantv\.vscode\extensions\dart-code.dart-code-3.70.0\out\dist\debug.js    flutter
+[8:42:17 AM] [General] [Info] Did not find session d184b13d-6f72-422d-a9df-10af948f8fff to handle dart.progressStart. There were 0 sessions:
+[8:42:17 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:42:17 AM] [General] [Info] Processing delayed event dart.progressStart for session d184b13d-6f72-422d-a9df-10af948f8fff
+[8:42:50 AM] [General] [Info] Exposing URL: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:42:50 AM] [General] [Info] Mapping URI: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:42:50 AM] [General] [Info] Mapped URI: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:42:50 AM] [General] [Info] Mapped URL: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:42:50 AM] [General] [Info] Final URL: http://127.0.0.1:59160/L1STrIZ9k-A=/
+[8:42:52 AM] [General] [Info] Returning cached results for project search
+[8:44:41 AM] [General] [Info] Exposing URL: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:44:41 AM] [General] [Info] Mapping URI: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:44:41 AM] [General] [Info] Mapped URI: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:44:41 AM] [General] [Info] Mapped URL: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:44:41 AM] [General] [Info] Final URL: http://127.0.0.1:59160/L1STrIZ9k-A=/
+[8:45:51 AM] [General] [Info] Exposing URL: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:45:51 AM] [General] [Info] Mapping URI: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:45:51 AM] [General] [Info] Mapped URI: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:45:51 AM] [General] [Info] Mapped URL: http://127.0.0.1:59160/L1STrIZ9k-A%3D/
+[8:45:51 AM] [General] [Info] Final URL: http://127.0.0.1:59160/L1STrIZ9k-A=/
+[8:47:40 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[8:47:41 AM] [General] [Info] Took 83ms to search for projects (5 levels)
+[8:47:41 AM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[8:47:41 AM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[8:47:41 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Fri Aug 04 2023 08:47:40 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Thu Aug 03 2023 19:24:04 GMT+0700 (Indochina Time)))
+[8:47:46 AM] [General] [Info] Returning cached results for project search
+[8:49:14 AM] [General] [Info] Starting debug session...
+[8:49:14 AM] [General] [Info]     workspace: D:\Flutter\buoi1
+[8:49:14 AM] [General] [Info]     program  : D:\Flutter\buoi1\lib\main.dart
+[8:49:14 AM] [General] [Info] Setting cwd based on likely entry point: D:\Flutter\buoi1
+[8:49:14 AM] [General] [Info] Using workspace as cwd: D:\Flutter\buoi1
+[8:49:14 AM] [General] [Info] Detected launch project as Flutter
+[8:49:14 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:49:14 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:49:14 AM] [General] [Info] Checking for errors before launching
+[8:49:14 AM] [General] [Info] Debug session starting...
+    {
+        "name": "Dart  (Pixel_3a_API_34_extension_level_7_x86_64)",
+        "noDebug": false,
+        "request": "launch",
+        "type": "dart",
+        "groupId": 0,
+        "program": "D:\\Flutter\\buoi1\\lib\\main.dart",
+        "dartCodeDebugSessionID": "session-364d2",
+        "cwd": "D:\\Flutter\\buoi1",
+        "deviceId": "emulator-5554",
+        "deviceName": "Pixel_3a_API_34_extension_level_7_x86_64 (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "D:\\Flutter\\buoi1"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9101/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "D:\\Flutter\\buoi1\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "D:\\Flutter\\buoi1\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\src\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[8:49:14 AM] [General] [Info] Using flutter debugger for Flutter
+[8:49:14 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[8:49:14 AM] [General] [Info] Running debugger via node with c:\Users\tantv\.vscode\extensions\dart-code.dart-code-3.70.0\out\dist\debug.js    flutter
+[8:49:14 AM] [General] [Info] Did not find session 0f15a50f-4cbf-40eb-ac5c-d3296459e67e to handle dart.progressStart. There were 0 sessions:
+[8:49:14 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:49:14 AM] [General] [Info] Processing delayed event dart.progressStart for session 0f15a50f-4cbf-40eb-ac5c-d3296459e67e
+[8:49:38 AM] [General] [Info] Exposing URL: http://127.0.0.1:59911/RdGJkHcd0D4%3D/
+[8:49:38 AM] [General] [Info] Mapping URI: http://127.0.0.1:59911/RdGJkHcd0D4%3D/
+[8:49:38 AM] [General] [Info] Mapped URI: http://127.0.0.1:59911/RdGJkHcd0D4%3D/
+[8:49:38 AM] [General] [Info] Mapped URL: http://127.0.0.1:59911/RdGJkHcd0D4%3D/
+[8:49:38 AM] [General] [Info] Final URL: http://127.0.0.1:59911/RdGJkHcd0D4=/
+[8:49:40 AM] [General] [Info] Returning cached results for project search
+[8:51:04 AM] [General] [Info] Starting debug session...
+[8:51:04 AM] [General] [Info]     workspace: D:\Flutter\buoi1
+[8:51:04 AM] [General] [Info]     program  : D:\Flutter\buoi1\lib\main.dart
+[8:51:04 AM] [General] [Info] Setting cwd based on likely entry point: D:\Flutter\buoi1
+[8:51:04 AM] [General] [Info] Using workspace as cwd: D:\Flutter\buoi1
+[8:51:04 AM] [General] [Info] Detected launch project as Flutter
+[8:51:04 AM] [General] [Info] Using Flutter debug adapter for this session
+[8:51:04 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[8:51:04 AM] [General] [Info] Checking for errors before launching
+[8:51:04 AM] [General] [Info] Debug session starting...
+    {
+        "name": "Dart  (Pixel_3a_API_34_extension_level_7_x86_64)",
+        "noDebug": true,
+        "request": "launch",
+        "type": "dart",
+        "program": "D:\\Flutter\\buoi1\\lib\\main.dart",
+        "dartCodeDebugSessionID": "session-252fb",
+        "cwd": "D:\\Flutter\\buoi1",
+        "deviceId": "emulator-5554",
+        "deviceName": "Pixel_3a_API_34_extension_level_7_x86_64 (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "D:\\Flutter\\buoi1"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5554",
+            "--devtools-server-address",
+            "http://127.0.0.1:9101/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "D:\\Flutter\\buoi1\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "D:\\Flutter\\buoi1\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\src\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[8:51:04 AM] [General] [Info] Using flutter debugger for Flutter
+[8:51:04 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[8:51:04 AM] [General] [Info] Running debugger via node with c:\Users\tantv\.vscode\extensions\dart-code.dart-code-3.70.0\out\dist\debug.js    flutter
+[8:51:04 AM] [General] [Info] Did not find session 13e6975f-1d2c-43cb-8e0c-500b0350033e to handle dart.progressStart. There were 0 sessions:
+[8:51:04 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[8:51:04 AM] [General] [Info] Processing delayed event dart.progressStart for session 13e6975f-1d2c-43cb-8e0c-500b0350033e
+[8:51:35 AM] [General] [Info] Exposing URL: http://127.0.0.1:60200/Dji-1FBgBYI%3D/
+[8:51:35 AM] [General] [Info] Mapping URI: http://127.0.0.1:60200/Dji-1FBgBYI%3D/
+[8:51:35 AM] [General] [Info] Mapped URI: http://127.0.0.1:60200/Dji-1FBgBYI%3D/
+[8:51:35 AM] [General] [Info] Mapped URL: http://127.0.0.1:60200/Dji-1FBgBYI%3D/
+[8:51:35 AM] [General] [Info] Final URL: http://127.0.0.1:60200/Dji-1FBgBYI=/
+[8:51:36 AM] [General] [Info] Returning cached results for project search
+[8:57:19 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[8:57:20 AM] [General] [Info] Took 92ms to search for projects (5 levels)
+[8:57:20 AM] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules)
+[8:57:20 AM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[8:57:20 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Fri Aug 04 2023 08:57:19 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Fri Aug 04 2023 08:47:45 GMT+0700 (Indochina Time)))
+[8:57:46 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[8:57:46 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[8:57:46 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[8:57:47 AM] [General] [Info] Returning cached results for project search
+[8:57:47 AM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[8:57:47 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Fri Aug 04 2023 08:57:46 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Fri Aug 04 2023 08:57:22 GMT+0700 (Indochina Time)))
+[8:58:35 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[8:58:36 AM] [General] [Info] Returning cached results for project search
+[8:58:36 AM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[8:58:36 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Fri Aug 04 2023 08:58:35 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Fri Aug 04 2023 08:57:49 GMT+0700 (Indochina Time)))
+[8:58:44 AM] [General] [Info] Returning cached results for project search
+[8:58:55 AM] [General] [Info] Returning cached results for project search
+[9:00:04 AM] [General] [Info] Returning cached results for project search
+[9:00:10 AM] [General] [Info] Returning cached results for project search
+[9:00:38 AM] [General] [Info] Returning cached results for project search
+[9:00:58 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[9:00:59 AM] [General] [Info] Returning cached results for project search
+[9:00:59 AM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[9:00:59 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Fri Aug 04 2023 09:00:58 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Fri Aug 04 2023 09:00:00 GMT+0700 (Indochina Time)))
+[9:01:02 AM] [General] [Info] Returning cached results for project search
+[9:01:13 AM] [General] [Info] Returning cached results for project search
+[9:15:07 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[9:15:08 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[9:15:08 AM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[9:15:09 AM] [General] [Info] Took 47ms to search for projects (5 levels)
+[9:15:09 AM] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules)
+[9:15:09 AM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[9:15:09 AM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Fri Aug 04 2023 09:15:08 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Fri Aug 04 2023 09:01:01 GMT+0700 (Indochina Time)))
+[9:16:54 AM] [General] [Info] Returning cached results for project search
+[9:18:08 AM] [General] [Info] Returning cached results for project search
+[9:18:08 AM] [General] [Info] Checking 1 projects for supported platforms
+[9:18:08 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[9:18:33 AM] [General] [Info] Saving emulator-5556 as preferred device
+[9:18:33 AM] [General] [Info] Returning cached results for project search
+[9:18:33 AM] [General] [Info] Checking 1 projects for supported platforms
+[9:18:33 AM] [General] [Info] Supported platforms for the workspace are linux, macos, windows, ios, android, web
+[9:19:09 AM] [General] [Info] Starting debug session...
+[9:19:09 AM] [General] [Info]     workspace: D:\Flutter\buoi1
+[9:19:09 AM] [General] [Info]     program  : D:\Flutter\buoi1\lib\main.dart
+[9:19:09 AM] [General] [Info] Setting cwd based on likely entry point: D:\Flutter\buoi1
+[9:19:09 AM] [General] [Info] Using workspace as cwd: D:\Flutter\buoi1
+[9:19:09 AM] [General] [Info] Detected launch project as Flutter
+[9:19:09 AM] [General] [Info] Using Flutter debug adapter for this session
+[9:19:09 AM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[9:19:09 AM] [General] [Info] Checking for errors before launching
+[9:19:09 AM] [General] [Info] Debug session starting...
+    {
+        "name": "Dart  (Pixel 6 Pro API 33)",
+        "noDebug": true,
+        "request": "launch",
+        "type": "dart",
+        "program": "D:\\Flutter\\buoi1\\lib\\main.dart",
+        "dartCodeDebugSessionID": "session-d89bf",
+        "cwd": "D:\\Flutter\\buoi1",
+        "deviceId": "emulator-5556",
+        "deviceName": "Pixel 6 Pro API 33 (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "D:\\Flutter\\buoi1"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5556",
+            "--devtools-server-address",
+            "http://127.0.0.1:9101/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "D:\\Flutter\\buoi1\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "D:\\Flutter\\buoi1\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\src\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[9:19:09 AM] [General] [Info] Using flutter debugger for Flutter
+[9:19:09 AM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[9:19:09 AM] [General] [Info] Running debugger via node with c:\Users\tantv\.vscode\extensions\dart-code.dart-code-3.70.0\out\dist\debug.js    flutter
+[9:19:09 AM] [General] [Info] Did not find session f7f0090e-4c39-447f-be13-991245bfeb86 to handle dart.progressStart. There were 0 sessions:
+[9:19:09 AM] [General] [Info] Event will be queued and processed when the session start event fires
+[9:19:09 AM] [General] [Info] Processing delayed event dart.progressStart for session f7f0090e-4c39-447f-be13-991245bfeb86
+[9:20:42 AM] [General] [Info] Exposing URL: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[9:20:42 AM] [General] [Info] Mapping URI: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[9:20:43 AM] [General] [Info] Mapped URI: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[9:20:43 AM] [General] [Info] Mapped URL: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[9:20:43 AM] [General] [Info] Final URL: http://127.0.0.1:63524/Vk5pGxx4jRY=/
+[9:20:46 AM] [General] [Info] Took 819ms to search for projects (5 levels)
+[9:20:46 AM] [General] [Info] Took 8ms to filter out excluded projects (0 exclusion rules)
+[10:16:00 AM] [General] [Info] Took 74ms to search for projects (5 levels)
+[10:16:00 AM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[11:23:24 AM] [General] [Info] Took 90ms to search for projects (5 levels)
+[11:23:24 AM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[11:27:30 AM] [General] [Info] Exposing URL: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[11:27:30 AM] [General] [Info] Mapping URI: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[11:27:30 AM] [General] [Info] Mapped URI: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[11:27:30 AM] [General] [Info] Mapped URL: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[11:27:30 AM] [General] [Info] Final URL: http://127.0.0.1:63524/Vk5pGxx4jRY=/
+[11:27:33 AM] [General] [Info] Exposing URL: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[11:27:33 AM] [General] [Info] Mapping URI: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[11:27:33 AM] [General] [Info] Mapped URI: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[11:27:33 AM] [General] [Info] Mapped URL: http://127.0.0.1:63524/Vk5pGxx4jRY%3D/
+[11:27:33 AM] [General] [Info] Final URL: http://127.0.0.1:63524/Vk5pGxx4jRY=/
+[12:28:48 PM] [General] [Info] Took 71ms to search for projects (5 levels)
+[12:28:48 PM] [General] [Info] Took 2ms to filter out excluded projects (0 exclusion rules)
+[12:40:01 PM] [General] [Info] Took 101ms to search for projects (5 levels)
+[12:40:01 PM] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules)
+[12:40:10 PM] [General] [Info] Starting debug session...
+[12:40:10 PM] [General] [Info]     workspace: D:\Flutter\buoi1
+[12:40:10 PM] [General] [Info]     program  : D:\Flutter\buoi1\lib\main.dart
+[12:40:10 PM] [General] [Info] Setting cwd based on likely entry point: D:\Flutter\buoi1
+[12:40:10 PM] [General] [Info] Using workspace as cwd: D:\Flutter\buoi1
+[12:40:10 PM] [General] [Info] Detected launch project as Flutter
+[12:40:10 PM] [General] [Info] Using Flutter debug adapter for this session
+[12:40:11 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[12:40:11 PM] [General] [Info] Checking for errors before launching
+[12:40:11 PM] [General] [Info] Debug session starting...
+    {
+        "name": "Dart  (Pixel 6 Pro API 33)",
+        "noDebug": true,
+        "request": "launch",
+        "type": "dart",
+        "program": "D:\\Flutter\\buoi1\\lib\\main.dart",
+        "dartCodeDebugSessionID": "session-119dd",
+        "cwd": "D:\\Flutter\\buoi1",
+        "deviceId": "emulator-5556",
+        "deviceName": "Pixel 6 Pro API 33 (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "D:\\Flutter\\buoi1"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5556",
+            "--devtools-server-address",
+            "http://127.0.0.1:9101/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "D:\\Flutter\\buoi1\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "D:\\Flutter\\buoi1\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\src\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[12:40:11 PM] [General] [Info] Using flutter debugger for Flutter
+[12:40:11 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[12:40:11 PM] [General] [Info] Running debugger via node with c:\Users\tantv\.vscode\extensions\dart-code.dart-code-3.70.0\out\dist\debug.js    flutter
+[12:40:11 PM] [General] [Info] Did not find session 5d178ea2-20e6-44ae-ac34-395bc3ba3918 to handle dart.progressStart. There were 0 sessions:
+[12:40:11 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[12:40:11 PM] [General] [Info] Processing delayed event dart.progressStart for session 5d178ea2-20e6-44ae-ac34-395bc3ba3918
+[12:41:02 PM] [General] [Info] Exposing URL: http://127.0.0.1:58286/a8eIToIQtuA%3D/
+[12:41:02 PM] [General] [Info] Mapping URI: http://127.0.0.1:58286/a8eIToIQtuA%3D/
+[12:41:02 PM] [General] [Info] Mapped URI: http://127.0.0.1:58286/a8eIToIQtuA%3D/
+[12:41:02 PM] [General] [Info] Mapped URL: http://127.0.0.1:58286/a8eIToIQtuA%3D/
+[12:41:02 PM] [General] [Info] Final URL: http://127.0.0.1:58286/a8eIToIQtuA=/
+[12:41:03 PM] [General] [Info] Returning cached results for project search
+[12:48:08 PM] [General] [Info] Took 156ms to search for projects (5 levels)
+[12:48:08 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[12:50:44 PM] [General] [Info] Returning cached results for project search
+[1:34:55 PM] [General] [Info] Took 206ms to search for projects (5 levels)
+[1:34:55 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[1:45:15 PM] [FlutterRun] [Error] [Dart  (Pixel 6 Pro API 33)] lib/page/login.dart:61:20: Error: Can't find ')' to match '('.
+            Padding(
+                   ^
+[1:51:40 PM] [General] [Info] Took 202ms to search for projects (5 levels)
+[1:51:40 PM] [General] [Info] Took 1ms to filter out excluded projects (0 exclusion rules)
+[1:54:39 PM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[1:54:40 PM] [General] [Info] Returning cached results for project search
+[1:54:40 PM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[1:54:40 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Fri Aug 04 2023 13:54:39 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Fri Aug 04 2023 09:15:10 GMT+0700 (Indochina Time)))
+[3:12:21 PM] [FlutterRun] [Error] [Dart  (Pixel 6 Pro API 33)] Could not update files on device: PathNotFoundException: Cannot open file, path = 'D:\Flutter\buoi1\assets\images\2.png' (OS Error: The system cannot find the file specified.
+, errno = 2)
+[3:13:56 PM] [General] [Info] Pubspec D:\Flutter\buoi1\pubspec.yaml was modified
+[3:13:57 PM] [General] [Info] Took 61ms to search for projects (5 levels)
+[3:13:57 PM] [General] [Info] Took 0ms to filter out excluded projects (0 exclusion rules)
+[3:13:57 PM] [General] [Info] Version last used for Pub is 3.0.6 (3.0.0), current is 3.0.6 (3.0.0)
+[3:13:57 PM] [General] [Info] Found 1 folders requiring "pub get" or "pub upgrade":
+    D:\Flutter\buoi1 (get: true, upgrade: false, reason: pubspec.yaml was modified (Fri Aug 04 2023 15:13:56 GMT+0700 (Indochina Time)) more recently than pubspec.lock (Fri Aug 04 2023 13:54:42 GMT+0700 (Indochina Time)))
+[3:14:22 PM] [FlutterRun] [Error] [Dart  (Pixel 6 Pro API 33)] Could not update files on device: PathNotFoundException: Cannot open file, path = 'D:\Flutter\buoi1\assets\images\2.png' (OS Error: The system cannot find the file specified.
+, errno = 2)
+[3:14:28 PM] [FlutterRun] [Error] [Dart  (Pixel 6 Pro API 33)] Could not update files on device: PathNotFoundException: Cannot open file, path = 'D:\Flutter\buoi1\assets\images\2.png' (OS Error: The system cannot find the file specified.
+, errno = 2)
+[3:14:37 PM] [General] [Info] Starting debug session...
+[3:14:37 PM] [General] [Info]     workspace: D:\Flutter\buoi1
+[3:14:37 PM] [General] [Info]     program  : D:\Flutter\buoi1\lib\main.dart
+[3:14:37 PM] [General] [Info] Setting cwd based on likely entry point: D:\Flutter\buoi1
+[3:14:37 PM] [General] [Info] Using workspace as cwd: D:\Flutter\buoi1
+[3:14:37 PM] [General] [Info] Detected launch project as Flutter
+[3:14:37 PM] [General] [Info] Using Flutter debug adapter for this session
+[3:14:37 PM] [General] [Info] Getting DevTools server address to pass to Flutter...
+[3:14:37 PM] [General] [Info] Checking for errors before launching
+[3:14:37 PM] [General] [Info] Debug session starting...
+    {
+        "name": "Dart  (Pixel 6 Pro API 33)",
+        "noDebug": false,
+        "request": "launch",
+        "type": "dart",
+        "groupId": 0,
+        "program": "D:\\Flutter\\buoi1\\lib\\main.dart",
+        "dartCodeDebugSessionID": "session-d8828",
+        "cwd": "D:\\Flutter\\buoi1",
+        "deviceId": "emulator-5556",
+        "deviceName": "Pixel 6 Pro API 33 (android-x64)",
+        "toolEnv": {
+            "FLUTTER_HOST": "VSCode",
+            "PUB_ENVIRONMENT": "vscode.dart-code"
+        },
+        "sendLogsToClient": false,
+        "sendCustomProgressEvents": true,
+        "allowAnsiColorOutput": true,
+        "additionalProjectPaths": [
+            "D:\\Flutter\\buoi1"
+        ],
+        "args": [],
+        "vmAdditionalArgs": [],
+        "toolArgs": [
+            "-d",
+            "emulator-5556",
+            "--devtools-server-address",
+            "http://127.0.0.1:9101/"
+        ],
+        "vmServicePort": 0,
+        "dartSdkPath": "C:\\src\\flutter\\bin\\cache\\dart-sdk",
+        "vmServiceLogFile": "D:\\Flutter\\buoi1\\logs\\observatory.txt",
+        "maxLogLineLength": 2000,
+        "dartTestLogFile": "D:\\Flutter\\buoi1\\logs\\dart_test.txt",
+        "debugSdkLibraries": false,
+        "debugExternalPackageLibraries": false,
+        "showDartDeveloperLogs": true,
+        "evaluateGettersInDebugViews": true,
+        "evaluateToStringInDebugViews": true,
+        "flutterSdkPath": "C:\\src\\flutter",
+        "useInspectorNotificationsForWidgetErrors": true,
+        "flutterRunLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_run.txt",
+        "flutterTestLogFile": "D:\\Flutter\\buoi1\\logs\\flutter_test.txt",
+        "showMemoryUsage": false,
+        "debuggerType": 2
+    }
+[3:14:37 PM] [General] [Info] Using flutter debugger for Flutter
+[3:14:37 PM] [General] [Info] SDK DAP setting is false, set by sdkDaps experiment
+[3:14:37 PM] [General] [Info] Running debugger via node with c:\Users\tantv\.vscode\extensions\dart-code.dart-code-3.70.0\out\dist\debug.js    flutter
+[3:14:37 PM] [General] [Info] Did not find session 115d3782-5698-4826-a4a3-e554682e169b to handle dart.progressStart. There were 0 sessions:
+[3:14:37 PM] [General] [Info] Event will be queued and processed when the session start event fires
+[3:14:37 PM] [General] [Info] Processing delayed event dart.progressStart for session 115d3782-5698-4826-a4a3-e554682e169b
+[3:15:08 PM] [General] [Info] Exposing URL: http://127.0.0.1:51691/eGJ--Xj6SWI%3D/
+[3:15:08 PM] [General] [Info] Mapping URI: http://127.0.0.1:51691/eGJ--Xj6SWI%3D/
+[3:15:08 PM] [General] [Info] Exposing URL: http://127.0.0.1:51691/eGJ--Xj6SWI%3D/
+[3:15:08 PM] [General] [Info] Mapping URI: http://127.0.0.1:51691/eGJ--Xj6SWI%3D/
+[3:15:08 PM] [General] [Info] Mapped URI: http://127.0.0.1:51691/eGJ--Xj6SWI%3D/
+[3:15:08 PM] [General] [Info] Mapped URL: http://127.0.0.1:51691/eGJ--Xj6SWI%3D/
+[3:15:08 PM] [General] [Info] Final URL: http://127.0.0.1:51691/eGJ--Xj6SWI=/
+[3:15:08 PM] [General] [Info] Mapped URI: http://127.0.0.1:51691/eGJ--Xj6SWI%3D/
+[3:15:08 PM] [General] [Info] Mapped URL: http://127.0.0.1:51691/eGJ--Xj6SWI%3D/
+[3:15:08 PM] [General] [Info] Final URL: http://127.0.0.1:51691/eGJ--Xj6SWI=/
+[3:15:10 PM] [General] [Info] Returning cached results for project search

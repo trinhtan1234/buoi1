@@ -28,6 +28,6 @@ flutter:
 
 
 
-assets:
+  assets:
     - assets/danhba.json
-    - assets/images/
+    - assets/images/google.png
