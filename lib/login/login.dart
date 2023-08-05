@@ -1,3 +1,4 @@
+import 'package:buoi1/login/createaccount.dart';
 import 'package:flutter/material.dart';
 
 import '../myhompage.dart';
@@ -129,7 +130,12 @@ class LoginScreen extends StatelessWidget {
                         padding: EdgeInsets.all(10),
                         textStyle: TextStyle(fontSize: 20),
                       ),
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pop(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => CreateAccountScreen()));
+                      },
                       child: Text(
                         'Forgot Password ?',
                         style: TextStyle(

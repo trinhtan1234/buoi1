@@ -5,6 +5,11 @@ class CaNhan extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return TextButton(
+      child: Text('Đăng xuất'),
+      onPressed: () {
+        Navigator.pop(context);
+      },
+    );
   }
 }
