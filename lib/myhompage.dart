@@ -1,8 +1,8 @@
-import 'package:buoi1/page/canhan.dart';
 import 'package:buoi1/page/danhba.dart';
 import 'package:buoi1/page/home.dart';
 import 'package:buoi1/page/khampha.dart';
 import 'package:buoi1/page/nhatky.dart';
+import 'package:buoi1/person/account.dart';
 import 'package:flutter/material.dart';
 
 class MyHomePage extends StatefulWidget {

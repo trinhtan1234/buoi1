@@ -36,11 +36,7 @@ class LoginScreen extends StatelessWidget {
                 child: Row(
                   // mainAxisAlignment: MainAxisAlignment.start,
                   children: [
-                    Icon(
-                      Icons.language,
-                      color: Colors.brown,
-                      size: 30,
-                    ),
+                    Icon(Icons.language, color: Colors.brown, size: 30),
                     Text(
                       'Newforce',
                       style:
