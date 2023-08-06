@@ -1,7 +1,19 @@
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart' as rootBundle;
+import 'dart:async';
+import 'dart:convert';
 
-import 'contact_model.dart';
+import 'package:buoi1/home/contact_model.dart';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+
+Future<Album> fetchAblbum() async {
+  final response = await http
+      .get(Uri.parse('https://jsonplaceholder.typicode.com/albums/1'));
+  if (response.statusCode == 200) {
+    return Album.fromJson(jsonDecode(response.body));
+  } else {
+    throw Exception('Failed to load album');
+  }
+}
 
 class PrimaryMessage extends StatefulWidget {
   const PrimaryMessage({super.key});
@@ -11,80 +23,30 @@ class PrimaryMessage extends StatefulWidget {
 }
 
 class _PrimaryMessageState extends State<PrimaryMessage> {
+  late Future<Album> futureAlbum;
+
+  @override
+  void initState() {
+    super.initState();
+    futureAlbum = fetchAblbum();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: FutureBuilder(
-        future: ReadJsonData(),
-        builder: (context, data) {
-          if (data.hasError) {
-            return Center(child: Text('${data.error}'));
-          } else if (data.hasData) {
-            var items = data.data as List<ContactModel>;
-
-            return ListView.builder(
-              itemCount: items == null ? 0 : items.length,
-              itemBuilder: (context, index) {
-                return Card(
-                  elevation: 5,
-                  margin: EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-                  child: Container(
-                    padding: EdgeInsets.all(8),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.center,
-                      children: [
-                        Container(
-                          height: 50,
-                          width: 50,
-                          child: Text(items[index].toString()),
-                        ),
-                        Expanded(
-                          child: Container(
-                            padding: EdgeInsets.only(bottom: 8),
-                            child: Column(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
-                                Padding(
-                                  padding: EdgeInsets.only(left: 8, right: 8),
-                                  child: Text(
-                                    items[index].name.toString(),
-                                    style: TextStyle(
-                                        fontSize: 16,
-                                        fontWeight: FontWeight.bold),
-                                  ),
-                                ),
-                                Padding(
-                                  padding: EdgeInsets.only(left: 8, right: 8),
-                                  child: Text(items[index].phone.toString()),
-                                ),
-                              ],
-                            ),
-                          ),
-                        )
-                      ],
-                    ),
-                  ),
-                );
-              },
-            );
-          } else {
-            return Center(
-              child: CircularProgressIndicator(),
-            );
-          }
-        },
+      body: Center(
+        child: FutureBuilder<Album>(
+          future: futureAlbum,
+          builder: (context, snapshot) {
+            if (snapshot.hasData) {
+              return Text(snapshot.data!.title);
+            } else if (snapshot.hasError) {
+              return Text('${snapshot.error}');
+            }
+            return CircularProgressIndicator();
+          },
+        ),
       ),
     );
-  }
-
-  // ignore: non_constant_identifier_names
-  Future<List<ContactModel>> ReadJsonData() async {
-    final jsondata =
-        await rootBundle.rootBundle.loadString('assets/danhba.json');
-    final list = json.decoder(jsondata) as List<dynamic>;
-
-    return list.map((e) => ContactModel.fromJson(e)).toList();
   }
 }
