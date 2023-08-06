@@ -1,4 +1,7 @@
+import 'package:buoi1/home/primarymessage.dart';
 import 'package:flutter/material.dart';
+
+import 'othermessages.dart';
 
 class MyHome extends StatefulWidget {
   const MyHome({super.key});
@@ -41,8 +44,8 @@ class _MyHomeState extends State<MyHome> {
               height: 595,
               child: TabBarView(
                 children: [
-                  Center(child: ListBanBe()),
-                  Center(child: LisChatKhac()),
+                  Center(child: PrimaryMessage()),
+                  Center(child: OtherMessages()),
                 ],
               ),
             ),
@@ -52,30 +55,3 @@ class _MyHomeState extends State<MyHome> {
 }
 
 // ignore: must_be_immutable
-class ListBanBe extends StatefulWidget {
-  const ListBanBe({super.key});
-
-  @override
-  State<ListBanBe> createState() => _ListBanBeState();
-}
-
-class _ListBanBeState extends State<ListBanBe> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
-
-class LisChatKhac extends StatefulWidget {
-  const LisChatKhac({super.key});
-
-  @override
-  State<LisChatKhac> createState() => _LisChatKhacState();
-}
-
-class _LisChatKhacState extends State<LisChatKhac> {
-  @override
-  Widget build(BuildContext context) {
-    return Container();
-  }
-}
