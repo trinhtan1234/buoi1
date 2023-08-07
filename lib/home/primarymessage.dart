@@ -1,52 +1,172 @@
 import 'dart:async';
 import 'dart:convert';
 
-import 'package:buoi1/home/contact_model.dart';
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 
-Future<Album> fetchAblbum() async {
-  final response = await http
-      .get(Uri.parse('https://jsonplaceholder.typicode.com/albums/1'));
-  if (response.statusCode == 200) {
-    return Album.fromJson(jsonDecode(response.body));
-  } else {
-    throw Exception('Failed to load album');
+class DataJson {
+  String? code;
+  Null? message;
+  bool? success;
+  List<Result>? result;
+
+  DataJson({this.code, this.message, this.success, this.result});
+
+  factory DataJson.fromJson(Map<String, dynamic> json) {
+    return DataJson(
+      code: json['code'],
+      message: json['message'],
+      success: json['success'],
+      result: List<Result>.from(json['result'].map((x) => Result.fromJson(x))),
+    );
+  }
+}
+
+class Result {
+  int? key;
+  String? title;
+  String? code;
+  bool? canChangeOpacity;
+  String? type;
+  int? parentId;
+  String? geoType;
+  List<Children>? children;
+  bool? isCategory;
+
+  Result({
+    this.key,
+    this.title,
+    this.code,
+    this.canChangeOpacity,
+    this.type,
+    this.parentId,
+    this.geoType,
+    this.children,
+    this.isCategory,
+  });
+
+  factory Result.fromJson(Map<String, dynamic> json) {
+    return Result(
+      key: json['key'],
+      title: json['title'],
+      code: json['code'],
+      canChangeOpacity: json['canChangeOpacity'],
+      type: json['type'],
+      parentId: json['parentId'],
+      geoType: json['geoType'],
+      children: List<Children>.from(
+          json['children'].map((x) => Children.fromJson(x))),
+      isCategory: json['isCategory'],
+    );
+  }
+}
+
+class Children {
+  int? key;
+  String? title;
+  String? code;
+  bool? canChangeOpacity;
+  String? type;
+  int? parentId;
+  String? geoType;
+  List<Children>? children;
+  bool? isCategory;
+
+  Children({
+    this.key,
+    this.title,
+    this.code,
+    this.canChangeOpacity,
+    this.type,
+    this.parentId,
+    this.geoType,
+    this.children,
+    this.isCategory,
+  });
+
+  factory Children.fromJson(Map<String, dynamic> json) {
+    return Children(
+      key: json['key'],
+      title: json['title'],
+      code: json['code'],
+      canChangeOpacity: json['canChangeOpacity'],
+      type: json['type'],
+      parentId: json['parentId'],
+      geoType: json['geoType'],
+      children: json['children'] != null
+          ? List<Children>.from(
+              json['children'].map((x) => Children.fromJson(x)))
+          : null,
+      isCategory: json['isCategory'],
+    );
   }
 }
 
 class PrimaryMessage extends StatefulWidget {
-  const PrimaryMessage({super.key});
+  const PrimaryMessage({Key? key}) : super(key: key);
 
   @override
   State<PrimaryMessage> createState() => _PrimaryMessageState();
 }
 
 class _PrimaryMessageState extends State<PrimaryMessage> {
-  late Future<Album> futureAlbum;
+  late Future<DataJson> futureDataJson;
 
   @override
   void initState() {
     super.initState();
-    futureAlbum = fetchAblbum();
+    futureDataJson = fetchDataJson();
+  }
+
+  Future<DataJson> fetchDataJson() async {
+    final response = await http.get(Uri.parse(
+        'http://10.8.0.2:30579/api/layer/customer-datas/ban-do-dia-chinh'));
+    if (response.statusCode == 200) {
+      return DataJson.fromJson(jsonDecode(response.body));
+    } else {
+      throw Exception('Failed to load data');
+    }
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: FutureBuilder<Album>(
-          future: futureAlbum,
+        child: FutureBuilder<DataJson>(
+          future: futureDataJson,
           builder: (context, snapshot) {
-            if (snapshot.hasData) {
-              return Text(snapshot.data!.title);
+            if (snapshot.connectionState == ConnectionState.waiting) {
+              return CircularProgressIndicator();
             } else if (snapshot.hasError) {
-              return Text('${snapshot.error}');
+              return Text('Error: ${snapshot.error}');
+            } else if (snapshot.hasData) {
+              return ListView.builder(
+                itemCount: snapshot.data!.result!.length,
+                itemBuilder: (context, index) {
+                  return ListTile(
+                    title: Text('Key: ${snapshot.data!.result![index].key}'),
+                    subtitle: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text('Title: ${snapshot.data!.result![index].title}'),
+                        Text('Code: ${snapshot.data!.result![index].code}'),
+                      ],
+                    ),
+                  );
+                },
+              );
+            } else {
+              return Text('No data available');
             }
-            return CircularProgressIndicator();
           },
         ),
       ),
     );
   }
+}
+
+void main() {
+  runApp(MaterialApp(
+    home: PrimaryMessage(),
+  ));
 }

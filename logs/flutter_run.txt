@@ -1,75 +1,220 @@
-[21:33:39]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
-[21:33:39]: ..  in D:\Flutter\buoi1
-[21:33:39]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[21:33:39]: PID: 15068
-[21:33:41]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":7628}}]
-[21:33:41]: <== [{"event":"app.start","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","deviceId":"emulator-5554","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
-[21:33:41]: <== Launching lib\main.dart on sdk gphone x86 64 in debug mode...
-[21:33:42]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
-[21:34:05]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"0","progressId":null,"finished":true}}]
-[21:34:05]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
-[21:34:06]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
-[21:34:09]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"1","progressId":null,"finished":true}}]
-[21:34:16]: <== [{"event":"app.debugPort","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","port":52372,"wsUri":"ws://127.0.0.1:52372/lsI0xxaLnX4=/ws","baseUri":"file:///data/user/0/com.example.buoi1/code_cache/buoi1NJFTSO/buoi1/"}}]
-[21:34:16]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"2","progressId":null,"message":"Syncing files to device sdk gphone x86 64...","finished":false}}]
-[21:34:16]: <== I/m.example.buoi1( 4517): Compiler allocated 4533KB to compile void android.view.ViewRootImpl.performTraversals()
-[21:34:18]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"2","progressId":null,"finished":true}}]
-[21:34:18]: <== [{"event":"app.started","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea"}}]
-[21:34:22]: <== W/Parcel  ( 4517): Expecting binder but got null!
-[21:34:54]: <== D/EGL_emulation( 4517): app_time_stats: avg=11016.48ms min=45.16ms max=32678.78ms count=3
-[21:35:00]: <== D/EGL_emulation( 4517): app_time_stats: avg=340.28ms min=2.06ms max=4653.23ms count=14
-[21:36:08]: ==> [{"id":"1","method":"app.callServiceExtension","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","methodName":"ext.flutter.inspector.getSelectedSummaryWidget","params":{"previousSelectionId":null,"objectGroup":"my-group"}}}]
-[21:36:08]: <== [{"id":"1","result":{"result":{"description":"MyApp","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-1352","valueId":"inspector-3","locationId":1,"creationLocation":{"file":"file:///D:/Flutter/buoi1/lib/main.dart","line":5,"column":10,"name":"MyApp"},"createdByLocalProject":true,"children":[{"description":"MaterialApp","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-1353","valueId":"inspector-5","locationId":2,"creationLocation":{"file":"file:///D:/Flutter/buoi1/lib/main.dart","line":12,"column":18,"name":"MaterialApp"},"createdByLocalProject":true,"widgetRuntimeType":"MaterialApp","stateful":true}],"widgetRuntimeType":"MyApp","stateful":false},"type":"_extensionType","method":"ext.flutter.inspector.getSelectedSummaryWidget"}}]
-[21:36:08]: ==> [{"id":"2","method":"app.callServiceExtension","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","methodName":"ext.flutter.inspector.disposeGroup","params":{"objectGroup":"my-group"}}}]
-[21:36:08]: <== [{"id":"2","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.disposeGroup"}}]
-[22:08:35]: ==> [{"id":"3","method":"app.restart","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[22:08:35]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[22:08:35]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"4","progressId":null,"message":"Syncing files to device sdk gphone x86 64...","finished":false}}]
-[22:08:36]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"4","progressId":null,"finished":true}}]
-[22:08:38]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"3","progressId":"hot.reload","finished":true}}]
-[22:08:38]: <== Reloaded 0 libraries in 3.172ms (compile: 363 ms, reload: 0 ms, reassemble: 2048 ms).
-[22:08:38]: <== [{"id":"3","result":{"code":0,"message":"Reloaded 0 libraries"}}]
-[22:08:38]: <== D/EGL_emulation( 4517): app_time_stats: avg=252289.58ms min=2.56ms max=2017907.75ms count=8
-[22:11:26]: ==> [{"id":"4","method":"app.restart","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[22:11:26]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"5","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[22:11:26]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"6","progressId":null,"message":"Syncing files to device sdk gphone x86 64...","finished":false}}]
-[22:11:26]: lib/home/primarymessage.dart:34:20: Error: Too many positional arguments: 0 allowed, but 1 found.
-[22:11:26]: Try removing the extra positional arguments.
-    return Scaffold(jsonData == null
-                   ^
-/C:/src/flutter/packages/flutter/lib/src/material/scaffold.dart:1553:9: Context: Found this candidate, but the arguments don't match.
-  const Scaffold({
-        ^^^^^^^^
-[22:11:26]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"6","progressId":null,"finished":true}}]
-[22:11:26]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"5","progressId":"hot.reload","finished":true}}]
-[22:11:26]: <== [{"id":"4","result":{"code":1,"message":"DevFS synchronization failed"}}]
-[00:00:35]: ==> [{"id":"5","method":"app.restart","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[00:00:35]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"7","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:00:36]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"8","progressId":null,"message":"Syncing files to device sdk gphone x86 64...","finished":false}}]
-[00:00:36]: lib/home/primarymessage.dart:14:3: Error: Expected an identifier, but got '@'.
-[00:00:36]: Try inserting an identifier before '@'.
-  @override
-  ^
-[00:00:36]: lib/home/primarymessage.dart:13:11: Error: Expected ';' after this.
-[00:00:36]: var url = 
-          ^
-[00:00:38]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"8","progressId":null,"finished":true}}]
-[00:00:38]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"7","progressId":"hot.reload","finished":true}}]
-[00:00:38]: <== [{"id":"5","result":{"code":1,"message":"DevFS synchronization failed"}}]
-[00:11:16]: ==> [{"id":"6","method":"app.restart","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[00:11:16]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"9","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:11:16]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"10","progressId":null,"message":"Syncing files to device sdk gphone x86 64...","finished":false}}]
-[00:11:17]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"10","progressId":null,"finished":true}}]
-[00:11:21]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"9","progressId":"hot.reload","finished":true}}]
-[00:11:21]: <== [{"id":"6","result":{"code":1,"message":"hot reload failed to complete"}}]
-[00:11:28]: ==> [{"id":"7","method":"app.restart","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","fullRestart":true,"pause":true,"reason":"manual"}}]
-[00:11:28]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"11","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:11:28]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"12","progressId":null,"message":"Syncing files to device sdk gphone x86 64...","finished":false}}]
-[00:11:32]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"12","progressId":null,"finished":true}}]
-[00:11:35]: <== [{"event":"app.progress","params":{"appId":"587fbe08-4395-4ef1-bed5-72854238aeea","id":"11","progressId":"hot.restart","finished":true}}]
-[00:11:35]: <== Restarted application in 6.787ms.
-[00:11:35]: <== [{"id":"7","result":{"code":0,"message":""}}]
-[00:11:40]: <== D/EGL_emulation( 4517): app_time_stats: avg=4949712.00ms min=4949712.00ms max=4949712.00ms count=1
-[00:11:42]: <== D/EGL_emulation( 4517): app_time_stats: avg=1400.68ms min=61.33ms max=2740.04ms count=2
-[00:11:43]: <== D/EGL_emulation( 4517): app_time_stats: avg=35.96ms min=7.43ms max=373.08ms count=26
-[00:11:44]: <== D/EGL_emulation( 4517): app_time_stats: avg=19.74ms min=5.38ms max=98.52ms count=44
+[12:17:59]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","chrome","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
+[12:17:59]: ..  in D:\Flutter\buoi1
+[12:17:59]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[12:17:59]: PID: 25288
+[12:18:00]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":5368}}]
+[12:18:00]: <== [{"event":"app.start","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","deviceId":"chrome","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
+[12:18:00]: <== Launching lib\main.dart on Chrome in debug mode...
+[12:18:01]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"0","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[12:18:24]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"0","progressId":null,"finished":true}}]
+[12:18:24]: <== [{"event":"app.webLaunchUrl","params":{"url":"http://localhost:63669","launched":true}}]
+[12:18:30]: <== This app is linked to the debug service: ws://127.0.0.1:63761/BsLYjfn7r3o=/ws
+[12:18:30]: <== Debug service listening on ws://127.0.0.1:63761/BsLYjfn7r3o=/ws
+[12:18:30]: <== [{"event":"app.started","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c"}}]
+[12:18:30]: <== [{"event":"app.debugPort","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","port":63761,"wsUri":"ws://127.0.0.1:63761/BsLYjfn7r3o=/ws"}}]
+[13:10:10]: ==> [{"id":"1","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[13:10:10]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"1","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[13:10:10]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"2","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[13:10:11]: lib/home/primarymessage.dart:7:8: Error: Type 'dataJson' not found.
+Future<dataJson> fetchAblbum() async {
+       ^^^^^^^^
+[13:10:11]: lib/home/primarymessage.dart:25:15: Error: Type 'dataJson' not found.
+  late Future<dataJson> futureAlbum;
+              ^^^^^^^^
+[13:10:11]: lib/home/primarymessage.dart:11:12: Error: Undefined name 'dataJson'.
+[13:10:11]: return dataJson.fromJson(jsonDecode(response.body));
+           ^^^^^^^^
+[13:10:11]: lib/home/primarymessage.dart:25:15: Error: 'dataJson' isn't a type.
+[13:10:11]: late Future<dataJson> futureAlbum;
+              ^^^^^^^^
+[13:10:11]: lib/home/primarymessage.dart:37:30: Error: 'dataJson' isn't a type.
+[13:10:11]: child: FutureBuilder<dataJson>(
+                             ^^^^^^^^
+[13:10:11]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"2","progressId":null,"finished":true}}]
+[13:10:11]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"1","progressId":"hot.restart","finished":true}}]
+[13:10:11]: <== [{"id":"1","result":{"code":1,"message":"Failed to recompile application."}}]
+[13:14:29]: ==> [{"id":"2","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[13:14:29]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"3","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[13:14:29]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"4","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[13:14:29]: lib/home/primarymessage.dart:7:8: Error: Type 'dataJson' not found.
+[13:14:29]: Future<dataJson> fetchAblbum() async {
+       ^^^^^^^^
+lib/home/primarymessage.dart:25:15: Error: Type 'dataJson' not found.
+  late Future<dataJson> futureAlbum;
+              ^^^^^^^^
+[13:14:29]: lib/home/primarymessage.dart:11:12: Error: Undefined name 'dataJson'.
+[13:14:29]: return dataJson.fromJson(jsonDecode(response.body));
+           ^^^^^^^^
+[13:14:29]: lib/home/primarymessage.dart:25:15: Error: 'dataJson' isn't a type.
+[13:14:29]: late Future<dataJson> futureAlbum;
+              ^^^^^^^^
+[13:14:29]: lib/home/primarymessage.dart:37:30: Error: 'dataJson' isn't a type.
+[13:14:29]: child: FutureBuilder<dataJson>(
+                             ^^^^^^^^
+[13:14:29]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"4","progressId":null,"finished":true}}]
+[13:14:29]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"3","progressId":"hot.restart","finished":true}}]
+[13:14:29]: <== [{"id":"2","result":{"code":1,"message":"Failed to recompile application."}}]
+[13:25:26]: ==> [{"id":"3","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[13:25:26]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"5","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[13:25:26]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"6","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[13:25:27]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"6","progressId":null,"finished":true}}]
+[13:25:30]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"5","progressId":"hot.restart","finished":true}}]
+[13:25:30]: <== Restarted application in 3.610ms.
+[13:25:30]: <== [{"id":"3","result":{"code":0,"message":""}}]
+[13:25:37]: ==> [{"id":"4","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[13:25:37]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"7","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[13:25:37]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"8","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[13:25:37]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"8","progressId":null,"finished":true}}]
+[13:25:37]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"7","progressId":"hot.restart","finished":true}}]
+[13:25:37]: <== Restarted application in 295ms.
+[13:25:38]: <== [{"id":"4","result":{"code":0,"message":""}}]
+[13:25:50]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+[13:25:50]: <== The following assertion was thrown during layout:
+[13:25:50]: <== A RenderFlex overflowed by 3.0 pixels on the bottom.
+[13:25:50]: <== The relevant error-causing widget was:
+[13:25:50]: <==   Column Column:file:///D:/Flutter/buoi1/lib/home/home.dart:19:18
+[13:25:50]: <== To inspect this widget in Flutter DevTools, visit:
+[13:25:50]: <== http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A63761%2FBsLYjfn7r3o%3D&inspectorRef=inspector-0
+[13:25:50]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
+[13:25:50]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+[13:25:50]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+[13:25:50]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+[13:25:50]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
+[13:25:50]: <== This is considered an error condition because it indicates that there is content that cannot be
+[13:25:50]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
+[13:25:50]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+[13:25:50]: <== like a ListView.
+[13:25:50]: <== The specific RenderFlex in question is: RenderFlex#6f4ca relayoutBoundary=up3 OVERFLOWING:
+[13:25:50]: <==   needs compositing
+[13:25:50]: <==   creator: Column ← SizedBox ← _TabControllerScope ← DefaultTabController ← MyHome ← Center ←
+[13:25:50]: <==     KeyedSubtree-[GlobalKey#bc972] ← _BodyBuilder ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
+[13:25:50]: <==     CustomMultiChildLayout ← _ActionsScope ← ⋯
+[13:25:50]: <==   parentData: <none> (can use size)
+[13:25:50]: <==   constraints: BoxConstraints(0.0<=w<=500.0, 0.0<=h<=592.0)
+[13:25:50]: <==   size: Size(500.0, 592.0)
+[13:25:50]: <==   direction: vertical
+[13:25:50]: <==   mainAxisAlignment: start
+[13:25:50]: <==   mainAxisSize: max
+[13:25:50]: <==   crossAxisAlignment: center
+[13:25:50]: <==   verticalDirection: down
+[13:25:50]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+[13:25:50]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[13:27:16]: ==> [{"id":"5","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[13:27:16]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"9","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[13:27:16]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"10","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[13:27:16]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"10","progressId":null,"finished":true}}]
+[13:27:17]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"9","progressId":"hot.restart","finished":true}}]
+[13:27:17]: <== Restarted application in 554ms.
+[13:27:17]: <== [{"id":"5","result":{"code":0,"message":""}}]
+[13:27:20]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+[13:27:20]: <== The following assertion was thrown during layout:
+[13:27:20]: <== A RenderFlex overflowed by 3.0 pixels on the bottom.
+[13:27:20]: <== The relevant error-causing widget was:
+[13:27:20]: <==   Column Column:file:///D:/Flutter/buoi1/lib/home/home.dart:19:18
+[13:27:20]: <== To inspect this widget in Flutter DevTools, visit:
+[13:27:20]: <== http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A63761%2FBsLYjfn7r3o%3D&inspectorRef=inspector-0
+[13:27:20]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
+[13:27:20]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+[13:27:20]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+[13:27:20]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+[13:27:20]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
+[13:27:20]: <== This is considered an error condition because it indicates that there is content that cannot be
+[13:27:20]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
+[13:27:20]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+[13:27:20]: <== like a ListView.
+[13:27:20]: <== The specific RenderFlex in question is: RenderFlex#79fa1 relayoutBoundary=up3 OVERFLOWING:
+[13:27:20]: <==   needs compositing
+[13:27:20]: <==   creator: Column ← SizedBox ← _TabControllerScope ← DefaultTabController ← MyHome ← Center ←
+[13:27:20]: <==     KeyedSubtree-[GlobalKey#a8bfd] ← _BodyBuilder ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
+[13:27:20]: <==     CustomMultiChildLayout ← _ActionsScope ← ⋯
+[13:27:20]: <==   parentData: <none> (can use size)
+[13:27:20]: <==   constraints: BoxConstraints(0.0<=w<=500.0, 0.0<=h<=592.0)
+[13:27:20]: <==   size: Size(500.0, 592.0)
+[13:27:20]: <==   direction: vertical
+[13:27:20]: <==   mainAxisAlignment: start
+[13:27:20]: <==   mainAxisSize: max
+[13:27:20]: <==   crossAxisAlignment: center
+[13:27:20]: <==   verticalDirection: down
+[13:27:20]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+[13:27:20]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[13:29:20]: ==> [{"id":"6","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[13:29:20]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"11","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[13:29:20]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"12","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[13:29:21]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"12","progressId":null,"finished":true}}]
+[13:29:23]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"11","progressId":"hot.restart","finished":true}}]
+[13:29:23]: <== Restarted application in 2.766ms.
+[13:29:23]: <== [{"id":"6","result":{"code":0,"message":""}}]
+[13:29:28]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+[13:29:28]: <== The following assertion was thrown during layout:
+[13:29:28]: <== A RenderFlex overflowed by 4.0 pixels on the bottom.
+[13:29:28]: <== The relevant error-causing widget was:
+[13:29:28]: <==   Column Column:file:///D:/Flutter/buoi1/lib/home/home.dart:19:18
+[13:29:28]: <== To inspect this widget in Flutter DevTools, visit:
+[13:29:28]: <== http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A63761%2FBsLYjfn7r3o%3D&inspectorRef=inspector-0
+[13:29:28]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
+[13:29:28]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+[13:29:28]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+[13:29:28]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+[13:29:28]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
+[13:29:28]: <== This is considered an error condition because it indicates that there is content that cannot be
+[13:29:28]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
+[13:29:28]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+[13:29:28]: <== like a ListView.
+[13:29:28]: <== The specific RenderFlex in question is: RenderFlex#7760e relayoutBoundary=up3 OVERFLOWING:
+[13:29:28]: <==   needs compositing
+[13:29:28]: <==   creator: Column ← SizedBox ← _TabControllerScope ← DefaultTabController ← MyHome ← Center ←
+[13:29:28]: <==     KeyedSubtree-[GlobalKey#37472] ← _BodyBuilder ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
+[13:29:28]: <==     CustomMultiChildLayout ← _ActionsScope ← ⋯
+[13:29:28]: <==   parentData: <none> (can use size)
+[13:29:28]: <==   constraints: BoxConstraints(0.0<=w<=502.0, 0.0<=h<=591.0)
+[13:29:28]: <==   size: Size(502.0, 591.0)
+[13:29:28]: <==   direction: vertical
+[13:29:28]: <==   mainAxisAlignment: start
+[13:29:28]: <==   mainAxisSize: max
+[13:29:28]: <==   crossAxisAlignment: center
+[13:29:28]: <==   verticalDirection: down
+[13:29:28]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+[13:29:28]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[13:29:49]: <== Another exception was thrown: A RenderFlex overflowed by 4.0 pixels on the bottom.
+[13:29:59]: ==> [{"id":"7","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[13:29:59]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"13","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[13:29:59]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"14","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[13:29:59]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"14","progressId":null,"finished":true}}]
+[13:30:00]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"13","progressId":"hot.restart","finished":true}}]
+[13:30:00]: <== Restarted application in 428ms.
+[13:30:00]: <== [{"id":"7","result":{"code":0,"message":""}}]
+[13:30:02]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+[13:30:02]: <== The following assertion was thrown during layout:
+[13:30:02]: <== A RenderFlex overflowed by 4.0 pixels on the bottom.
+[13:30:02]: <== The relevant error-causing widget was:
+[13:30:02]: <==   Column Column:file:///D:/Flutter/buoi1/lib/home/home.dart:19:18
+[13:30:02]: <== To inspect this widget in Flutter DevTools, visit:
+[13:30:02]: <== http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A63761%2FBsLYjfn7r3o%3D&inspectorRef=inspector-0
+[13:30:02]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
+[13:30:02]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+[13:30:02]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+[13:30:02]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+[13:30:02]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
+[13:30:02]: <== This is considered an error condition because it indicates that there is content that cannot be
+[13:30:02]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
+[13:30:02]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+[13:30:02]: <== like a ListView.
+[13:30:02]: <== The specific RenderFlex in question is: RenderFlex#c6fb1 relayoutBoundary=up3 OVERFLOWING:
+[13:30:02]: <==   needs compositing
+[13:30:02]: <==   creator: Column ← SizedBox ← _TabControllerScope ← DefaultTabController ← MyHome ← Center ←
+[13:30:02]: <==     KeyedSubtree-[GlobalKey#bfad9] ← _BodyBuilder ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
+[13:30:02]: <==     CustomMultiChildLayout ← _ActionsScope ← ⋯
+[13:30:02]: <==   parentData: <none> (can use size)
+[13:30:02]: <==   constraints: BoxConstraints(0.0<=w<=502.0, 0.0<=h<=591.0)
+[13:30:02]: <==   size: Size(502.0, 591.0)
+[13:30:02]: <==   direction: vertical
+[13:30:02]: <==   mainAxisAlignment: start
+[13:30:02]: <==   mainAxisSize: max
+[13:30:02]: <==   crossAxisAlignment: center
+[13:30:02]: <==   verticalDirection: down
+[13:30:02]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+[13:30:02]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[13:30:32]: <== Another exception was thrown: A RenderFlex overflowed by 4.0 pixels on the bottom.
+[13:30:37]: <== Another exception was thrown: A RenderFlex overflowed by 4.0 pixels on the bottom.
+[13:31:00]: <== Application finished.
+[13:31:00]: <== [{"event":"app.stop","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c"}}]
