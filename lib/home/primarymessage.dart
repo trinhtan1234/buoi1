@@ -6,7 +6,7 @@ import 'package:http/http.dart' as http;
 
 class DataJson {
   String? code;
-  Null? message;
+  Null message;
   bool? success;
   List<Result>? result;
 
@@ -131,7 +131,8 @@ class _PrimaryMessageState extends State<PrimaryMessage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
+      body: Container(
+        padding: EdgeInsets.all(5),
         child: FutureBuilder<DataJson>(
           future: futureDataJson,
           builder: (context, snapshot) {
@@ -144,11 +145,22 @@ class _PrimaryMessageState extends State<PrimaryMessage> {
                 itemCount: snapshot.data!.result!.length,
                 itemBuilder: (context, index) {
                   return ListTile(
-                    title: Text('Key: ${snapshot.data!.result![index].key}'),
+                    title: Text(
+                      'Key: ${snapshot.data!.result![index].key}',
+                      style: TextStyle(
+                        fontSize: 20,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
                     subtitle: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text('Title: ${snapshot.data!.result![index].title}'),
+                        Text(
+                          'Title: ${snapshot.data!.result![index].title}',
+                          style: TextStyle(
+                            fontSize: 15,
+                          ),
+                        ),
                         Text('Code: ${snapshot.data!.result![index].code}'),
                       ],
                     ),
@@ -163,10 +175,4 @@ class _PrimaryMessageState extends State<PrimaryMessage> {
       ),
     );
   }
-}
-
-void main() {
-  runApp(MaterialApp(
-    home: PrimaryMessage(),
-  ));
 }

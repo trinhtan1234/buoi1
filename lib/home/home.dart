@@ -41,7 +41,7 @@ class _MyHomeState extends State<MyHome> {
               ),
             ),
             SizedBox(
-              height: 595,
+              height: 670,
               child: TabBarView(
                 children: [
                   Center(child: PrimaryMessage()),
