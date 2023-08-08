@@ -1,220 +1,242 @@
-[12:17:59]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","chrome","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
-[12:17:59]: ..  in D:\Flutter\buoi1
-[12:17:59]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[12:17:59]: PID: 25288
-[12:18:00]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":5368}}]
-[12:18:00]: <== [{"event":"app.start","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","deviceId":"chrome","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
-[12:18:00]: <== Launching lib\main.dart on Chrome in debug mode...
-[12:18:01]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"0","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[12:18:24]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"0","progressId":null,"finished":true}}]
-[12:18:24]: <== [{"event":"app.webLaunchUrl","params":{"url":"http://localhost:63669","launched":true}}]
-[12:18:30]: <== This app is linked to the debug service: ws://127.0.0.1:63761/BsLYjfn7r3o=/ws
-[12:18:30]: <== Debug service listening on ws://127.0.0.1:63761/BsLYjfn7r3o=/ws
-[12:18:30]: <== [{"event":"app.started","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c"}}]
-[12:18:30]: <== [{"event":"app.debugPort","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","port":63761,"wsUri":"ws://127.0.0.1:63761/BsLYjfn7r3o=/ws"}}]
-[13:10:10]: ==> [{"id":"1","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[13:10:10]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"1","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[13:10:10]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"2","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[13:10:11]: lib/home/primarymessage.dart:7:8: Error: Type 'dataJson' not found.
-Future<dataJson> fetchAblbum() async {
-       ^^^^^^^^
-[13:10:11]: lib/home/primarymessage.dart:25:15: Error: Type 'dataJson' not found.
-  late Future<dataJson> futureAlbum;
-              ^^^^^^^^
-[13:10:11]: lib/home/primarymessage.dart:11:12: Error: Undefined name 'dataJson'.
-[13:10:11]: return dataJson.fromJson(jsonDecode(response.body));
-           ^^^^^^^^
-[13:10:11]: lib/home/primarymessage.dart:25:15: Error: 'dataJson' isn't a type.
-[13:10:11]: late Future<dataJson> futureAlbum;
-              ^^^^^^^^
-[13:10:11]: lib/home/primarymessage.dart:37:30: Error: 'dataJson' isn't a type.
-[13:10:11]: child: FutureBuilder<dataJson>(
-                             ^^^^^^^^
-[13:10:11]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"2","progressId":null,"finished":true}}]
-[13:10:11]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"1","progressId":"hot.restart","finished":true}}]
-[13:10:11]: <== [{"id":"1","result":{"code":1,"message":"Failed to recompile application."}}]
-[13:14:29]: ==> [{"id":"2","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[13:14:29]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"3","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[13:14:29]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"4","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[13:14:29]: lib/home/primarymessage.dart:7:8: Error: Type 'dataJson' not found.
-[13:14:29]: Future<dataJson> fetchAblbum() async {
-       ^^^^^^^^
-lib/home/primarymessage.dart:25:15: Error: Type 'dataJson' not found.
-  late Future<dataJson> futureAlbum;
-              ^^^^^^^^
-[13:14:29]: lib/home/primarymessage.dart:11:12: Error: Undefined name 'dataJson'.
-[13:14:29]: return dataJson.fromJson(jsonDecode(response.body));
-           ^^^^^^^^
-[13:14:29]: lib/home/primarymessage.dart:25:15: Error: 'dataJson' isn't a type.
-[13:14:29]: late Future<dataJson> futureAlbum;
-              ^^^^^^^^
-[13:14:29]: lib/home/primarymessage.dart:37:30: Error: 'dataJson' isn't a type.
-[13:14:29]: child: FutureBuilder<dataJson>(
-                             ^^^^^^^^
-[13:14:29]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"4","progressId":null,"finished":true}}]
-[13:14:29]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"3","progressId":"hot.restart","finished":true}}]
-[13:14:29]: <== [{"id":"2","result":{"code":1,"message":"Failed to recompile application."}}]
-[13:25:26]: ==> [{"id":"3","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[13:25:26]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"5","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[13:25:26]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"6","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[13:25:27]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"6","progressId":null,"finished":true}}]
-[13:25:30]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"5","progressId":"hot.restart","finished":true}}]
-[13:25:30]: <== Restarted application in 3.610ms.
-[13:25:30]: <== [{"id":"3","result":{"code":0,"message":""}}]
-[13:25:37]: ==> [{"id":"4","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[13:25:37]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"7","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[13:25:37]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"8","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[13:25:37]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"8","progressId":null,"finished":true}}]
-[13:25:37]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"7","progressId":"hot.restart","finished":true}}]
-[13:25:37]: <== Restarted application in 295ms.
-[13:25:38]: <== [{"id":"4","result":{"code":0,"message":""}}]
-[13:25:50]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[13:25:50]: <== The following assertion was thrown during layout:
-[13:25:50]: <== A RenderFlex overflowed by 3.0 pixels on the bottom.
-[13:25:50]: <== The relevant error-causing widget was:
-[13:25:50]: <==   Column Column:file:///D:/Flutter/buoi1/lib/home/home.dart:19:18
-[13:25:50]: <== To inspect this widget in Flutter DevTools, visit:
-[13:25:50]: <== http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A63761%2FBsLYjfn7r3o%3D&inspectorRef=inspector-0
-[13:25:50]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
-[13:25:50]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[13:25:50]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[13:25:50]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[13:25:50]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[13:25:50]: <== This is considered an error condition because it indicates that there is content that cannot be
-[13:25:50]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[13:25:50]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[13:25:50]: <== like a ListView.
-[13:25:50]: <== The specific RenderFlex in question is: RenderFlex#6f4ca relayoutBoundary=up3 OVERFLOWING:
-[13:25:50]: <==   needs compositing
-[13:25:50]: <==   creator: Column ← SizedBox ← _TabControllerScope ← DefaultTabController ← MyHome ← Center ←
-[13:25:50]: <==     KeyedSubtree-[GlobalKey#bc972] ← _BodyBuilder ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
-[13:25:50]: <==     CustomMultiChildLayout ← _ActionsScope ← ⋯
-[13:25:50]: <==   parentData: <none> (can use size)
-[13:25:50]: <==   constraints: BoxConstraints(0.0<=w<=500.0, 0.0<=h<=592.0)
-[13:25:50]: <==   size: Size(500.0, 592.0)
-[13:25:50]: <==   direction: vertical
-[13:25:50]: <==   mainAxisAlignment: start
-[13:25:50]: <==   mainAxisSize: max
-[13:25:50]: <==   crossAxisAlignment: center
-[13:25:50]: <==   verticalDirection: down
-[13:25:50]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[13:25:50]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[13:27:16]: ==> [{"id":"5","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[13:27:16]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"9","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[13:27:16]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"10","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[13:27:16]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"10","progressId":null,"finished":true}}]
-[13:27:17]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"9","progressId":"hot.restart","finished":true}}]
-[13:27:17]: <== Restarted application in 554ms.
-[13:27:17]: <== [{"id":"5","result":{"code":0,"message":""}}]
-[13:27:20]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[13:27:20]: <== The following assertion was thrown during layout:
-[13:27:20]: <== A RenderFlex overflowed by 3.0 pixels on the bottom.
-[13:27:20]: <== The relevant error-causing widget was:
-[13:27:20]: <==   Column Column:file:///D:/Flutter/buoi1/lib/home/home.dart:19:18
-[13:27:20]: <== To inspect this widget in Flutter DevTools, visit:
-[13:27:20]: <== http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A63761%2FBsLYjfn7r3o%3D&inspectorRef=inspector-0
-[13:27:20]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
-[13:27:20]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[13:27:20]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[13:27:20]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[13:27:20]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[13:27:20]: <== This is considered an error condition because it indicates that there is content that cannot be
-[13:27:20]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[13:27:20]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[13:27:20]: <== like a ListView.
-[13:27:20]: <== The specific RenderFlex in question is: RenderFlex#79fa1 relayoutBoundary=up3 OVERFLOWING:
-[13:27:20]: <==   needs compositing
-[13:27:20]: <==   creator: Column ← SizedBox ← _TabControllerScope ← DefaultTabController ← MyHome ← Center ←
-[13:27:20]: <==     KeyedSubtree-[GlobalKey#a8bfd] ← _BodyBuilder ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
-[13:27:20]: <==     CustomMultiChildLayout ← _ActionsScope ← ⋯
-[13:27:20]: <==   parentData: <none> (can use size)
-[13:27:20]: <==   constraints: BoxConstraints(0.0<=w<=500.0, 0.0<=h<=592.0)
-[13:27:20]: <==   size: Size(500.0, 592.0)
-[13:27:20]: <==   direction: vertical
-[13:27:20]: <==   mainAxisAlignment: start
-[13:27:20]: <==   mainAxisSize: max
-[13:27:20]: <==   crossAxisAlignment: center
-[13:27:20]: <==   verticalDirection: down
-[13:27:20]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[13:27:20]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[13:29:20]: ==> [{"id":"6","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[13:29:20]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"11","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[13:29:20]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"12","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[13:29:21]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"12","progressId":null,"finished":true}}]
-[13:29:23]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"11","progressId":"hot.restart","finished":true}}]
-[13:29:23]: <== Restarted application in 2.766ms.
-[13:29:23]: <== [{"id":"6","result":{"code":0,"message":""}}]
-[13:29:28]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[13:29:28]: <== The following assertion was thrown during layout:
-[13:29:28]: <== A RenderFlex overflowed by 4.0 pixels on the bottom.
-[13:29:28]: <== The relevant error-causing widget was:
-[13:29:28]: <==   Column Column:file:///D:/Flutter/buoi1/lib/home/home.dart:19:18
-[13:29:28]: <== To inspect this widget in Flutter DevTools, visit:
-[13:29:28]: <== http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A63761%2FBsLYjfn7r3o%3D&inspectorRef=inspector-0
-[13:29:28]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
-[13:29:28]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[13:29:28]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[13:29:28]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[13:29:28]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[13:29:28]: <== This is considered an error condition because it indicates that there is content that cannot be
-[13:29:28]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[13:29:28]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[13:29:28]: <== like a ListView.
-[13:29:28]: <== The specific RenderFlex in question is: RenderFlex#7760e relayoutBoundary=up3 OVERFLOWING:
-[13:29:28]: <==   needs compositing
-[13:29:28]: <==   creator: Column ← SizedBox ← _TabControllerScope ← DefaultTabController ← MyHome ← Center ←
-[13:29:28]: <==     KeyedSubtree-[GlobalKey#37472] ← _BodyBuilder ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
-[13:29:28]: <==     CustomMultiChildLayout ← _ActionsScope ← ⋯
-[13:29:28]: <==   parentData: <none> (can use size)
-[13:29:28]: <==   constraints: BoxConstraints(0.0<=w<=502.0, 0.0<=h<=591.0)
-[13:29:28]: <==   size: Size(502.0, 591.0)
-[13:29:28]: <==   direction: vertical
-[13:29:28]: <==   mainAxisAlignment: start
-[13:29:28]: <==   mainAxisSize: max
-[13:29:28]: <==   crossAxisAlignment: center
-[13:29:28]: <==   verticalDirection: down
-[13:29:28]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[13:29:28]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[13:29:49]: <== Another exception was thrown: A RenderFlex overflowed by 4.0 pixels on the bottom.
-[13:29:59]: ==> [{"id":"7","method":"app.restart","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[13:29:59]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"13","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[13:29:59]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"14","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[13:29:59]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"14","progressId":null,"finished":true}}]
-[13:30:00]: <== [{"event":"app.progress","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c","id":"13","progressId":"hot.restart","finished":true}}]
-[13:30:00]: <== Restarted application in 428ms.
-[13:30:00]: <== [{"id":"7","result":{"code":0,"message":""}}]
-[13:30:02]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[13:30:02]: <== The following assertion was thrown during layout:
-[13:30:02]: <== A RenderFlex overflowed by 4.0 pixels on the bottom.
-[13:30:02]: <== The relevant error-causing widget was:
-[13:30:02]: <==   Column Column:file:///D:/Flutter/buoi1/lib/home/home.dart:19:18
-[13:30:02]: <== To inspect this widget in Flutter DevTools, visit:
-[13:30:02]: <== http://127.0.0.1:9100/#/inspector?uri=http%3A%2F%2F127.0.0.1%3A63761%2FBsLYjfn7r3o%3D&inspectorRef=inspector-0
-[13:30:02]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
-[13:30:02]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[13:30:02]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[13:30:02]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[13:30:02]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[13:30:02]: <== This is considered an error condition because it indicates that there is content that cannot be
-[13:30:02]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[13:30:02]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[13:30:02]: <== like a ListView.
-[13:30:02]: <== The specific RenderFlex in question is: RenderFlex#c6fb1 relayoutBoundary=up3 OVERFLOWING:
-[13:30:02]: <==   needs compositing
-[13:30:02]: <==   creator: Column ← SizedBox ← _TabControllerScope ← DefaultTabController ← MyHome ← Center ←
-[13:30:02]: <==     KeyedSubtree-[GlobalKey#bfad9] ← _BodyBuilder ← MediaQuery ← LayoutId-[<_ScaffoldSlot.body>] ←
-[13:30:02]: <==     CustomMultiChildLayout ← _ActionsScope ← ⋯
-[13:30:02]: <==   parentData: <none> (can use size)
-[13:30:02]: <==   constraints: BoxConstraints(0.0<=w<=502.0, 0.0<=h<=591.0)
-[13:30:02]: <==   size: Size(502.0, 591.0)
-[13:30:02]: <==   direction: vertical
-[13:30:02]: <==   mainAxisAlignment: start
-[13:30:02]: <==   mainAxisSize: max
-[13:30:02]: <==   crossAxisAlignment: center
-[13:30:02]: <==   verticalDirection: down
-[13:30:02]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[13:30:02]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[13:30:32]: <== Another exception was thrown: A RenderFlex overflowed by 4.0 pixels on the bottom.
-[13:30:37]: <== Another exception was thrown: A RenderFlex overflowed by 4.0 pixels on the bottom.
-[13:31:00]: <== Application finished.
-[13:31:00]: <== [{"event":"app.stop","params":{"appId":"a84ae78d-46bb-4838-a991-6c977ff2201c"}}]
+[14:53:00]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","chrome","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
+[14:53:00]: ..  in D:\Flutter\buoi1
+[14:53:00]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[14:53:00]: PID: 15788
+[14:53:01]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":22760}}]
+[14:53:01]: <== [{"event":"app.start","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","deviceId":"chrome","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
+[14:53:01]: <== Launching lib\main.dart on Chrome in debug mode...
+[14:53:02]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"0","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[14:53:22]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"0","progressId":null,"finished":true}}]
+[14:53:24]: <== [{"event":"app.webLaunchUrl","params":{"url":"http://localhost:52487","launched":true}}]
+[14:53:28]: <== This app is linked to the debug service: ws://127.0.0.1:52536/ceRIZXq5_do=/ws
+[14:53:28]: <== Debug service listening on ws://127.0.0.1:52536/ceRIZXq5_do=/ws
+[14:53:28]: <== [{"event":"app.started","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324"}}]
+[14:53:28]: <== [{"event":"app.debugPort","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","port":52536,"wsUri":"ws://127.0.0.1:52536/ceRIZXq5_do=/ws"}}]
+[14:57:27]: ==> [{"id":"1","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:57:27]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"1","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[14:57:27]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"2","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[14:57:27]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"2","progressId":null,"finished":true}}]
+[14:57:27]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"1","progressId":"hot.restart","finished":true}}]
+[14:57:27]: <== Restarted application in 181ms.
+[14:57:27]: <== [{"id":"1","result":{"code":0,"message":""}}]
+[14:57:31]: ==> [{"id":"2","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:57:31]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"3","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[14:57:31]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"4","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[14:57:31]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"4","progressId":null,"finished":true}}]
+[14:57:31]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"3","progressId":"hot.restart","finished":true}}]
+[14:57:31]: <== Restarted application in 264ms.
+[14:57:31]: <== [{"id":"2","result":{"code":0,"message":""}}]
+[14:57:33]: ==> [{"id":"3","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:57:33]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"5","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[14:57:33]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"6","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[14:57:33]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"6","progressId":null,"finished":true}}]
+[14:57:36]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"5","progressId":"hot.restart","finished":true}}]
+[14:57:36]: <== Restarted application in 2.938ms.
+[14:57:36]: <== [{"id":"3","result":{"code":0,"message":""}}]
+[15:00:29]: ==> [{"id":"4","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[15:00:29]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"7","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[15:00:29]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"8","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[15:00:29]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"8","progressId":null,"finished":true}}]
+[15:00:30]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"7","progressId":"hot.restart","finished":true}}]
+[15:00:30]: <== Restarted application in 503ms.
+[15:00:30]: <== [{"id":"4","result":{"code":0,"message":""}}]
+[15:17:37]: ==> [{"id":"5","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[15:17:37]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"9","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[15:17:37]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"10","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[15:17:38]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"10","progressId":null,"finished":true}}]
+[15:17:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"9","progressId":"hot.restart","finished":true}}]
+[15:17:42]: <== Restarted application in 4.176ms.
+[15:17:42]: <== [{"id":"5","result":{"code":0,"message":""}}]
+[15:18:06]: ==> [{"id":"6","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[15:18:06]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"11","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[15:18:06]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"12","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[15:18:06]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"12","progressId":null,"finished":true}}]
+[15:18:09]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"11","progressId":"hot.restart","finished":true}}]
+[15:18:09]: <== Restarted application in 3.052ms.
+[15:18:09]: <== [{"id":"6","result":{"code":0,"message":""}}]
+[15:18:18]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
+[15:18:18]: <== The following assertion was thrown during layout:
+[15:18:18]: <== A RenderFlex overflowed by 200 pixels on the right.
+[15:18:18]: <== The relevant error-causing widget was:
+[15:18:18]: <==   Row Row:file:///D:/Flutter/buoi1/lib/khampha/khampha.dart:40:18
+[15:18:18]: <== The overflowing RenderFlex has an orientation of Axis.horizontal.
+[15:18:18]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
+[15:18:18]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
+[15:18:18]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
+[15:18:18]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
+[15:18:18]: <== This is considered an error condition because it indicates that there is content that cannot be
+[15:18:18]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
+[15:18:18]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
+[15:18:18]: <== like a ListView.
+[15:18:18]: <== The specific RenderFlex in question is: RenderFlex#df566 relayoutBoundary=up1 OVERFLOWING:
+[15:18:18]: <==   creator: Row ← Container ← Column ← KhamPha ← Semantics ← Builder ←
+[15:18:18]: <==     RepaintBoundary-[GlobalKey#28cc0] ← IgnorePointer ← AnimatedBuilder ← SnapshotWidget ←
+[15:18:18]: <==     _ZoomExitTransition ← SnapshotWidget ← ⋯
+[15:18:18]: <==   parentData: offset=Offset(0.0, 0.0); flex=null; fit=null (can use size)
+[15:18:18]: <==   constraints: BoxConstraints(0.0<=w<=500.0, 0.0<=h<=Infinity)
+[15:18:18]: <==   size: Size(500.0, 700.0)
+[15:18:18]: <==   direction: horizontal
+[15:18:18]: <==   mainAxisAlignment: start
+[15:18:18]: <==   mainAxisSize: max
+[15:18:18]: <==   crossAxisAlignment: center
+[15:18:18]: <==   textDirection: ltr
+[15:18:18]: <==   verticalDirection: down
+[15:18:18]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
+[15:18:18]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[15:18:18]: <== Another exception was thrown: A RenderFlex overflowed by 49 pixels on the bottom.
+[15:18:42]: ==> [{"id":"7","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[15:18:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"13","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[15:18:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"14","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[15:18:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"14","progressId":null,"finished":true}}]
+[15:18:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"13","progressId":"hot.restart","finished":true}}]
+[15:18:42]: <== Restarted application in 234ms.
+[15:18:42]: <== [{"id":"7","result":{"code":0,"message":""}}]
+[15:19:08]: ==> [{"id":"8","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[15:19:08]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"15","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[15:19:08]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"16","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[15:19:08]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"16","progressId":null,"finished":true}}]
+[15:19:09]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"15","progressId":"hot.restart","finished":true}}]
+[15:19:09]: <== Restarted application in 288ms.
+[15:19:09]: <== [{"id":"8","result":{"code":0,"message":""}}]
+[15:27:54]: ==> [{"id":"9","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[15:27:54]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"17","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[15:27:54]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"18","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[15:27:54]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"18","progressId":null,"finished":true}}]
+[15:27:56]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"17","progressId":"hot.restart","finished":true}}]
+[15:27:56]: <== Restarted application in 2.653ms.
+[15:27:56]: <== [{"id":"9","result":{"code":0,"message":""}}]
+[15:28:04]: ==> [{"id":"10","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[15:28:04]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"19","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[15:28:04]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"20","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[15:28:04]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"20","progressId":null,"finished":true}}]
+[15:28:04]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"19","progressId":"hot.restart","finished":true}}]
+[15:28:04]: <== Restarted application in 176ms.
+[15:28:04]: <== [{"id":"10","result":{"code":0,"message":""}}]
+[15:49:08]: ==> [{"id":"11","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[15:49:08]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"21","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[15:49:08]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"22","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[15:49:08]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"22","progressId":null,"finished":true}}]
+[15:49:09]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"21","progressId":"hot.restart","finished":true}}]
+[15:49:09]: <== Restarted application in 725ms.
+[15:49:09]: <== [{"id":"11","result":{"code":0,"message":""}}]
+[16:04:39]: ==> [{"id":"12","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:04:39]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"23","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:04:39]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"24","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:04:39]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"24","progressId":null,"finished":true}}]
+[16:04:40]: AppInspector: Error calling Runtime.evaluate with params {expression: require('dart_sdk').developer._extensions.keys.toList();, returnByValue: true, contextId: 7}Error: WipError -32000 Cannot find context with specified id
+[16:04:40]: Utilities: Error in unawaited Future:Error: Bad state: No running isolate (inspector is not set).
+[16:04:40]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"23","progressId":"hot.restart","finished":true}}]
+[16:04:40]: <== Restarted application in 550ms.
+[16:04:40]: <== [{"id":"12","result":{"code":0,"message":""}}]
+[16:06:34]: ==> [{"id":"13","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:06:34]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"25","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:06:34]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"26","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:06:34]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"26","progressId":null,"finished":true}}]
+[16:06:34]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"25","progressId":"hot.restart","finished":true}}]
+[16:06:34]: <== Restarted application in 234ms.
+[16:06:34]: <== [{"id":"13","result":{"code":0,"message":""}}]
+[16:06:57]: ==> [{"id":"14","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:06:57]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"27","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:06:57]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"28","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:06:57]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"28","progressId":null,"finished":true}}]
+[16:06:57]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"27","progressId":"hot.restart","finished":true}}]
+[16:06:57]: <== Restarted application in 353ms.
+[16:06:57]: <== [{"id":"14","result":{"code":0,"message":""}}]
+[16:08:36]: ==> [{"id":"15","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:08:36]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"29","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:08:37]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"30","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:08:37]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"30","progressId":null,"finished":true}}]
+[16:08:37]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"29","progressId":"hot.restart","finished":true}}]
+[16:08:37]: <== Restarted application in 244ms.
+[16:08:37]: <== [{"id":"15","result":{"code":0,"message":""}}]
+[16:10:32]: ==> [{"id":"16","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:10:32]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"31","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:10:32]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"32","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:10:32]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"32","progressId":null,"finished":true}}]
+[16:10:32]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"31","progressId":"hot.restart","finished":true}}]
+[16:10:32]: <== Restarted application in 313ms.
+[16:10:32]: <== [{"id":"16","result":{"code":0,"message":""}}]
+[16:11:53]: ==> [{"id":"17","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:11:53]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"33","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:11:53]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"34","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:11:53]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"34","progressId":null,"finished":true}}]
+[16:11:53]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"33","progressId":"hot.restart","finished":true}}]
+[16:11:53]: <== Restarted application in 183ms.
+[16:11:53]: <== [{"id":"17","result":{"code":0,"message":""}}]
+[16:12:20]: ==> [{"id":"18","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:12:20]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"35","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:12:20]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"36","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:12:20]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"36","progressId":null,"finished":true}}]
+[16:12:20]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"35","progressId":"hot.restart","finished":true}}]
+[16:12:20]: <== Restarted application in 246ms.
+[16:12:20]: <== [{"id":"18","result":{"code":0,"message":""}}]
+[16:28:58]: ==> [{"id":"19","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:28:58]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"37","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:28:58]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"38","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:28:59]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"38","progressId":null,"finished":true}}]
+[16:28:59]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"37","progressId":"hot.restart","finished":true}}]
+[16:28:59]: <== Restarted application in 439ms.
+[16:28:59]: <== [{"id":"19","result":{"code":0,"message":""}}]
+[16:32:51]: ==> [{"id":"20","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:32:51]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"39","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:32:51]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"40","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:32:51]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"40","progressId":null,"finished":true}}]
+[16:32:52]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"39","progressId":"hot.restart","finished":true}}]
+[16:32:52]: <== Restarted application in 522ms.
+[16:32:52]: <== [{"id":"20","result":{"code":0,"message":""}}]
+[16:33:17]: ==> [{"id":"21","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:33:17]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"41","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:33:17]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"42","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:33:17]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"42","progressId":null,"finished":true}}]
+[16:33:18]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"41","progressId":"hot.restart","finished":true}}]
+[16:33:18]: <== Restarted application in 315ms.
+[16:33:18]: <== [{"id":"21","result":{"code":0,"message":""}}]
+[16:33:52]: ==> [{"id":"22","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:33:52]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"43","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:33:52]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"44","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:33:52]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"44","progressId":null,"finished":true}}]
+[16:33:52]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"43","progressId":"hot.restart","finished":true}}]
+[16:33:52]: <== Restarted application in 184ms.
+[16:33:52]: <== [{"id":"22","result":{"code":0,"message":""}}]
+[16:36:42]: ==> [{"id":"23","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:36:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"45","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:36:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"46","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:36:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"46","progressId":null,"finished":true}}]
+[16:36:43]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"45","progressId":"hot.restart","finished":true}}]
+[16:36:43]: <== Restarted application in 182ms.
+[16:36:43]: <== [{"id":"23","result":{"code":0,"message":""}}]
+[16:37:42]: ==> [{"id":"24","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:37:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"47","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:37:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"48","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:37:42]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"48","progressId":null,"finished":true}}]
+[16:37:43]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"47","progressId":"hot.restart","finished":true}}]
+[16:37:43]: <== Restarted application in 299ms.
+[16:37:43]: <== [{"id":"24","result":{"code":0,"message":""}}]
+[16:37:48]: ==> [{"id":"25","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:37:48]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"49","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:37:48]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"50","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:37:48]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"50","progressId":null,"finished":true}}]
+[16:37:48]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"49","progressId":"hot.restart","finished":true}}]
+[16:37:48]: <== Restarted application in 277ms.
+[16:37:48]: <== [{"id":"25","result":{"code":0,"message":""}}]
+[16:41:18]: ==> [{"id":"26","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:41:18]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"51","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:41:18]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"52","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:41:18]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"52","progressId":null,"finished":true}}]
+[16:41:18]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"51","progressId":"hot.restart","finished":true}}]
+[16:41:18]: <== Restarted application in 199ms.
+[16:41:18]: <== [{"id":"26","result":{"code":0,"message":""}}]
+[16:42:27]: ==> [{"id":"27","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:42:27]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"53","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:42:27]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"54","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:42:27]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"54","progressId":null,"finished":true}}]
+[16:42:27]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"53","progressId":"hot.restart","finished":true}}]
+[16:42:27]: <== Restarted application in 160ms.
+[16:42:27]: <== [{"id":"27","result":{"code":0,"message":""}}]
+[16:42:51]: ==> [{"id":"28","method":"app.restart","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[16:42:51]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"55","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[16:42:51]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"56","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[16:42:51]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"56","progressId":null,"finished":true}}]
+[16:42:51]: <== [{"event":"app.progress","params":{"appId":"bb4a7d95-d1a7-462c-bbb6-5f19c9eb5324","id":"55","progressId":"hot.restart","finished":true}}]
+[16:42:51]: <== Restarted application in 170ms.
+[16:42:51]: <== [{"id":"28","result":{"code":0,"message":""}}]

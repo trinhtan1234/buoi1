@@ -1,5 +1,7 @@
-import 'package:buoi1/login/login.dart';
+//import 'package:buoi1/login/login.dart';
 import 'package:flutter/material.dart';
+
+import 'khampha/khampha.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +14,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tạo màn hình zalo',
-      home: LoginScreen(),
+      home: KhamPha(),
     );
   }
 }

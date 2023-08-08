@@ -122,7 +122,9 @@ class _PrimaryMessageState extends State<PrimaryMessage> {
     final response = await http.get(Uri.parse(
         'http://10.8.0.2:30579/api/layer/customer-datas/ban-do-dia-chinh'));
     if (response.statusCode == 200) {
-      return DataJson.fromJson(jsonDecode(response.body));
+      final decodebBody = utf8.decode(response.bodyBytes);
+
+      return DataJson.fromJson(jsonDecode(decodebBody));
     } else {
       throw Exception('Failed to load data');
     }
