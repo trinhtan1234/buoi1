@@ -92,7 +92,7 @@ class LoginScreen extends StatelessWidget {
                 child: Padding(
                   padding: EdgeInsets.only(top: 20),
                   child: TextFormField(
-                    obscureText: false,
+                    obscureText: true,
                     style: TextStyle(fontSize: 20.0, color: Color(0xFFbdc6cf)),
                     decoration: InputDecoration(
                       filled: true,

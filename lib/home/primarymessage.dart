@@ -150,7 +150,7 @@ class _PrimaryMessageState extends State<PrimaryMessage> {
                     title: Text(
                       'Key: ${snapshot.data!.result![index].key}',
                       style: TextStyle(
-                        fontSize: 20,
+                        fontSize: 15,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
