@@ -38,7 +38,7 @@ class _DiscoverState extends State<Discover> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        padding: EdgeInsets.all(5),
+        padding: EdgeInsets.all(10),
         child: FutureBuilder<Metadata>(
           future: futureMetadataJson,
           builder: (context, snapshot) {
@@ -47,33 +47,43 @@ class _DiscoverState extends State<Discover> {
             } else if (snapshot.hasError) {
               return Text('Lỗi: ${snapshot.error}');
             } else if (snapshot.hasData) {
-              return ListView.builder(
-                itemCount: snapshot.data!.result!.length,
+              return GridView.builder(
+                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                  crossAxisCount: 2,
+                  mainAxisSpacing: 10.0,
+                  crossAxisSpacing: 10.0,
+                ),
+                itemCount: snapshot.data?.result?.length ?? 0,
                 itemBuilder: (context, index) {
-                  return Container(
-                    height: 200,
-                    width: 200,
-                    child: ListTile(
-                      title: Text(
-                        '${snapshot.data!.result![index].id}',
-                        style: TextStyle(
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold,
+                  final urlImage = snapshot.data?.result?[index].urlImage;
+                  return Stack(
+                    children: [
+                      Container(
+                        decoration: BoxDecoration(
+                          border: Border.all(color: Colors.blue, width: 0),
+                          image: urlImage != null && urlImage.isNotEmpty
+                              ? DecorationImage(
+                                  image: NetworkImage(urlImage),
+                                  fit: BoxFit.cover,
+                                )
+                              : null,
                         ),
-                      ),
-                      subtitle: Column(
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          Text(
+                        child: ListTile(
+                          title: Text(
                             '${snapshot.data!.result![index].title}',
                             style: TextStyle(
                               fontSize: 15,
+                              color: Colors.green,
+                              fontWeight: FontWeight.bold,
                             ),
                           ),
-                          Text('${snapshot.data!.result![index].purpose}'),
-                        ],
+                          subtitle: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [],
+                          ),
+                        ),
                       ),
-                    ),
+                    ],
                   );
                 },
               );
