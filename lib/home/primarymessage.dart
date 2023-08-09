@@ -134,6 +134,8 @@ class _PrimaryMessageState extends State<PrimaryMessage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
+        height: 600,
+        width: 400,
         padding: EdgeInsets.all(5),
         child: FutureBuilder<DataJson>(
           future: futureDataJson,
@@ -150,7 +152,7 @@ class _PrimaryMessageState extends State<PrimaryMessage> {
                     title: Text(
                       'Key: ${snapshot.data!.result![index].key}',
                       style: TextStyle(
-                        fontSize: 15,
+                        fontSize: 12,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -158,12 +160,12 @@ class _PrimaryMessageState extends State<PrimaryMessage> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Title: ${snapshot.data!.result![index].title}',
+                          '${snapshot.data!.result![index].title}',
                           style: TextStyle(
                             fontSize: 15,
                           ),
                         ),
-                        Text('Code: ${snapshot.data!.result![index].code}'),
+                        Text('${snapshot.data!.result![index].code}'),
                       ],
                     ),
                   );

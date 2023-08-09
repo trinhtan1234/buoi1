@@ -41,12 +41,15 @@ class _MyHomeState extends State<MyHome> {
               ),
             ),
             SizedBox(
-              height: 670,
-              child: TabBarView(
-                children: [
-                  Center(child: PrimaryMessage()),
-                  Center(child: OtherMessages()),
-                ],
+              height: 595,
+              child: DecoratedBox(
+                decoration: BoxDecoration(color: Colors.white),
+                child: TabBarView(
+                  children: [
+                    Center(child: PrimaryMessage()),
+                    Center(child: OtherMessages()),
+                  ],
+                ),
               ),
             ),
           ]),

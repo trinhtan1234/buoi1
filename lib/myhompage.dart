@@ -1,5 +1,5 @@
+import 'package:buoi1/discover/discover.dart';
 import 'package:buoi1/home/home.dart';
-import 'package:buoi1/khampha/khampha.dart';
 import 'package:buoi1/page/danhba.dart';
 import 'package:buoi1/page/nhatky.dart';
 import 'package:buoi1/person/account.dart';
@@ -22,7 +22,7 @@ class _MyHomePageState extends State<MyHomePage> {
   final List<Widget> _pages = <Widget>[
     const MyHome(),
     const DanhBa(),
-    const KhamPha(),
+    const Discover(),
     const NhatKy(),
     const CaNhan(),
   ];
