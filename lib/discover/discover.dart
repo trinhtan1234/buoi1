@@ -56,34 +56,38 @@ class _DiscoverState extends State<Discover> {
                 itemCount: snapshot.data?.result?.length ?? 0,
                 itemBuilder: (context, index) {
                   final urlImage = snapshot.data?.result?[index].urlImage;
-                  return Stack(
-                    children: [
-                      Container(
-                        decoration: BoxDecoration(
-                          border: Border.all(color: Colors.blue, width: 0),
-                          image: urlImage != null && urlImage.isNotEmpty
-                              ? DecorationImage(
-                                  image: NetworkImage(urlImage),
-                                  fit: BoxFit.cover,
-                                )
-                              : null,
-                        ),
-                        child: ListTile(
-                          title: Text(
-                            '${snapshot.data!.result![index].title}',
-                            style: TextStyle(
-                              fontSize: 15,
-                              color: Colors.green,
-                              fontWeight: FontWeight.bold,
+                  return Container(
+                    decoration: BoxDecoration(
+                      border: Border.all(color: Colors.blue, width: 1),
+                      image: urlImage != null && urlImage.isNotEmpty
+                          ? DecorationImage(
+                              image: NetworkImage(urlImage),
+                              fit: BoxFit.cover,
+                            )
+                          : null,
+                    ),
+                    child: Column(
+                      mainAxisAlignment: MainAxisAlignment.end,
+                      children: [
+                        Container(
+                          padding: EdgeInsets.all(8),
+                          decoration: BoxDecoration(
+                            color: Colors.blue.withOpacity(0.6),
+                          ),
+                          child: Align(
+                            alignment: Alignment.center,
+                            child: Text(
+                              '${snapshot.data!.result![index].title}',
+                              style: TextStyle(
+                                fontSize: 15,
+                                color: Colors.white,
+                                fontWeight: FontWeight.bold,
+                              ),
                             ),
                           ),
-                          subtitle: Column(
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [],
-                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   );
                 },
               );
