@@ -1,134 +1,181 @@
-[08:51:25]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
-[08:51:25]: ..  in D:\Flutter\buoi1
-[08:51:25]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[08:51:25]: PID: 9388
-[08:51:28]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":20600}}]
-[08:51:28]: <== [{"event":"app.start","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","deviceId":"emulator-5554","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
-[08:51:28]: <== Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
-[08:51:31]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
-[08:52:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"0","progressId":null,"finished":true}}]
-[08:52:40]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
-[08:52:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
-[08:52:45]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"1","progressId":null,"finished":true}}]
-[08:52:50]: <== [{"event":"app.debugPort","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","port":50807,"wsUri":"ws://127.0.0.1:50807/hvNFuLqkZwQ=/ws","baseUri":"file:///data/user/0/com.example.buoi1/code_cache/buoi1MXMTBZ/buoi1/"}}]
-[08:52:50]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"2","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[08:52:51]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"2","progressId":null,"finished":true}}]
-[08:52:51]: <== [{"event":"app.started","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657"}}]
-[09:03:31]: ==> [{"id":"1","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:03:31]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:03:31]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"4","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:03:32]: lib/main.dart:18:13: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-[09:03:32]: Try using a constructor or factory that is 'const'.
-      home: ContactScreen(),
-            ^^^^^^^^^^^^^
-[09:03:32]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"4","progressId":null,"finished":true}}]
-[09:03:32]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"3","progressId":"hot.reload","finished":true}}]
-[09:03:32]: <== [{"id":"1","result":{"code":1,"message":"DevFS synchronization failed"}}]
-[09:06:09]: ==> [{"id":"2","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:06:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"5","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:06:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"6","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:06:09]: lib/main.dart:18:13: Error: Method not found: 'ContactScreen'.
-[09:06:09]: home: ContactScreen(),
-            ^^^^^^^^^^^^^
-[09:06:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"6","progressId":null,"finished":true}}]
-[09:06:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"5","progressId":"hot.reload","finished":true}}]
-[09:06:09]: <== [{"id":"2","result":{"code":1,"message":"DevFS synchronization failed"}}]
-[09:06:46]: ==> [{"id":"3","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:06:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"7","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:06:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"8","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:06:46]: lib/main.dart:18:13: Error: Method not found: 'ContactScreen'.
-[09:06:46]: home: ContactScreen(),
-            ^^^^^^^^^^^^^
-[09:06:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"8","progressId":null,"finished":true}}]
-[09:06:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"7","progressId":"hot.reload","finished":true}}]
-[09:06:46]: <== [{"id":"3","result":{"code":1,"message":"DevFS synchronization failed"}}]
-[09:07:41]: ==> [{"id":"4","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:07:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"9","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:07:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"10","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:07:41]: lib/main.dart:18:13: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-[09:07:41]: Try using a constructor or factory that is 'const'.
-      home: ContactScreen(),
-            ^^^^^^^^^^^^^
-[09:07:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"10","progressId":null,"finished":true}}]
-[09:07:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"9","progressId":"hot.reload","finished":true}}]
-[09:07:41]: <== [{"id":"4","result":{"code":1,"message":"DevFS synchronization failed"}}]
-[09:07:45]: ==> [{"id":"5","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:07:45]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"11","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:07:45]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"12","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:07:45]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"12","progressId":null,"finished":true}}]
-[09:07:47]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"11","progressId":"hot.reload","finished":true}}]
-[09:07:47]: <== Reloaded 3 of 667 libraries in 2.170ms (compile: 25 ms, reload: 1390 ms, reassemble: 254 ms).
-[09:07:47]: <== [{"id":"5","result":{"code":0,"message":"Reloaded 3 of 667 libraries"}}]
-[09:07:47]: <== D/EGL_emulation( 5089): app_time_stats: avg=446322.06ms min=78.85ms max=892565.25ms count=2
-[09:19:45]: ==> [{"id":"6","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:19:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"13","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:19:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"14","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:19:46]: lib/main.dart:18:13: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
-[09:19:46]: Try using a constructor or factory that is 'const'.
-      home: ContactScreen(),
-            ^^^^^^^^^^^^^
-[09:19:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"14","progressId":null,"finished":true}}]
-[09:19:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"13","progressId":"hot.reload","finished":true}}]
-[09:19:46]: <== [{"id":"6","result":{"code":1,"message":"DevFS synchronization failed"}}]
-[09:25:22]: ==> [{"id":"7","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:25:23]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"15","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:25:23]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"16","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:25:23]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"16","progressId":null,"finished":true}}]
-[09:25:25]: Hot reload was rejected:
-[09:25:25]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
-Try performing a hot restart instead.
-[09:25:25]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"15","progressId":"hot.reload","finished":true}}]
-[09:25:25]: <== [{"id":"7","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
-[09:29:35]: ==> [{"id":"8","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:29:35]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"17","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:29:35]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"18","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:29:35]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"18","progressId":null,"finished":true}}]
-[09:29:35]: Hot reload was rejected:
-[09:29:35]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
-Try performing a hot restart instead.
-[09:29:35]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"17","progressId":"hot.reload","finished":true}}]
-[09:29:35]: <== [{"id":"8","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
-[09:29:40]: ==> [{"id":"9","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:29:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"19","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:29:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"20","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:29:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"20","progressId":null,"finished":true}}]
-[09:29:40]: Hot reload was rejected:
-[09:29:40]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
-Try performing a hot restart instead.
-[09:29:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"19","progressId":"hot.reload","finished":true}}]
-[09:29:40]: <== [{"id":"9","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
-[09:32:49]: ==> [{"id":"10","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:32:49]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"21","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:32:49]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"22","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:32:49]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"22","progressId":null,"finished":true}}]
-[09:32:49]: Hot reload was rejected:
-[09:32:49]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
-Try performing a hot restart instead.
-[09:32:49]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"21","progressId":"hot.reload","finished":true}}]
-[09:32:49]: <== [{"id":"10","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
-[09:33:05]: ==> [{"id":"11","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:33:05]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"23","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:33:05]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"24","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:33:05]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"24","progressId":null,"finished":true}}]
-[09:33:05]: Hot reload was rejected:
-[09:33:05]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
-Try performing a hot restart instead.
-[09:33:05]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"23","progressId":"hot.reload","finished":true}}]
-[09:33:05]: <== [{"id":"11","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
-[09:40:59]: ==> [{"id":"12","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
-[09:40:59]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"25","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:40:59]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"26","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:40:59]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"26","progressId":null,"finished":true}}]
-[09:40:59]: Hot reload was rejected:
-[09:40:59]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
-Try performing a hot restart instead.
-[09:40:59]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"25","progressId":"hot.reload","finished":true}}]
-[09:40:59]: <== [{"id":"12","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
-[09:41:09]: ==> [{"id":"13","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":true,"pause":true,"reason":"manual"}}]
-[09:41:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"27","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[09:41:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"28","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:41:13]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"28","progressId":null,"finished":true}}]
-[09:41:14]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"27","progressId":"hot.restart","finished":true}}]
-[09:41:14]: <== Restarted application in 5.095ms.
-[09:41:14]: <== [{"id":"13","result":{"code":0,"message":""}}]
-[09:41:37]: <== D/EGL_emulation( 5089): app_time_stats: avg=2029624.75ms min=2029624.75ms max=2029624.75ms count=1
+[09:48:01]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","chrome","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
+[09:48:01]: ..  in D:\Flutter\buoi1
+[09:48:01]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[09:48:01]: PID: 19684
+[09:48:02]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":3012}}]
+[09:48:02]: <== [{"event":"app.start","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","deviceId":"chrome","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
+[09:48:02]: <== Launching lib\main.dart on Chrome in debug mode...
+[09:48:02]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"0","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[09:48:22]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"0","progressId":null,"finished":true}}]
+[09:48:23]: <== [{"event":"app.webLaunchUrl","params":{"url":"http://localhost:50270","launched":true}}]
+[09:48:30]: <== This app is linked to the debug service: ws://127.0.0.1:50328/VOmVJtvm1D8=/ws
+[09:48:30]: <== Debug service listening on ws://127.0.0.1:50328/VOmVJtvm1D8=/ws
+[09:48:30]: <== [{"event":"app.started","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab"}}]
+[09:48:30]: <== [{"event":"app.debugPort","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","port":50328,"wsUri":"ws://127.0.0.1:50328/VOmVJtvm1D8=/ws"}}]
+[09:48:32]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/girl.jpg". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:48:32]: <== ══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+[09:48:32]: <== The following assertion was thrown resolving an image codec:
+[09:48:32]: <== Unable to load asset: "assets/girl.jpg".
+[09:48:32]: <== The asset does not exist or has empty data.
+[09:48:32]: <== When the exception was thrown, this was the stack:
+[09:48:32]: <== dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/errors.dart 288:49  throw_
+[09:48:32]: <== packages/flutter/src/services/asset_bundle.dart 328:9                         <fn>
+[09:48:32]: <== dart-sdk/lib/async/zone.dart 1661:54                                          runUnary
+[09:48:32]: <== dart-sdk/lib/async/future_impl.dart 147:18                                    handleValue
+[09:48:32]: <== dart-sdk/lib/async/future_impl.dart 784:44                                    handleValueCallback
+[09:48:32]: <== dart-sdk/lib/async/future_impl.dart 813:13                                    _propagateToListeners
+[09:48:32]: <== dart-sdk/lib/async/future_impl.dart 584:5                                     [_completeWithValue]
+[09:48:32]: <== dart-sdk/lib/async/future_impl.dart 657:7                                     callback
+[09:48:32]: <== dart-sdk/lib/async/schedule_microtask.dart 40:11                              _microtaskLoop
+[09:48:32]: <== dart-sdk/lib/async/schedule_microtask.dart 49:5                               _startMicrotaskLoop
+[09:48:32]: <== dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 177:15           <fn>
+[09:48:32]: <== Image provider: AssetImage(bundle: null, name: "assets/girl.jpg")
+[09:48:32]: <== Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#08a78(), name: "assets/girl.jpg", scale:
+[09:48:32]: <==   1)
+[09:48:32]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[09:49:32]: ==> [{"id":"1","method":"app.restart","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[09:49:32]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"1","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[09:49:32]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"2","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[09:49:32]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"2","progressId":null,"finished":true}}]
+[09:49:32]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"1","progressId":"hot.restart","finished":true}}]
+[09:49:32]: <== Restarted application in 293ms.
+[09:49:32]: <== [{"id":"1","result":{"code":0,"message":""}}]
+[09:49:33]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/images/girl.jpg". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:49:33]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/imagesgirl.jpg". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:49:33]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/images/girl.jpg". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:49:33]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/imagesgirl.jpg". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:50:13]: ==> [{"id":"2","method":"app.restart","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[09:50:13]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"3","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[09:50:13]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"4","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[09:50:13]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"4","progressId":null,"finished":true}}]
+[09:50:13]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"3","progressId":"hot.restart","finished":true}}]
+[09:50:13]: <== Restarted application in 417ms.
+[09:50:13]: <== [{"id":"2","result":{"code":0,"message":""}}]
+[09:50:13]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/imagesgirl.png". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:50:13]: <== ══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+[09:50:13]: <== The following assertion was thrown resolving an image codec:
+[09:50:13]: <== Unable to load asset: "assets/imagesgirl.png".
+[09:50:13]: <== The asset does not exist or has empty data.
+[09:50:13]: <== When the exception was thrown, this was the stack:
+[09:50:13]: <== dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/errors.dart 288:49  throw_
+[09:50:13]: <== packages/flutter/src/services/asset_bundle.dart 328:9                         <fn>
+[09:50:13]: <== dart-sdk/lib/async/zone.dart 1661:54                                          runUnary
+[09:50:13]: <== dart-sdk/lib/async/future_impl.dart 147:18                                    handleValue
+[09:50:13]: <== dart-sdk/lib/async/future_impl.dart 784:44                                    handleValueCallback
+[09:50:13]: <== dart-sdk/lib/async/future_impl.dart 813:13                                    _propagateToListeners
+[09:50:13]: <== dart-sdk/lib/async/future_impl.dart 584:5                                     [_completeWithValue]
+[09:50:13]: <== dart-sdk/lib/async/future_impl.dart 657:7                                     callback
+[09:50:13]: <== dart-sdk/lib/async/schedule_microtask.dart 40:11                              _microtaskLoop
+[09:50:13]: <== dart-sdk/lib/async/schedule_microtask.dart 49:5                               _startMicrotaskLoop
+[09:50:13]: <== dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 177:15           <fn>
+[09:50:13]: <== Image provider: AssetImage(bundle: null, name: "assets/imagesgirl.png")
+[09:50:13]: <== Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#a9b72(), name: "assets/imagesgirl.png",
+[09:50:13]: <==   scale: 1)
+[09:50:13]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[09:50:14]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/imagesgirl.png". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:50:14]: <== ══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+[09:50:14]: <== The following assertion was thrown resolving an image codec:
+[09:50:14]: <== Unable to load asset: "assets/imagesgirl.png".
+[09:50:14]: <== The asset does not exist or has empty data.
+[09:50:14]: <== When the exception was thrown, this was the stack:
+[09:50:14]: <== dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/errors.dart 288:49  throw_
+[09:50:14]: <== packages/flutter/src/services/asset_bundle.dart 328:9                         <fn>
+[09:50:14]: <== dart-sdk/lib/async/zone.dart 1661:54                                          runUnary
+[09:50:14]: <== dart-sdk/lib/async/future_impl.dart 147:18                                    handleValue
+[09:50:14]: <== dart-sdk/lib/async/future_impl.dart 784:44                                    handleValueCallback
+[09:50:14]: <== dart-sdk/lib/async/future_impl.dart 813:13                                    _propagateToListeners
+[09:50:14]: <== dart-sdk/lib/async/future_impl.dart 584:5                                     [_completeWithValue]
+[09:50:14]: <== dart-sdk/lib/async/future_impl.dart 657:7                                     callback
+[09:50:14]: <== dart-sdk/lib/async/schedule_microtask.dart 40:11                              _microtaskLoop
+[09:50:14]: <== dart-sdk/lib/async/schedule_microtask.dart 49:5                               _startMicrotaskLoop
+[09:50:14]: <== dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 177:15           <fn>
+[09:50:14]: <== Image provider: AssetImage(bundle: null, name: "assets/imagesgirl.png")
+[09:50:14]: <== Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#a9b72(), name: "assets/imagesgirl.png",
+[09:50:14]: <==   scale: 1)
+[09:50:14]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[09:50:16]: ==> [{"id":"3","method":"app.restart","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[09:50:16]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"5","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[09:50:16]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"6","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[09:50:16]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"6","progressId":null,"finished":true}}]
+[09:50:17]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"5","progressId":"hot.restart","finished":true}}]
+[09:50:17]: <== Restarted application in 260ms.
+[09:50:17]: <== [{"id":"3","result":{"code":0,"message":""}}]
+[09:50:17]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/imagesgirl.png". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:50:17]: <== ══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+[09:50:17]: <== The following assertion was thrown resolving an image codec:
+[09:50:17]: <== Unable to load asset: "assets/imagesgirl.png".
+[09:50:17]: <== The asset does not exist or has empty data.
+[09:50:17]: <== When the exception was thrown, this was the stack:
+[09:50:17]: <== dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/errors.dart 288:49  throw_
+[09:50:17]: <== packages/flutter/src/services/asset_bundle.dart 328:9                         <fn>
+[09:50:17]: <== dart-sdk/lib/async/zone.dart 1661:54                                          runUnary
+[09:50:17]: <== dart-sdk/lib/async/future_impl.dart 147:18                                    handleValue
+[09:50:17]: <== dart-sdk/lib/async/future_impl.dart 784:44                                    handleValueCallback
+[09:50:17]: <== dart-sdk/lib/async/future_impl.dart 813:13                                    _propagateToListeners
+[09:50:17]: <== dart-sdk/lib/async/future_impl.dart 584:5                                     [_completeWithValue]
+[09:50:17]: <== dart-sdk/lib/async/future_impl.dart 657:7                                     callback
+[09:50:17]: <== dart-sdk/lib/async/schedule_microtask.dart 40:11                              _microtaskLoop
+[09:50:17]: <== dart-sdk/lib/async/schedule_microtask.dart 49:5                               _startMicrotaskLoop
+[09:50:17]: <== dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 177:15           <fn>
+[09:50:17]: <== Image provider: AssetImage(bundle: null, name: "assets/imagesgirl.png")
+[09:50:17]: <== Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#9d8c6(), name: "assets/imagesgirl.png",
+[09:50:17]: <==   scale: 1)
+[09:50:17]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[09:50:22]: <== Error while trying to load an asset: Flutter Web engine failed to fetch "assets/assets/imagesgirl.png". HTTP request succeeded, but the server responded with HTTP status 404.
+[09:50:22]: <== ══╡ EXCEPTION CAUGHT BY IMAGE RESOURCE SERVICE ╞════════════════════════════════════════════════════
+[09:50:22]: <== The following assertion was thrown resolving an image codec:
+[09:50:22]: <== Unable to load asset: "assets/imagesgirl.png".
+[09:50:22]: <== The asset does not exist or has empty data.
+[09:50:22]: <== When the exception was thrown, this was the stack:
+[09:50:22]: <== dart-sdk/lib/_internal/js_dev_runtime/private/ddc_runtime/errors.dart 288:49  throw_
+[09:50:22]: <== packages/flutter/src/services/asset_bundle.dart 328:9                         <fn>
+[09:50:22]: <== dart-sdk/lib/async/zone.dart 1661:54                                          runUnary
+[09:50:22]: <== dart-sdk/lib/async/future_impl.dart 147:18                                    handleValue
+[09:50:22]: <== dart-sdk/lib/async/future_impl.dart 784:44                                    handleValueCallback
+[09:50:22]: <== dart-sdk/lib/async/future_impl.dart 813:13                                    _propagateToListeners
+[09:50:22]: <== dart-sdk/lib/async/future_impl.dart 584:5                                     [_completeWithValue]
+[09:50:22]: <== dart-sdk/lib/async/future_impl.dart 657:7                                     callback
+[09:50:22]: <== dart-sdk/lib/async/schedule_microtask.dart 40:11                              _microtaskLoop
+[09:50:22]: <== dart-sdk/lib/async/schedule_microtask.dart 49:5                               _startMicrotaskLoop
+[09:50:22]: <== dart-sdk/lib/_internal/js_dev_runtime/patch/async_patch.dart 177:15           <fn>
+[09:50:22]: <== Image provider: AssetImage(bundle: null, name: "assets/imagesgirl.png")
+[09:50:22]: <== Image key: AssetBundleImageKey(bundle: PlatformAssetBundle#9d8c6(), name: "assets/imagesgirl.png",
+[09:50:22]: <==   scale: 1)
+[09:50:22]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
+[09:50:35]: ==> [{"id":"4","method":"app.restart","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[09:50:35]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"7","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[09:50:35]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"8","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[09:50:36]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"8","progressId":null,"finished":true}}]
+[09:50:36]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"7","progressId":"hot.restart","finished":true}}]
+[09:50:36]: <== Restarted application in 426ms.
+[09:50:36]: <== [{"id":"4","result":{"code":0,"message":""}}]
+[09:50:56]: ==> [{"id":"5","method":"app.restart","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[09:50:56]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"9","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[09:50:56]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"10","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[09:50:56]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"10","progressId":null,"finished":true}}]
+[09:50:56]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"9","progressId":"hot.restart","finished":true}}]
+[09:50:56]: <== Restarted application in 420ms.
+[09:50:56]: <== [{"id":"5","result":{"code":0,"message":""}}]
+[10:48:00]: ==> [{"id":"6","method":"app.restart","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[10:48:00]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"11","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[10:48:00]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"12","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[10:48:01]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"12","progressId":null,"finished":true}}]
+[10:48:02]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"11","progressId":"hot.restart","finished":true}}]
+[10:48:02]: <== Restarted application in 1.304ms.
+[10:48:02]: <== [{"id":"6","result":{"code":0,"message":""}}]
+[10:49:45]: ==> [{"id":"7","method":"app.restart","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[10:49:45]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"13","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[10:49:45]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"14","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[10:49:45]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"14","progressId":null,"finished":true}}]
+[10:49:45]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"13","progressId":"hot.restart","finished":true}}]
+[10:49:45]: <== Restarted application in 206ms.
+[10:49:45]: <== [{"id":"7","result":{"code":0,"message":""}}]
+[10:51:10]: ==> [{"id":"8","method":"app.restart","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[10:51:10]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"15","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[10:51:10]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"16","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
+[10:51:10]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"16","progressId":null,"finished":true}}]
+[10:51:10]: AppInspector: Error calling Runtime.evaluate with params {expression: require('dart_sdk').developer._extensions.keys.toList();, returnByValue: true, contextId: 1}Error: WipError -32000 Cannot find context with specified id
+[10:51:10]: Utilities: Error in unawaited Future:Error: Bad state: No running isolate (inspector is not set).
+[10:51:10]: <== [{"event":"app.progress","params":{"appId":"5d5b18ee-3ba7-4496-8c4b-c4699c1e4cab","id":"15","progressId":"hot.restart","finished":true}}]
+[10:51:10]: <== Restarted application in 302ms.
+[10:51:10]: <== [{"id":"8","result":{"code":0,"message":""}}]

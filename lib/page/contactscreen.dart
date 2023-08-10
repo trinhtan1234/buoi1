@@ -12,12 +12,12 @@ class ChatModel {
 
 class ContactScreen extends StatelessWidget {
   final listChat = [
-    ChatModel('assets/girl.jpg', 'Nguyen Van A', ChatStatus.online),
-    ChatModel('assets/girl.jpg', 'Nguyen Van B', ChatStatus.online),
-    ChatModel('assets/girl.jpg', 'Nguyen Van C', ChatStatus.online),
-    ChatModel('assets/girl.jpg', 'Nguyen Van D', ChatStatus.online),
-    ChatModel('assets/girl.jpg', 'Nguyen Van E', ChatStatus.online),
-    ChatModel('assets/girl.jpg', 'Nguyen Van F', ChatStatus.online)
+    ChatModel('assets/images/girl.png', 'Nguyen Van A', ChatStatus.online),
+    ChatModel('assets/images/girl.png', 'Nguyen Van B', ChatStatus.online),
+    ChatModel('assets/images/girl.png', 'Nguyen Van C', ChatStatus.online),
+    ChatModel('assets/images/girl.png', 'Nguyen Van D', ChatStatus.online),
+    ChatModel('assets/images/girl.png', 'Nguyen Van E', ChatStatus.online),
+    ChatModel('assets/images/girl.png', 'Nguyen Van F', ChatStatus.online)
   ];
   // const ContactScreen({super.key});
 
@@ -41,6 +41,17 @@ class ContactScreen extends StatelessWidget {
                 ),
               ),
             ),
+            Expanded(
+              child: ListView.separated(
+                itemCount: listChat.length,
+                itemBuilder: (context, index) {
+                  return _buildChatItem(listChat[index]);
+                },
+                separatorBuilder: (context, index) => Divider(
+                  height: 1,
+                ),
+              ),
+            ),
           ],
         ),
       ),
@@ -58,6 +69,40 @@ class ContactScreen extends StatelessWidget {
                 shape: BoxShape.circle,
                 image: DecorationImage(
                     fit: BoxFit.cover, image: AssetImage(item.image))),
+          )
+        ],
+      ),
+    );
+  }
+
+  Widget _buildChatItem(ChatModel item) {
+    return Padding(
+      padding: EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+      child: Row(
+        children: [
+          Container(
+            margin: EdgeInsets.only(right: 12),
+            width: 80,
+            height: 80,
+            decoration: BoxDecoration(
+              shape: BoxShape.circle,
+              image: DecorationImage(
+                fit: BoxFit.cover,
+                image: AssetImage(item.image),
+              ),
+            ),
+          ),
+          Expanded(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [Text(item.name), Text('')],
+            ),
+          ),
+          Container(
+            width: 8,
+            height: 8,
+            decoration:
+                BoxDecoration(color: Colors.blue, shape: BoxShape.circle),
           )
         ],
       ),
