@@ -1,5 +1,6 @@
-import 'package:buoi1/page/contactscreen.dart';
 import 'package:flutter/material.dart';
+
+import 'contact/listchat.dart';
 
 void main() {
   runApp(MyApp());
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tạo màn hình zalo',
-      home: ContactScreen(),
+      home: ListChat(),
     );
   }
 }

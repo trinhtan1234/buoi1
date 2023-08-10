@@ -13,29 +13,48 @@ NO_PROXY: undefined
 Logging Categories:
     FlutterDaemon
 
-Thu Aug 10 2023 [09:45:19 GMT+0700 (Indochina Time)] Log file started
-[9:45:19 AM] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
-[9:45:19 AM] [FlutterDaemon] [Info] ..  in C:\src\flutter
-[9:45:19 AM] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[9:45:19 AM] [FlutterDaemon] [Info]     PID: 15036
-[9:45:22 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":9296}}]
-[9:45:22 AM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"device.enable"}]
-[9:45:22 AM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
-[9:45:22 AM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"emulator.getEmulators"}]
-[9:45:22 AM] [FlutterDaemon] [Info] <== [{"id":"1"}]
-[9:45:25 AM] [FlutterDaemon] [Info] <== [{"id":"2","result":[{"id":"Pixel_3a_API_34_extension_level_7_x86_64","name":"Pixel_3a_API_34_extension_level_7_x86_64","category":"mobile","platformType":"android"},{"id":"Pixel_6_Pro_API_33","name":"Pixel 6 Pro API 33","category":"mobile","platformType":"android"}]}]
-[9:45:26 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [Version 10.0.22621.2070]","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
-[9:45:26 AM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
-[9:45:26 AM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
-[9:45:26 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 115.0.5790.171","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
-[9:45:26 AM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 115.0.1901.200","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
-[9:47:46 AM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
-[9:47:46 AM] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
-[9:47:46 AM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.getEmulators"}]
-[9:47:46 AM] [FlutterDaemon] [Info] <== [{"id":"5","result":[{"id":"Pixel_3a_API_34_extension_level_7_x86_64","name":"Pixel_3a_API_34_extension_level_7_x86_64","category":"mobile","platformType":"android"},{"id":"Pixel_6_Pro_API_33","name":"Pixel 6 Pro API 33","category":"mobile","platformType":"android"}]}]
-[9:48:00 AM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
-[9:48:00 AM] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
-[9:48:00 AM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
-[9:48:00 AM] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
-[10:51:10 AM] [FlutterRun] [Error] [Dart  (Chrome)] AppInspector: Error calling Runtime.evaluate with params {expression: require('dart_sdk').developer._extensions.keys.toList();, returnByValue: true, contextId: 1}Error: WipError -32000 Cannot find context with specified id
-[10:51:10 AM] [FlutterRun] [Error] [Dart  (Chrome)] Utilities: Error in unawaited Future:Error: Bad state: No running isolate (inspector is not set).
+Thu Aug 10 2023 [15:45:07 GMT+0700 (Indochina Time)] Log file started
+[3:45:07 PM] [FlutterDaemon] [Info] Spawning C:\src\flutter\bin\flutter.bat with args ["daemon"]
+[3:45:07 PM] [FlutterDaemon] [Info] ..  in C:\src\flutter
+[3:45:07 PM] [FlutterDaemon] [Info] ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[3:45:07 PM] [FlutterDaemon] [Info]     PID: 22784
+[3:45:09 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":26208}}]
+[3:45:09 PM] [FlutterDaemon] [Info] ==> [{"id":"1","method":"device.enable"}]
+[3:45:09 PM] [FlutterDaemon] [Info] ==> [{"id":"2","method":"emulator.getEmulators"}]
+[3:45:09 PM] [FlutterDaemon] [Info] <== [{"event":"daemon.logMessage","params":{"level":"status","message":"Starting device daemon..."}}]
+[3:45:09 PM] [FlutterDaemon] [Info] <== [{"id":"1"}]
+[3:45:10 PM] [FlutterDaemon] [Info] <== [{"id":"2","result":[{"id":"Pixel_3a_API_34_extension_level_7_x86_64","name":"Pixel_3a_API_34_extension_level_7_x86_64","category":"mobile","platformType":"android"},{"id":"Pixel_6_Pro_API_33","name":"Pixel 6 Pro API 33","category":"mobile","platformType":"android"}]}]
+[3:45:13 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"windows","name":"Windows","platform":"windows-x64","emulator":false,"category":"desktop","platformType":"windows","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Windows [Version 10.0.22621.2070]","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[3:45:13 PM] [FlutterDaemon] [Info] ==> [{"id":"3","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[3:45:13 PM] [FlutterDaemon] [Info] <== [{"id":"3","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[3:45:13 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"chrome","name":"Chrome","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Google Chrome 115.0.5790.171","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[3:45:13 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"edge","name":"Edge","platform":"web-javascript","emulator":false,"category":"web","platformType":"web","ephemeral":false,"emulatorId":null,"sdk":"Microsoft Edge 115.0.1901.200","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":false,"fastStart":false,"flutterExit":false,"hardwareRendering":true,"startPaused":true}}}]
+[3:46:38 PM] [FlutterDaemon] [Info] ==> [{"id":"4","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[3:46:38 PM] [FlutterDaemon] [Info] <== [{"id":"4","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[3:46:38 PM] [FlutterDaemon] [Info] ==> [{"id":"5","method":"emulator.getEmulators"}]
+[3:46:38 PM] [FlutterDaemon] [Info] <== [{"id":"5","result":[{"id":"Pixel_3a_API_34_extension_level_7_x86_64","name":"Pixel_3a_API_34_extension_level_7_x86_64","category":"mobile","platformType":"android"},{"id":"Pixel_6_Pro_API_33","name":"Pixel 6 Pro API 33","category":"mobile","platformType":"android"}]}]
+[3:46:48 PM] [FlutterDaemon] [Info] ==> [{"id":"6","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[3:46:48 PM] [FlutterDaemon] [Info] <== [{"id":"6","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[3:46:48 PM] [FlutterDaemon] [Info] ==> [{"id":"7","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[3:46:48 PM] [FlutterDaemon] [Info] <== [{"id":"7","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[3:46:59 PM] [FlutterDaemon] [Info] ==> [{"id":"8","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[3:46:59 PM] [FlutterDaemon] [Info] <== [{"id":"8","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[4:39:45 PM] [FlutterRun] [Error] [Dart  (Chrome)] AppInspector: Error calling Runtime.evaluate with params {expression: require('dart_sdk').developer._extensions.keys.toList();, returnByValue: true, contextId: 15}Error: WipError -32000 Cannot find context with specified id
+[4:39:45 PM] [FlutterRun] [Error] [Dart  (Chrome)] Utilities: Error in unawaited Future:Error: Bad state: No running isolate (inspector is not set).
+[4:50:37 PM] [FlutterDaemon] [Info] ==> [{"id":"9","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[4:50:37 PM] [FlutterDaemon] [Info] <== [{"id":"9","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[4:50:37 PM] [FlutterDaemon] [Info] ==> [{"id":"10","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[4:50:37 PM] [FlutterDaemon] [Info] <== [{"id":"10","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[4:52:32 PM] [FlutterDaemon] [Info] ==> [{"id":"11","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[4:52:32 PM] [FlutterDaemon] [Info] <== [{"id":"11","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[4:52:32 PM] [FlutterDaemon] [Info] ==> [{"id":"12","method":"emulator.getEmulators"}]
+[4:52:32 PM] [FlutterDaemon] [Info] <== [{"id":"12","result":[{"id":"Pixel_3a_API_34_extension_level_7_x86_64","name":"Pixel_3a_API_34_extension_level_7_x86_64","category":"mobile","platformType":"android"},{"id":"Pixel_6_Pro_API_33","name":"Pixel 6 Pro API 33","category":"mobile","platformType":"android"}]}]
+[4:52:34 PM] [FlutterDaemon] [Info] ==> [{"id":"13","method":"emulator.launch","params":{"emulatorId":"Pixel_3a_API_34_extension_level_7_x86_64","coldBoot":false}}]
+[4:52:37 PM] [FlutterDaemon] [Info] <== [{"id":"13"}]
+[4:52:50 PM] [FlutterDaemon] [Info] <== [{"event":"device.added","params":{"id":"emulator-5554","name":"sdk gphone64 x86 64","platform":"android-x64","emulator":true,"category":"mobile","platformType":"android","ephemeral":true,"emulatorId":"Pixel_3a_API_34_extension_level_7_x86_64","sdk":"Android 14 (API 34)","capabilities":{"hotReload":true,"hotRestart":true,"screenshot":true,"fastStart":true,"flutterExit":true,"hardwareRendering":true,"startPaused":true}}}]
+[4:52:50 PM] [FlutterDaemon] [Info] ==> [{"id":"14","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[4:52:50 PM] [FlutterDaemon] [Info] <== [{"id":"14","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[5:00:53 PM] [FlutterDaemon] [Info] ==> [{"id":"15","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[5:00:53 PM] [FlutterDaemon] [Info] <== [{"id":"15","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]
+[5:00:53 PM] [FlutterDaemon] [Info] ==> [{"id":"16","method":"daemon.getSupportedPlatforms","params":{"projectRoot":"D:\\Flutter\\buoi1"}}]
+[5:00:53 PM] [FlutterDaemon] [Info] <== [{"id":"16","result":{"platforms":["linux","macos","windows","ios","android","web"]}}]

@@ -10,7 +10,12 @@ class ChatModel {
   ChatModel(this.image, this.name, this.status);
 }
 
-class ContactScreen extends StatelessWidget {
+class ContactScreen extends StatefulWidget {
+  @override
+  State<ContactScreen> createState() => _ContactScreenState();
+}
+
+class _ContactScreenState extends State<ContactScreen> {
   final listChat = [
     ChatModel('assets/images/girl.png', 'Nguyen Van A', ChatStatus.online),
     ChatModel('assets/images/girl.png', 'Nguyen Van B', ChatStatus.online),
@@ -19,14 +24,49 @@ class ContactScreen extends StatelessWidget {
     ChatModel('assets/images/girl.png', 'Nguyen Van E', ChatStatus.online),
     ChatModel('assets/images/girl.png', 'Nguyen Van F', ChatStatus.online)
   ];
-  // const ContactScreen({super.key});
 
+  // const ContactScreen({super.key});
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+          backgroundColor: Colors.white,
+          actions: [
+            Padding(padding: EdgeInsets.only(right: 20)),
+            Icon(
+              Icons.article,
+              size: 20,
+              color: Colors.blue,
+            ),
+          ],
+          title: Center(
+            child: Text(
+              'Chats',
+              style: TextStyle(
+                fontSize: 15,
+                fontWeight: FontWeight.bold,
+                color: Colors.blue,
+              ),
+            ),
+          ),
+          leading: Icon(
+            Icons.dehaze,
+            size: 20,
+            color: Colors.blue,
+          )),
       body: SafeArea(
         child: Column(
           children: [
+            Padding(
+              padding: EdgeInsets.all(8),
+              child: TextField(
+                controller: TextEditingController(),
+                decoration: InputDecoration(
+                  labelText: 'Search',
+                  prefixIcon: Icon(Icons.search),
+                ),
+              ),
+            ),
             SizedBox(
               height: 80,
               child: ListView.separated(
