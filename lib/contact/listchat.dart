@@ -18,7 +18,7 @@ class _ListChatState extends State<ListChat> {
             padding: EdgeInsets.only(right: 20),
             child: Icon(
               Icons.fact_check,
-              size: 20,
+              size: 30,
               color: Colors.blue,
             ),
           )
@@ -27,7 +27,7 @@ class _ListChatState extends State<ListChat> {
           child: Text(
             'Chats',
             style: TextStyle(
-              fontSize: 15,
+              fontSize: 25,
               fontWeight: FontWeight.bold,
               color: Colors.blue,
             ),
@@ -36,7 +36,7 @@ class _ListChatState extends State<ListChat> {
         leading: Container(
           child: Icon(
             Icons.view_list,
-            size: 20,
+            size: 30,
             color: Colors.blue,
           ),
         ),
@@ -69,16 +69,18 @@ class _SearchTextState extends State<SearchText> {
 
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Padding(
-        padding: EdgeInsets.all(16),
-        child: TextField(
-          controller: _controller,
-          decoration: InputDecoration(
-            hintText: 'Search...',
-            fillColor: const Color.fromARGB(255, 229, 226, 226),
-            border: OutlineInputBorder(
-              borderRadius: BorderRadius.circular(16),
+    return Container(
+      height: 70,
+      child: Center(
+        child: Padding(
+          padding: EdgeInsets.all(10),
+          child: TextField(
+            controller: _controller,
+            decoration: InputDecoration(
+              hintText: 'Search...',
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(30),
+              ),
             ),
           ),
         ),
@@ -93,27 +95,38 @@ class MyHorizontalListView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 60,
+      height: 80,
       child: ListView.builder(
         scrollDirection: Axis.horizontal,
         itemCount: 100,
         itemBuilder: (BuildContext context, int index) {
           return Container(
-            width: 70,
+            width: 80,
             margin: EdgeInsets.all(5),
             decoration: BoxDecoration(
               shape: BoxShape.circle,
               color: Colors.blue,
             ),
             child: Center(
-              child: Container(
-                width: 50,
-                height: 50,
-                decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    image: DecorationImage(
-                        fit: BoxFit.cover,
-                        image: NetworkImage('assets/images/IMG_0042.jpg'))),
+              child: Column(
+                children: [
+                  Row(
+                    children: [
+                      Container(
+                        width: 70,
+                        height: 70,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                          image: DecorationImage(
+                            fit: BoxFit.cover,
+                            image: NetworkImage(
+                                'https://scontent.fhan5-8.fna.fbcdn.net/v/t39.30808-1/335049138_719038356676796_4922898347675381291_n.jpg?stp=dst-jpg_p320x320&_nc_cat=108&ccb=1-7&_nc_sid=2b6aad&_nc_ohc=ESeobOO9KIsAX_LIrjK&_nc_ht=scontent.fhan5-8.fna&oh=00_AfBkodhxNgU4s599bne6pmkGYlR9ytAILzGPKXxClETc9Q&oe=64DB01DC'),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ],
               ),
             ),
           );
