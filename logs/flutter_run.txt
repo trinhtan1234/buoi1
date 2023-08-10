@@ -1,384 +1,134 @@
-[08:39:52]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
-[08:39:52]: ..  in D:\Flutter\buoi1-1
-[08:39:52]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[08:39:52]: PID: 19148
-[08:39:55]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":5348}}]
-[08:39:55]: <== [{"event":"app.start","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","deviceId":"emulator-5554","directory":"D:\\Flutter\\buoi1-1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
-[08:39:55]: <== Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
-[08:39:58]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
-[08:41:18]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"0","progressId":null,"finished":true}}]
-[08:41:18]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
-[08:41:19]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
-[08:41:23]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"1","progressId":null,"finished":true}}]
-[08:41:28]: <== [{"event":"app.debugPort","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","port":51587,"wsUri":"ws://127.0.0.1:51587/slQNaYvjGiM=/ws","baseUri":"file:///data/user/0/com.example.buoi1/code_cache/buoi1-1MEZGUJ/buoi1-1/"}}]
-[08:41:28]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"2","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[08:41:29]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"2","progressId":null,"finished":true}}]
-[08:41:29]: <== [{"event":"app.started","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2"}}]
-[08:58:36]: ==> [{"id":"1","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[08:58:37]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[08:58:37]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"4","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[08:58:39]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"4","progressId":null,"finished":true}}]
-[08:58:42]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"3","progressId":"hot.reload","finished":true}}]
-[08:58:42]: <== Reloaded 1 of 748 libraries in 5.362ms (compile: 1047 ms, reload: 2773 ms, reassemble: 517 ms).
-[08:58:42]: <== [{"id":"1","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[08:58:42]: <== D/EGL_emulation( 5781): app_time_stats: avg=341685.72ms min=580.00ms max=1023549.81ms count=3
-[08:58:49]: <== D/EGL_emulation( 5781): app_time_stats: avg=6613.84ms min=6613.84ms max=6613.84ms count=1
-[08:58:50]: <== D/EGL_emulation( 5781): app_time_stats: avg=41.47ms min=3.28ms max=610.25ms count=18
-[08:58:51]: <== D/EGL_emulation( 5781): app_time_stats: avg=10.64ms min=3.37ms max=27.67ms count=48
-[08:58:52]: <== D/EGL_emulation( 5781): app_time_stats: avg=10.39ms min=2.97ms max=29.00ms count=49
-[08:58:53]: <== D/EGL_emulation( 5781): app_time_stats: avg=17.37ms min=5.07ms max=57.58ms count=39
-[08:58:54]: <== D/EGL_emulation( 5781): app_time_stats: avg=13.18ms min=3.21ms max=35.12ms count=46
-[08:58:55]: <== D/EGL_emulation( 5781): app_time_stats: avg=9.60ms min=3.45ms max=25.99ms count=45
-[08:58:56]: <== D/EGL_emulation( 5781): app_time_stats: avg=10.38ms min=3.42ms max=19.23ms count=40
-[08:58:57]: <== D/EGL_emulation( 5781): app_time_stats: avg=10.58ms min=3.48ms max=18.47ms count=42
-[08:58:58]: <== D/EGL_emulation( 5781): app_time_stats: avg=10.71ms min=3.25ms max=45.31ms count=39
-[08:58:59]: <== D/EGL_emulation( 5781): app_time_stats: avg=10.66ms min=3.30ms max=38.63ms count=42
-[08:59:00]: <== D/EGL_emulation( 5781): app_time_stats: avg=16.27ms min=7.09ms max=37.24ms count=33
-[08:59:01]: <== D/EGL_emulation( 5781): app_time_stats: avg=23.69ms min=6.33ms max=63.76ms count=29
-[08:59:02]: <== D/EGL_emulation( 5781): app_time_stats: avg=9.98ms min=2.98ms max=16.87ms count=35
-[08:59:03]: <== D/EGL_emulation( 5781): app_time_stats: avg=8.17ms min=3.16ms max=16.66ms count=39
-[08:59:04]: <== D/EGL_emulation( 5781): app_time_stats: avg=12.28ms min=4.76ms max=32.65ms count=33
-[08:59:05]: <== D/EGL_emulation( 5781): app_time_stats: avg=20.75ms min=10.18ms max=62.65ms count=28
-[08:59:06]: <== D/EGL_emulation( 5781): app_time_stats: avg=12.81ms min=4.12ms max=47.42ms count=33
-[08:59:07]: <== D/EGL_emulation( 5781): app_time_stats: avg=7.75ms min=2.64ms max=18.94ms count=43
-[08:59:07]: ==> [{"id":"2","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[08:59:07]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"5","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[08:59:07]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"6","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[08:59:08]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"6","progressId":null,"finished":true}}]
-[08:59:08]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"5","progressId":"hot.reload","finished":true}}]
-[08:59:08]: <== Reloaded 1 of 748 libraries in 653ms (compile: 52 ms, reload: 280 ms, reassemble: 202 ms).
-[08:59:08]: <== [{"id":"2","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[08:59:08]: <== D/EGL_emulation( 5781): app_time_stats: avg=25.07ms min=4.52ms max=243.25ms count=28
-[08:59:09]: <== D/EGL_emulation( 5781): app_time_stats: avg=13.74ms min=3.31ms max=33.85ms count=33
-[08:59:10]: <== D/EGL_emulation( 5781): app_time_stats: avg=8.70ms min=3.10ms max=18.32ms count=41
-[08:59:14]: <== D/EGL_emulation( 5781): app_time_stats: avg=174.96ms min=11.06ms max=2909.95ms count=20
-[08:59:23]: ==> [{"id":"3","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.getSelectedSummaryWidget","params":{"previousSelectionId":null,"objectGroup":"my-group"}}}]
-[08:59:23]: <== [{"id":"3","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.getSelectedSummaryWidget"}}]
-[08:59:23]: ==> [{"id":"4","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.disposeGroup","params":{"objectGroup":"my-group"}}}]
-[08:59:23]: <== [{"id":"4","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.disposeGroup"}}]
-[09:04:25]: ==> [{"id":"5","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:04:26]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"7","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:04:26]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"8","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:04:26]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"8","progressId":null,"finished":true}}]
-[09:04:29]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"7","progressId":"hot.reload","finished":true}}]
-[09:04:29]: <== Reloaded 1 of 748 libraries in 3.349ms (compile: 223 ms, reload: 2196 ms, reassemble: 650 ms).
-[09:04:29]: <== [{"id":"5","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:04:29]: <== D/EGL_emulation( 5781): app_time_stats: avg=24238.58ms min=2.27ms max=314811.41ms count=13
-[09:04:31]: <== D/EGL_emulation( 5781): app_time_stats: avg=2371.01ms min=2371.01ms max=2371.01ms count=1
-[09:04:37]: <== D/EGL_emulation( 5781): app_time_stats: avg=230.33ms min=1.89ms max=4984.47ms count=22
-[09:04:38]: <== D/EGL_emulation( 5781): app_time_stats: avg=85.65ms min=2.77ms max=707.60ms count=12
-[09:04:39]: <== D/EGL_emulation( 5781): app_time_stats: avg=337.11ms min=20.10ms max=965.16ms count=3
-[09:04:40]: <== D/EGL_emulation( 5781): app_time_stats: avg=8.20ms min=1.79ms max=83.21ms count=53
-[09:05:17]: ==> [{"id":"6","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:05:17]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"9","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:05:17]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"10","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:05:17]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"10","progressId":null,"finished":true}}]
-[09:05:18]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"9","progressId":"hot.reload","finished":true}}]
-[09:05:18]: <== Reloaded 1 of 748 libraries in 1.387ms (compile: 62 ms, reload: 318 ms, reassemble: 922 ms).
-[09:05:18]: <== [{"id":"6","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:05:18]: <== D/EGL_emulation( 5781): app_time_stats: avg=927.28ms min=1.70ms max=37695.44ms count=41
-[09:05:48]: ==> [{"id":"7","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:05:48]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"11","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:05:48]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"12","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:05:48]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"12","progressId":null,"finished":true}}]
-[09:05:48]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"11","progressId":"hot.reload","finished":true}}]
-[09:05:48]: <== Reloaded 1 of 748 libraries in 622ms (compile: 51 ms, reload: 246 ms, reassemble: 254 ms).
-[09:05:48]: <== [{"id":"7","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:05:49]: <== D/EGL_emulation( 5781): app_time_stats: avg=30475.09ms min=30475.09ms max=30475.09ms count=1
-[09:05:55]: ==> [{"id":"8","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.getSelectedSummaryWidget","params":{"previousSelectionId":null,"objectGroup":"my-group"}}}]
-[09:05:55]: <== [{"id":"8","result":{"result":{"description":"Column","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-13321","valueId":"inspector-483","locationId":50,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":19,"column":18,"name":"Column"},"createdByLocalProject":true,"children":[{"description":"Expanded","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-13322","valueId":"inspector-13323","locationId":51,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":20,"column":13,"name":"Expanded"},"createdByLocalProject":true,"widgetRuntimeType":"Expanded","stateful":false},{"description":"SizedBox","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-13324","valueId":"inspector-13325","locationId":52,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":43,"column":13,"name":"SizedBox"},"createdByLocalProject":true,"widgetRuntimeType":"SizedBox","stateful":false}],"widgetRuntimeType":"Column","stateful":false},"type":"_extensionType","method":"ext.flutter.inspector.getSelectedSummaryWidget"}}]
-[09:05:55]: ==> [{"id":"9","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.disposeGroup","params":{"objectGroup":"my-group"}}}]
-[09:05:55]: <== [{"id":"9","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.disposeGroup"}}]
-[09:06:16]: <== D/EGL_emulation( 5781): app_time_stats: avg=13827.84ms min=17.95ms max=27637.73ms count=2
-[09:06:22]: <== D/EGL_emulation( 5781): app_time_stats: avg=5507.46ms min=5507.46ms max=5507.46ms count=1
-[09:06:22]: ==> [{"id":"10","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.getSelectedSummaryWidget","params":{"previousSelectionId":null,"objectGroup":"my-group"}}}]
-[09:06:22]: <== [{"id":"10","result":{"result":{"description":"TextField","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-15443","valueId":"inspector-13446","locationId":75,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/myhompage.dart","line":43,"column":16,"name":"TextField"},"createdByLocalProject":true,"children":[{"description":"MouseRegion","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-15444","valueId":"inspector-15445","locationId":106,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/lib/src/material/text_field.dart","line":1454,"column":12,"name":"MouseRegion"},"children":[{"description":"TextFieldTapRegion","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-15446","valueId":"inspector-15447","locationId":107,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/lib/src/material/text_field.dart","line":1458,"column":14,"name":"TextFieldTapRegion"},"children":[{"description":"IgnorePointer","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-15448","valueId":"inspector-15449","locationId":108,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/lib/src/material/text_field.dart","line":1459,"column":16,"name":"IgnorePointer"},"children":[{"description":"AnimatedBuilder","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-15450","valueId":"inspector-15451","locationId":109,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/lib/src/material/text_field.dart","line":1461,"column":18,"name":"AnimatedBuilder"},"children":[{"description":"Semantics","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-15452","valueId":"insp…
-[09:06:22]: ==> [{"id":"11","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.disposeGroup","params":{"objectGroup":"my-group"}}}]
-[09:06:22]: <== [{"id":"11","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.disposeGroup"}}]
-[09:06:33]: ==> [{"id":"12","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.getSelectedSummaryWidget","params":{"previousSelectionId":null,"objectGroup":"my-group"}}}]
-[09:06:33]: <== D/EGL_emulation( 5781): app_time_stats: avg=5732.01ms min=186.13ms max=11277.89ms count=2
-[09:06:33]: <== [{"id":"12","result":{"result":{"description":"Column","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-20000","valueId":"inspector-483","locationId":50,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":19,"column":18,"name":"Column"},"createdByLocalProject":true,"children":[{"description":"Expanded","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-20001","valueId":"inspector-13333","locationId":51,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":20,"column":13,"name":"Expanded"},"createdByLocalProject":true,"widgetRuntimeType":"Expanded","stateful":false},{"description":"SizedBox","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-20002","valueId":"inspector-13335","locationId":52,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":43,"column":13,"name":"SizedBox"},"createdByLocalProject":true,"widgetRuntimeType":"SizedBox","stateful":false}],"widgetRuntimeType":"Column","stateful":false},"type":"_extensionType","method":"ext.flutter.inspector.getSelectedSummaryWidget"}}]
-[09:06:33]: ==> [{"id":"13","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.disposeGroup","params":{"objectGroup":"my-group"}}}]
-[09:06:34]: <== [{"id":"13","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.disposeGroup"}}]
-[09:07:42]: <== D/EGL_emulation( 5781): app_time_stats: avg=68825.82ms min=68825.82ms max=68825.82ms count=1
-[09:07:45]: <== D/EGL_emulation( 5781): app_time_stats: avg=613.85ms min=2.33ms max=2950.06ms count=5
-[09:07:46]: ==> [{"id":"14","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.getSelectedSummaryWidget","params":{"previousSelectionId":null,"objectGroup":"my-group"}}}]
-[09:07:46]: <== [{"id":"14","result":{"result":{"description":"Icon","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-20194","valueId":"inspector-13458","locationId":81,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/myhompage.dart","line":89,"column":19,"name":"Icon"},"createdByLocalProject":true,"children":[{"description":"Semantics","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-20195","valueId":"inspector-20196","locationId":164,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/lib/src/widgets/icon.dart","line":302,"column":12,"name":"Semantics"},"children":[{"description":"ExcludeSemantics","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-20197","valueId":"inspector-20198","locationId":165,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/lib/src/widgets/icon.dart","line":304,"column":14,"name":"ExcludeSemantics"},"children":[{"description":"SizedBox","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-20199","valueId":"inspector-20200","locationId":166,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/lib/src/widgets/icon.dart","line":305,"column":16,"name":"SizedBox"},"children":[{"description":"Center","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-20201","valueId":"inspector-20202","locationId":167,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/lib/src/widgets/icon.dart","line":308,"column":18,"name":"Center"},"children":[{"description":"RichText","type":"_ElementDiagnosticableTreeNode","style":"dense","allowWrap":false,"objectId":"inspector-20203","valueId":"inspector-20193","locationId":163,"creationLocation":{"file":"file:///C:/src/flutter/packages/flutter/…
-[09:07:46]: ==> [{"id":"15","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.disposeGroup","params":{"objectGroup":"my-group"}}}]
-[09:07:46]: <== [{"id":"15","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.disposeGroup"}}]
-[09:07:50]: <== D/EGL_emulation( 5781): app_time_stats: avg=2483.88ms min=154.96ms max=4812.80ms count=2
-[09:07:50]: <== I/ImeTracker( 5781): com.example.buoi1:18e8de05: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:51]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F....ID 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:51]: <== I/AssistStructure( 5781): Flattened final assist data: 380 bytes, containing 1 windows, 3 views
-[09:07:52]: <== D/EGL_emulation( 5781): app_time_stats: avg=178.71ms min=7.64ms max=506.42ms count=8
-[09:07:53]: <== D/EGL_emulation( 5781): app_time_stats: avg=543.72ms min=536.07ms max=551.36ms count=2
-[09:07:53]: <== I/ImeTracker( 5781): com.example.buoi1:9598f0f2: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:53]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:54]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:54]: <== I/ImeTracker( 5781): com.example.buoi1:abfd267e: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:54]: <== D/EGL_emulation( 5781): app_time_stats: avg=788414.69ms min=3132.00ms max=1573697.38ms count=2
-[09:07:54]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:54]: <== D/EGL_emulation( 5781): app_time_stats: avg=380.81ms min=193.59ms max=556.65ms count=3
-[09:07:54]: <== I/ImeTracker( 5781): com.example.buoi1:610ee9e: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:54]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:54]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:54]: <== I/ImeTracker( 5781): com.example.buoi1:9598f0f2: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:54]: <== I/ImeTracker( 5781): com.example.buoi1:c614108f: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:54]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:54]: <== I/TextInputPlugin( 5781): Composing region changed by the framework. Restarting the input method.
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): setComposingRegion on inactive InputConnection
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:54]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:54]: <== I/ImeTracker( 5781): com.example.buoi1:610ee9e: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:54]: <== I/ImeTracker( 5781): com.example.buoi1:18e8de05: onShown
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:54]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:54]: <== I/ImeTracker( 5781): com.example.buoi1:c614108f: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:54]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:54]: <== I/ImeTracker( 5781): com.example.buoi1:c5b1b115: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:54]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:55]: <== D/EGL_emulation( 5781): app_time_stats: avg=146.76ms min=16.92ms max=393.34ms count=7
-[09:07:55]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:55]: <== I/ImeTracker( 5781): com.example.buoi1:c5b1b115: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:55]: <== I/ImeTracker( 5781): com.example.buoi1:21cb966e: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:55]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:55]: <== I/TextInputPlugin( 5781): Composing region changed by the framework. Restarting the input method.
-[09:07:55]: <== I/ImeTracker( 5781): com.example.buoi1:c73b7eed: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:55]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:55]: <== I/ImeTracker( 5781): com.example.buoi1:d9fcdc3a: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:55]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:55]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:55]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:55]: <== I/ImeTracker( 5781): com.example.buoi1:21cb966e: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:55]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:55]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:55]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:55]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:55]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:55]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:55]: <== I/ImeTracker( 5781): com.example.buoi1:44a1b2a: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:55]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:55]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:55]: <== I/ImeTracker( 5781): com.example.buoi1:44a1b2a: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:56]: <== I/ImeTracker( 5781): com.example.buoi1:538a7259: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:56]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:56]: <== I/TextInputPlugin( 5781): Composing region changed by the framework. Restarting the input method.
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:56]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:56]: <== I/ImeTracker( 5781): com.example.buoi1:538a7259: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:56]: <== I/ImeTracker( 5781): com.example.buoi1:53429e6f: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:56]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:56]: <== I/TextInputPlugin( 5781): Composing region changed by the framework. Restarting the input method.
-[09:07:56]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:56]: <== I/ImeTracker( 5781): com.example.buoi1:53429e6f: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getSurroundingText on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:56]: <== W/RemoteInputConnectionImpl( 5781): getTextBeforeCursor on inactive InputConnection
-[09:07:56]: <== I/ImeTracker( 5781): com.example.buoi1:a77ae452: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
-[09:07:56]: <== D/InputMethodManager( 5781): showSoftInput() view=io.flutter.embedding.android.FlutterView{b8552c2 VFE...... .F...... 0,0-1080,2154 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
-[09:07:56]: <== D/InsetsController( 5781): show(ime(), fromIme=true)
-[09:07:56]: <== I/ImeTracker( 5781): com.example.buoi1:a77ae452: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
-[09:07:56]: <== D/EGL_emulation( 5781): app_time_stats: avg=147.76ms min=64.81ms max=263.75ms count=7
-[09:07:57]: <== D/EGL_emulation( 5781): app_time_stats: avg=409.52ms min=212.39ms max=515.90ms count=3
-[09:07:59]: <== D/EGL_emulation( 5781): app_time_stats: avg=499.08ms min=480.17ms max=515.61ms count=3
-[09:08:00]: <== D/EGL_emulation( 5781): app_time_stats: avg=494.94ms min=486.32ms max=501.27ms count=3
-[09:08:01]: <== I/ImeTracker( 5781): com.example.buoi1:9a808d5b: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
-[09:08:01]: <== D/EGL_emulation( 5781): app_time_stats: avg=540.07ms min=1.94ms max=6353.98ms count=12
-[09:08:01]: <== W/WindowOnBackDispatcher( 5781): sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@192208023 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@1ad5a22
-[09:08:01]: <== I/ImeTracker( 5781): com.example.buoi1:cb8e35f6: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
-[09:08:01]: <== I/ImeTracker( 5781): com.example.buoi1:9a808d5b: onHidden
-[09:08:05]: <== E/FrameTracker( 5781): force finish cuj, time out: J<IME_INSETS_ANIMATION::0@1@com.example.buoi1>
-[09:08:11]: <== E/FrameTracker( 5781): force finish cuj, time out: J<IME_INSETS_ANIMATION::1@1@com.example.buoi1>
-[09:08:49]: ==> [{"id":"16","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.getSelectedSummaryWidget","params":{"previousSelectionId":null,"objectGroup":"my-group"}}}]
-[09:08:49]: <== D/EGL_emulation( 5781): app_time_stats: avg=4390.80ms min=8.38ms max=47637.62ms count=11
-[09:08:49]: <== [{"id":"16","result":{"result":{"description":"MyHome","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-24245","valueId":"inspector-13405","locationId":56,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/myhompage.dart","line":23,"column":11,"name":"MyHome"},"createdByLocalProject":true,"children":[{"description":"DefaultTabController","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-24246","valueId":"inspector-13407","locationId":57,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":16,"column":12,"name":"DefaultTabController"},"createdByLocalProject":true,"widgetRuntimeType":"DefaultTabController","stateful":true}],"widgetRuntimeType":"MyHome","stateful":true},"type":"_extensionType","method":"ext.flutter.inspector.getSelectedSummaryWidget"}}]
-[09:08:49]: ==> [{"id":"17","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.disposeGroup","params":{"objectGroup":"my-group"}}}]
-[09:08:49]: <== [{"id":"17","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.disposeGroup"}}]
-[09:09:28]: ==> [{"id":"18","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:09:28]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"13","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:09:28]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"14","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:09:28]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"14","progressId":null,"finished":true}}]
-[09:09:29]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"13","progressId":"hot.reload","finished":true}}]
-[09:09:29]: <== Reloaded 1 of 748 libraries in 1.239ms (compile: 53 ms, reload: 383 ms, reassemble: 715 ms).
-[09:09:29]: <== [{"id":"18","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:09:29]: <== D/EGL_emulation( 5781): app_time_stats: avg=40579.85ms min=40579.85ms max=40579.85ms count=1
-[09:09:45]: ==> [{"id":"19","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.getSelectedSummaryWidget","params":{"previousSelectionId":null,"objectGroup":"my-group"}}}]
-[09:09:45]: <== [{"id":"19","result":{"result":{"description":"Column","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-27670","valueId":"inspector-483","locationId":50,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":19,"column":18,"name":"Column"},"createdByLocalProject":true,"children":[{"description":"Expanded","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-27671","valueId":"inspector-13333","locationId":51,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":20,"column":13,"name":"Expanded"},"createdByLocalProject":true,"widgetRuntimeType":"Expanded","stateful":false},{"description":"SizedBox","type":"_ElementDiagnosticableTreeNode","style":"dense","hasChildren":true,"allowWrap":false,"objectId":"inspector-27672","valueId":"inspector-13335","locationId":52,"creationLocation":{"file":"file:///D:/Flutter/buoi1-1/lib/home/home.dart","line":43,"column":13,"name":"SizedBox"},"createdByLocalProject":true,"widgetRuntimeType":"SizedBox","stateful":false}],"widgetRuntimeType":"Column","stateful":false},"type":"_extensionType","method":"ext.flutter.inspector.getSelectedSummaryWidget"}}]
-[09:09:45]: ==> [{"id":"20","method":"app.callServiceExtension","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","methodName":"ext.flutter.inspector.disposeGroup","params":{"objectGroup":"my-group"}}}]
-[09:09:45]: <== [{"id":"20","result":{"result":null,"type":"_extensionType","method":"ext.flutter.inspector.disposeGroup"}}]
-[09:09:45]: <== D/EGL_emulation( 5781): app_time_stats: avg=15867.41ms min=15867.41ms max=15867.41ms count=1
-[09:09:52]: <== D/EGL_emulation( 5781): app_time_stats: avg=7041.60ms min=7041.60ms max=7041.60ms count=1
-[09:10:16]: ==> [{"id":"21","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:10:17]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"15","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:10:17]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"16","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:10:17]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"16","progressId":null,"finished":true}}]
-[09:10:18]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"15","progressId":"hot.reload","finished":true}}]
-[09:10:18]: <== Reloaded 1 of 748 libraries in 1.147ms (compile: 73 ms, reload: 335 ms, reassemble: 676 ms).
-[09:10:18]: <== [{"id":"21","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:10:18]: <== D/EGL_emulation( 5781): app_time_stats: avg=25411.11ms min=25411.11ms max=25411.11ms count=1
-[09:12:30]: ==> [{"id":"22","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:12:31]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"17","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:12:31]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"18","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:12:31]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"18","progressId":null,"finished":true}}]
-[09:12:32]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"17","progressId":"hot.reload","finished":true}}]
-[09:12:32]: <== Reloaded 4 of 748 libraries in 1.155ms (compile: 224 ms, reload: 536 ms, reassemble: 279 ms).
-[09:12:32]: <== [{"id":"22","result":{"code":0,"message":"Reloaded 4 of 748 libraries"}}]
-[09:12:32]: <== D/EGL_emulation( 5781): app_time_stats: avg=134012.42ms min=134012.42ms max=134012.42ms count=1
-[09:12:35]: <== D/EGL_emulation( 5781): app_time_stats: avg=3026.51ms min=3026.51ms max=3026.51ms count=1
-[09:13:26]: ==> [{"id":"23","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:13:26]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"19","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:13:26]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"20","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:13:26]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"20","progressId":null,"finished":true}}]
-[09:13:26]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"19","progressId":"hot.reload","finished":true}}]
-[09:13:26]: <== Reloaded 4 of 748 libraries in 758ms (compile: 63 ms, reload: 405 ms, reassemble: 208 ms).
-[09:13:26]: <== [{"id":"23","result":{"code":0,"message":"Reloaded 4 of 748 libraries"}}]
-[09:13:26]: <== D/EGL_emulation( 5781): app_time_stats: avg=3676.28ms min=2.76ms max=51317.83ms count=14
-[09:13:31]: <== D/EGL_emulation( 5781): app_time_stats: avg=4647.45ms min=4647.45ms max=4647.45ms count=1
-[09:13:35]: <== D/EGL_emulation( 5781): app_time_stats: avg=320.58ms min=5.89ms max=3486.04ms count=13
-[09:13:37]: <== D/EGL_emulation( 5781): app_time_stats: avg=46.23ms min=2.00ms max=832.32ms count=20
-[09:13:44]: ==> [{"id":"24","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:13:44]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"21","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:13:44]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"22","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:13:44]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"22","progressId":null,"finished":true}}]
-[09:13:45]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"21","progressId":"hot.reload","finished":true}}]
-[09:13:45]: <== Reloaded 1 of 748 libraries in 1.593ms (compile: 46 ms, reload: 352 ms, reassemble: 1114 ms).
-[09:13:45]: <== [{"id":"24","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:13:46]: <== D/EGL_emulation( 5781): app_time_stats: avg=615.34ms min=2.47ms max=8314.35ms count=14
-[09:13:52]: <== D/EGL_emulation( 5781): app_time_stats: avg=6749.53ms min=6749.53ms max=6749.53ms count=1
-[09:14:05]: ==> [{"id":"25","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:14:05]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"23","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:14:05]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"24","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:14:05]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"24","progressId":null,"finished":true}}]
-[09:14:06]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"23","progressId":"hot.reload","finished":true}}]
-[09:14:06]: <== Reloaded 1 of 748 libraries in 672ms (compile: 44 ms, reload: 330 ms, reassemble: 224 ms).
-[09:14:06]: <== [{"id":"25","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:14:06]: <== D/EGL_emulation( 5781): app_time_stats: avg=885.11ms min=2.09ms max=13200.52ms count=15
-[09:14:16]: ==> [{"id":"26","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:14:16]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"25","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:14:16]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"26","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:14:16]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"26","progressId":null,"finished":true}}]
-[09:14:17]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"25","progressId":"hot.reload","finished":true}}]
-[09:14:17]: <== Reloaded 1 of 748 libraries in 630ms (compile: 53 ms, reload: 334 ms, reassemble: 174 ms).
-[09:14:17]: <== [{"id":"26","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:14:17]: <== D/EGL_emulation( 5781): app_time_stats: avg=10945.68ms min=10945.68ms max=10945.68ms count=1
-[09:14:22]: ==> [{"id":"27","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:14:22]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"27","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:14:22]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"28","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:14:22]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"28","progressId":null,"finished":true}}]
-[09:14:23]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"27","progressId":"hot.reload","finished":true}}]
-[09:14:23]: <== Reloaded 1 of 748 libraries in 707ms (compile: 43 ms, reload: 392 ms, reassemble: 206 ms).
-[09:14:23]: <== [{"id":"27","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:14:23]: <== D/EGL_emulation( 5781): app_time_stats: avg=5665.85ms min=5665.85ms max=5665.85ms count=1
-[09:14:30]: ==> [{"id":"28","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:14:30]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"29","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:14:30]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"30","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:14:30]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"30","progressId":null,"finished":true}}]
-[09:14:31]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"29","progressId":"hot.reload","finished":true}}]
-[09:14:31]: <== Reloaded 1 of 748 libraries in 637ms (compile: 41 ms, reload: 341 ms, reassemble: 186 ms).
-[09:14:31]: <== [{"id":"28","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:14:31]: <== D/EGL_emulation( 5781): app_time_stats: avg=8499.76ms min=8499.76ms max=8499.76ms count=1
-[09:14:44]: ==> [{"id":"29","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:14:44]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"31","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:14:44]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"32","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:14:44]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"32","progressId":null,"finished":true}}]
-[09:14:44]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"31","progressId":"hot.reload","finished":true}}]
-[09:14:44]: <== Reloaded 1 of 748 libraries in 737ms (compile: 47 ms, reload: 438 ms, reassemble: 186 ms).
-[09:14:44]: <== [{"id":"29","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:14:44]: <== D/EGL_emulation( 5781): app_time_stats: avg=13348.64ms min=13348.64ms max=13348.64ms count=1
-[09:14:46]: <== D/EGL_emulation( 5781): app_time_stats: avg=1780.37ms min=1780.37ms max=1780.37ms count=1
-[09:14:49]: <== D/EGL_emulation( 5781): app_time_stats: avg=149.26ms min=2.05ms max=1890.99ms count=15
-[09:15:02]: ==> [{"id":"30","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":true,"pause":false,"reason":"manual"}}]
-[09:15:02]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"33","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[09:15:02]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"34","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:15:03]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"34","progressId":null,"finished":true}}]
-[09:15:04]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"33","progressId":"hot.restart","finished":true}}]
-[09:15:04]: <== Restarted application in 2.105ms.
-[09:15:04]: <== [{"id":"30","result":{"code":0,"message":""}}]
-[09:15:06]: <== D/EGL_emulation( 5781): app_time_stats: avg=1192.05ms min=2.65ms max=16611.96ms count=14
-[09:15:11]: <== D/EGL_emulation( 5781): app_time_stats: avg=2464.87ms min=63.90ms max=4865.84ms count=2
-[09:15:12]: <== D/EGL_emulation( 5781): app_time_stats: avg=55.53ms min=2.90ms max=341.81ms count=16
-[09:15:59]: ==> [{"id":"31","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:15:59]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"35","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:15:59]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"36","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:15:59]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"36","progressId":null,"finished":true}}]
-[09:16:00]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"35","progressId":"hot.reload","finished":true}}]
-[09:16:00]: <== Reloaded 1 of 748 libraries in 696ms (compile: 55 ms, reload: 169 ms, reassemble: 401 ms).
-[09:16:00]: <== [{"id":"31","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:16:00]: <== D/EGL_emulation( 5781): app_time_stats: avg=23830.96ms min=24.58ms max=47637.35ms count=2
-[09:16:04]: <== D/EGL_emulation( 5781): app_time_stats: avg=4094.35ms min=4094.35ms max=4094.35ms count=1
-[09:16:05]: <== D/EGL_emulation( 5781): app_time_stats: avg=22.50ms min=2.19ms max=316.57ms count=23
-[09:16:06]: <== D/EGL_emulation( 5781): app_time_stats: avg=22.20ms min=1.92ms max=196.63ms count=25
-[09:16:07]: <== D/EGL_emulation( 5781): app_time_stats: avg=3.53ms min=2.01ms max=6.00ms count=32
-[09:16:08]: <== D/EGL_emulation( 5781): app_time_stats: avg=25.87ms min=1.92ms max=363.53ms count=22
-[09:16:09]: <== D/EGL_emulation( 5781): app_time_stats: avg=29.22ms min=1.85ms max=409.81ms count=20
-[09:16:10]: <== D/EGL_emulation( 5781): app_time_stats: avg=6.35ms min=1.86ms max=42.09ms count=32
-[09:16:11]: <== D/EGL_emulation( 5781): app_time_stats: avg=37.66ms min=2.16ms max=495.91ms count=17
-[09:16:12]: <== D/EGL_emulation( 5781): app_time_stats: avg=23.29ms min=1.88ms max=381.40ms count=22
-[09:16:13]: <== D/EGL_emulation( 5781): app_time_stats: avg=3.00ms min=1.90ms max=4.50ms count=33
-[09:16:14]: <== D/EGL_emulation( 5781): app_time_stats: avg=44.99ms min=2.10ms max=580.07ms count=14
-[09:16:15]: <== D/EGL_emulation( 5781): app_time_stats: avg=71.70ms min=2.53ms max=477.43ms count=15
-[09:16:16]: <== D/EGL_emulation( 5781): app_time_stats: avg=114.09ms min=2.12ms max=947.92ms count=9
-[09:16:17]: <== D/EGL_emulation( 5781): app_time_stats: avg=3.77ms min=1.89ms max=18.43ms count=33
-[09:16:18]: <== D/EGL_emulation( 5781): app_time_stats: avg=3.80ms min=1.90ms max=9.99ms count=33
-[09:16:19]: <== D/EGL_emulation( 5781): app_time_stats: avg=8.68ms min=2.00ms max=78.54ms count=33
-[09:16:21]: <== D/EGL_emulation( 5781): app_time_stats: avg=30.05ms min=1.64ms max=763.24ms count=31
-[09:16:32]: ==> [{"id":"32","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:16:32]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"37","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:16:32]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"38","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:16:32]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"38","progressId":null,"finished":true}}]
-[09:16:33]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"37","progressId":"hot.reload","finished":true}}]
-[09:16:33]: <== Reloaded 1 of 748 libraries in 584ms (compile: 57 ms, reload: 214 ms, reassemble: 235 ms).
-[09:16:33]: <== [{"id":"32","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:16:33]: <== D/EGL_emulation( 5781): app_time_stats: avg=410.95ms min=1.84ms max=10907.03ms count=27
-[09:16:35]: <== D/EGL_emulation( 5781): app_time_stats: avg=2102.95ms min=2102.95ms max=2102.95ms count=1
-[09:16:36]: <== D/EGL_emulation( 5781): app_time_stats: avg=7.56ms min=1.86ms max=62.30ms count=39
-[09:16:36]: <== I/m.example.buoi1( 5781): Background young concurrent copying GC freed 35643(2344KB) AllocSpace objects, 0(0B) LOS objects, 47% free, 2640KB/5048KB, paused 1.047ms,55us total 158.203ms
-[09:16:36]: <== W/m.example.buoi1( 5781): Reducing the number of considered missed Gc histogram windows from 208 to 100
-[09:16:37]: <== D/EGL_emulation( 5781): app_time_stats: avg=7.18ms min=2.07ms max=57.98ms count=35
-[09:16:38]: <== D/EGL_emulation( 5781): app_time_stats: avg=3.16ms min=1.76ms max=14.25ms count=44
-[09:16:39]: <== D/EGL_emulation( 5781): app_time_stats: avg=21.27ms min=1.91ms max=276.17ms count=28
-[09:16:43]: ==> [{"id":"33","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:16:43]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"39","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:16:43]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"40","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:16:43]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"40","progressId":null,"finished":true}}]
-[09:16:44]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"39","progressId":"hot.reload","finished":true}}]
-[09:16:44]: <== Reloaded 1 of 748 libraries in 746ms (compile: 54 ms, reload: 328 ms, reassemble: 285 ms).
-[09:16:44]: <== [{"id":"33","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:16:44]: <== D/EGL_emulation( 5781): app_time_stats: avg=124.00ms min=2.18ms max=3960.78ms count=33
-[09:16:45]: <== D/EGL_emulation( 5781): app_time_stats: avg=111.36ms min=10.37ms max=807.92ms count=9
-[09:16:46]: <== D/EGL_emulation( 5781): app_time_stats: avg=9.80ms min=1.71ms max=51.97ms count=44
-[09:16:47]: <== D/EGL_emulation( 5781): app_time_stats: avg=7.36ms min=1.74ms max=43.57ms count=47
-[09:16:48]: <== D/EGL_emulation( 5781): app_time_stats: avg=7.04ms min=1.70ms max=30.58ms count=49
-[09:16:49]: <== D/EGL_emulation( 5781): app_time_stats: avg=9.72ms min=1.96ms max=124.11ms count=47
-[09:16:50]: <== D/EGL_emulation( 5781): app_time_stats: avg=7.92ms min=2.12ms max=18.76ms count=54
-[09:16:57]: ==> [{"id":"34","method":"app.restart","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[09:16:57]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"41","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[09:16:57]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"42","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[09:16:57]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"42","progressId":null,"finished":true}}]
-[09:16:57]: <== [{"event":"app.progress","params":{"appId":"679a29fa-a868-4630-ad4c-42aca198a4f2","id":"41","progressId":"hot.reload","finished":true}}]
-[09:16:57]: <== Reloaded 1 of 748 libraries in 795ms (compile: 47 ms, reload: 360 ms, reassemble: 321 ms).
-[09:16:57]: <== [{"id":"34","result":{"code":0,"message":"Reloaded 1 of 748 libraries"}}]
-[09:16:57]: <== D/EGL_emulation( 5781): app_time_stats: avg=134.41ms min=1.96ms max=6561.87ms count=50
-[09:16:58]: <== D/EGL_emulation( 5781): app_time_stats: avg=502.30ms min=43.11ms max=961.48ms count=2
-[09:16:59]: <== D/EGL_emulation( 5781): app_time_stats: avg=9.82ms min=1.99ms max=46.32ms count=52
-[09:17:00]: <== D/EGL_emulation( 5781): app_time_stats: avg=16.71ms min=10.69ms max=52.16ms count=55
-[09:17:01]: <== D/EGL_emulation( 5781): app_time_stats: avg=11.22ms min=1.99ms max=26.47ms count=59
-[09:17:03]: <== D/EGL_emulation( 5781): app_time_stats: avg=22.00ms min=1.76ms max=862.92ms count=46
-[09:17:04]: <== D/EGL_emulation( 5781): app_time_stats: avg=12.35ms min=3.28ms max=84.34ms count=48
-[09:17:05]: <== D/EGL_emulation( 5781): app_time_stats: avg=25.23ms min=1.90ms max=632.85ms count=34
-[09:17:06]: <== D/EGL_emulation( 5781): app_time_stats: avg=12.28ms min=1.80ms max=46.84ms count=55
+[08:51:25]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
+[08:51:25]: ..  in D:\Flutter\buoi1
+[08:51:25]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[08:51:25]: PID: 9388
+[08:51:28]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":20600}}]
+[08:51:28]: <== [{"event":"app.start","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","deviceId":"emulator-5554","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
+[08:51:28]: <== Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+[08:51:31]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
+[08:52:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"0","progressId":null,"finished":true}}]
+[08:52:40]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
+[08:52:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
+[08:52:45]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"1","progressId":null,"finished":true}}]
+[08:52:50]: <== [{"event":"app.debugPort","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","port":50807,"wsUri":"ws://127.0.0.1:50807/hvNFuLqkZwQ=/ws","baseUri":"file:///data/user/0/com.example.buoi1/code_cache/buoi1MXMTBZ/buoi1/"}}]
+[08:52:50]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"2","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[08:52:51]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"2","progressId":null,"finished":true}}]
+[08:52:51]: <== [{"event":"app.started","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657"}}]
+[09:03:31]: ==> [{"id":"1","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:03:31]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:03:31]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"4","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:03:32]: lib/main.dart:18:13: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+[09:03:32]: Try using a constructor or factory that is 'const'.
+      home: ContactScreen(),
+            ^^^^^^^^^^^^^
+[09:03:32]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"4","progressId":null,"finished":true}}]
+[09:03:32]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"3","progressId":"hot.reload","finished":true}}]
+[09:03:32]: <== [{"id":"1","result":{"code":1,"message":"DevFS synchronization failed"}}]
+[09:06:09]: ==> [{"id":"2","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:06:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"5","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:06:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"6","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:06:09]: lib/main.dart:18:13: Error: Method not found: 'ContactScreen'.
+[09:06:09]: home: ContactScreen(),
+            ^^^^^^^^^^^^^
+[09:06:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"6","progressId":null,"finished":true}}]
+[09:06:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"5","progressId":"hot.reload","finished":true}}]
+[09:06:09]: <== [{"id":"2","result":{"code":1,"message":"DevFS synchronization failed"}}]
+[09:06:46]: ==> [{"id":"3","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:06:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"7","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:06:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"8","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:06:46]: lib/main.dart:18:13: Error: Method not found: 'ContactScreen'.
+[09:06:46]: home: ContactScreen(),
+            ^^^^^^^^^^^^^
+[09:06:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"8","progressId":null,"finished":true}}]
+[09:06:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"7","progressId":"hot.reload","finished":true}}]
+[09:06:46]: <== [{"id":"3","result":{"code":1,"message":"DevFS synchronization failed"}}]
+[09:07:41]: ==> [{"id":"4","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:07:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"9","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:07:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"10","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:07:41]: lib/main.dart:18:13: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+[09:07:41]: Try using a constructor or factory that is 'const'.
+      home: ContactScreen(),
+            ^^^^^^^^^^^^^
+[09:07:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"10","progressId":null,"finished":true}}]
+[09:07:41]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"9","progressId":"hot.reload","finished":true}}]
+[09:07:41]: <== [{"id":"4","result":{"code":1,"message":"DevFS synchronization failed"}}]
+[09:07:45]: ==> [{"id":"5","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:07:45]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"11","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:07:45]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"12","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:07:45]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"12","progressId":null,"finished":true}}]
+[09:07:47]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"11","progressId":"hot.reload","finished":true}}]
+[09:07:47]: <== Reloaded 3 of 667 libraries in 2.170ms (compile: 25 ms, reload: 1390 ms, reassemble: 254 ms).
+[09:07:47]: <== [{"id":"5","result":{"code":0,"message":"Reloaded 3 of 667 libraries"}}]
+[09:07:47]: <== D/EGL_emulation( 5089): app_time_stats: avg=446322.06ms min=78.85ms max=892565.25ms count=2
+[09:19:45]: ==> [{"id":"6","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:19:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"13","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:19:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"14","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:19:46]: lib/main.dart:18:13: Error: Cannot invoke a non-'const' constructor where a const expression is expected.
+[09:19:46]: Try using a constructor or factory that is 'const'.
+      home: ContactScreen(),
+            ^^^^^^^^^^^^^
+[09:19:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"14","progressId":null,"finished":true}}]
+[09:19:46]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"13","progressId":"hot.reload","finished":true}}]
+[09:19:46]: <== [{"id":"6","result":{"code":1,"message":"DevFS synchronization failed"}}]
+[09:25:22]: ==> [{"id":"7","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:25:23]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"15","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:25:23]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"16","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:25:23]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"16","progressId":null,"finished":true}}]
+[09:25:25]: Hot reload was rejected:
+[09:25:25]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
+Try performing a hot restart instead.
+[09:25:25]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"15","progressId":"hot.reload","finished":true}}]
+[09:25:25]: <== [{"id":"7","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
+[09:29:35]: ==> [{"id":"8","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:29:35]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"17","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:29:35]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"18","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:29:35]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"18","progressId":null,"finished":true}}]
+[09:29:35]: Hot reload was rejected:
+[09:29:35]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
+Try performing a hot restart instead.
+[09:29:35]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"17","progressId":"hot.reload","finished":true}}]
+[09:29:35]: <== [{"id":"8","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
+[09:29:40]: ==> [{"id":"9","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:29:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"19","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:29:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"20","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:29:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"20","progressId":null,"finished":true}}]
+[09:29:40]: Hot reload was rejected:
+[09:29:40]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
+Try performing a hot restart instead.
+[09:29:40]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"19","progressId":"hot.reload","finished":true}}]
+[09:29:40]: <== [{"id":"9","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
+[09:32:49]: ==> [{"id":"10","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:32:49]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"21","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:32:49]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"22","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:32:49]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"22","progressId":null,"finished":true}}]
+[09:32:49]: Hot reload was rejected:
+[09:32:49]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
+Try performing a hot restart instead.
+[09:32:49]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"21","progressId":"hot.reload","finished":true}}]
+[09:32:49]: <== [{"id":"10","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
+[09:33:05]: ==> [{"id":"11","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:33:05]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"23","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:33:05]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"24","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:33:05]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"24","progressId":null,"finished":true}}]
+[09:33:05]: Hot reload was rejected:
+[09:33:05]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
+Try performing a hot restart instead.
+[09:33:05]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"23","progressId":"hot.reload","finished":true}}]
+[09:33:05]: <== [{"id":"11","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
+[09:40:59]: ==> [{"id":"12","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":false,"pause":true,"reason":"save","debounce":true}}]
+[09:40:59]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"25","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[09:40:59]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"26","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:40:59]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"26","progressId":null,"finished":true}}]
+[09:40:59]: Hot reload was rejected:
+[09:40:59]: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.
+Try performing a hot restart instead.
+[09:40:59]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"25","progressId":"hot.reload","finished":true}}]
+[09:40:59]: <== [{"id":"12","result":{"code":1,"message":"Reload rejected: Const class cannot become non-const: Library:'package:buoi1/page/contactscreen.dart' Class: ContactScreen.\nTry performing a hot restart instead."}}]
+[09:41:09]: ==> [{"id":"13","method":"app.restart","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","fullRestart":true,"pause":true,"reason":"manual"}}]
+[09:41:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"27","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[09:41:09]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"28","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[09:41:13]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"28","progressId":null,"finished":true}}]
+[09:41:14]: <== [{"event":"app.progress","params":{"appId":"cad556ce-19dd-4270-bf53-d47aea23c657","id":"27","progressId":"hot.restart","finished":true}}]
+[09:41:14]: <== Restarted application in 5.095ms.
+[09:41:14]: <== [{"id":"13","result":{"code":0,"message":""}}]
+[09:41:37]: <== D/EGL_emulation( 5089): app_time_stats: avg=2029624.75ms min=2029624.75ms max=2029624.75ms count=1

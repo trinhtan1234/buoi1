@@ -1,6 +1,6 @@
 import 'package:buoi1/discover/discover.dart';
 import 'package:buoi1/home/home.dart';
-import 'package:buoi1/page/danhba.dart';
+import 'package:buoi1/page/contactscreen.dart';
 import 'package:buoi1/page/nhatky.dart';
 import 'package:buoi1/person/account.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +21,7 @@ class _MyHomePageState extends State<MyHomePage> {
 // tạo page cho từng tabbar
   final List<Widget> _pages = <Widget>[
     const MyHome(),
-    const DanhBa(),
+    ContactScreen(),
     const Discover(),
     const NhatKy(),
     const CaNhan(),
