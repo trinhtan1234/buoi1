@@ -1,563 +1,243 @@
-[23:58:38]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
-[23:58:38]: ..  in D:\Flutter\buoi1
-[23:58:38]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
-[23:58:38]: PID: 21788
-[23:58:40]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":14252}}]
-[23:58:40]: <== [{"event":"app.start","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","deviceId":"emulator-5554","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
-[23:58:40]: <== Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
-[23:58:41]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
-[23:58:54]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"0","progressId":null,"finished":true}}]
-[23:58:55]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
-[23:58:56]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
-[23:58:59]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"1","progressId":null,"finished":true}}]
-[23:59:03]: <== [{"event":"app.debugPort","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28[00:00:16]: ==> [{"id":"1","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:00:16]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"1","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:00:17]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"2","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:00:17]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"2","progressId":null,"finished":true}}]
-[00:00:17]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"1","progressId":"hot.restart","finished":true}}]
-[00:00:17]: <== Restarted application in 777ms.
-[00:00:17]: <== [{"id":"1","result":{"code":0,"message":""}}]
-[00:05:29]: ==> [{"id":"2","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:05:29]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"3","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:05:29]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"4","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:05:29]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"4","progressId":null,"finished":true}}]
-[00:05:30]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"3","progressId":"hot.restart","finished":true}}]
-[00:05:30]: <== Restarted application in 593ms.
-[00:05:30]: <== [{"id":"2","result":{"code":0,"message":""}}]
-[00:05:38]: ==> [{"id":"3","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:05:38]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"5","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:05:38]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"6","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:05:38]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"6","progressId":null,"finished":true}}]
-[00:05:39]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"5","progressId":"hot.restart","finished":true}}]
-[00:05:39]: <== Restarted application in 503ms.
-[00:05:39]: <== [{"id":"3","result":{"code":0,"message":""}}]
-[00:08:13]: ==> [{"id":"4","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:08:13]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"7","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:08:13]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"8","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:08:13]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"8","progressId":null,"finished":true}}]
-[00:08:13]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"7","progressId":"hot.restart","finished":true}}]
-[00:08:13]: <== Restarted application in 599ms.
-[00:08:13]: <== [{"id":"4","result":{"code":0,"message":""}}]
-[00:08:52]: ==> [{"id":"5","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:08:52]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"9","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:08:52]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"10","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:08:52]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"10","progressId":null,"finished":true}}]
-[00:08:52]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"9","progressId":"hot.restart","finished":true}}]
-[00:08:52]: <== Restarted application in 613ms.
-[00:08:52]: <== [{"id":"5","result":{"code":0,"message":""}}]
-[00:09:06]: ==> [{"id":"6","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:09:06]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"11","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:09:06]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"12","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:09:06]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"12","progressId":null,"finished":true}}]
-[00:09:06]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"11","progressId":"hot.restart","finished":true}}]
-[00:09:06]: <== Restarted application in 502ms.
-[00:09:06]: <== [{"id":"6","result":{"code":0,"message":""}}]
-[00:09:10]: ==> [{"id":"7","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:09:10]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"13","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:09:10]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"14","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:09:10]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"14","progressId":null,"finished":true}}]
-[00:09:11]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"13","progressId":"hot.restart","finished":true}}]
-[00:09:11]: <== Restarted application in 467ms.
-[00:09:11]: <== [{"id":"7","result":{"code":0,"message":""}}]
-[00:09:22]: ==> [{"id":"8","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:09:22]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"15","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:09:22]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"16","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:09:23]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"16","progressId":null,"finished":true}}]
-[00:09:23]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"15","progressId":"hot.restart","finished":true}}]
-[00:09:23]: <== Restarted application in 459ms.
-[00:09:23]: <== [{"id":"8","result":{"code":0,"message":""}}]
-[00:09:23]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:09:23]: <== The following assertion was thrown during layout:
-[00:09:23]: <== A RenderFlex overflowed by 18 pixels on the right.
-[00:09:23]: <== The relevant error-causing widget was:
-[00:09:23]: <==   Row Row:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:111:22
-[00:09:23]: <== The overflowing RenderFlex has an orientation of Axis.horizontal.
-[00:09:23]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:09:23]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:09:23]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:09:23]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:09:23]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:09:23]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:09:23]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:09:23]: <== like a ListView.
-[00:09:23]: <== The specific RenderFlex in question is: RenderFlex#2c771 relayoutBoundary=up1 OVERFLOWING:
-[00:09:23]: <==   creator: Row ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:09:23]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:09:23]: <==     NotificationListener<KeepAliveNotification> ← KeepAlive ← ⋯
-[00:0[00:09:23]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"17","progressId":"hot.reload","finished":true}}]
-[00:09:23]: <== Reloaded 1 of 666 libraries in 813ms (compile: 38 ms, reload: 213 ms, reassemble: 459 ms).
-[00:09:23]: <== [{"id":"8","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:09:23]: <== D/EGL_emulation( 3835): app_time_stats: avg=12582.17ms min=12582.17ms max=12582.17ms count=1
-[00:09:32]: ==> [{"id":"9","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:09:32]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"19","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:09:32]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"20","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:09:32]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"20","progressId":null,"finished":true}}]
-[00:09:33]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"19","progressId":"hot.reload","finished":true}}]
-[00:09:33]: <== Reloaded 1 of 666 libraries in 601ms (compile: 32 ms, reload: 232 ms, reassemble: 230 ms).
-[00:09:33]: <== [{"id":"9","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:09:33]: <== D/EGL_emulation( 3835): app_time_stats: avg=9300.29ms min=9300.29ms max=9300.29ms count=1
-[00:09:46]: ==> [{"id":"10","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:09:46]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"21","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:09:47]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"22","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:09:47]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"22","progressId":null,"finished":true}}]
-[00:09:47]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"21","progressId":"hot.reload","finished":true}}]
-[00:09:47]: <== Reloaded 1 of 666 libraries in 658ms (compile: 44 ms, reload: 254 ms, reassemble: 263 ms).
-[00:09:47]: <== [{"id":"10","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:09:47]: <== D/EGL_emulation( 3835): app_time_stats: avg=14631.59ms min=14631.59ms max=14631.59ms count=1
-[00:10:12]: ==> [{"id":"11","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:10:12]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"23","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:10:12]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"24","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:10:13]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"24","progressId":null,"finished":true}}]
-[00:10:13]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"23","progressId":"hot.reload","finished":true}}]
-[00:10:13]: <== Reloaded 1 of 666 libraries in 648ms (compile: 33 ms, reload: 249 ms, reassemble: 253 ms).
-[00:10:13]: <== [{"id":"11","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:10:13]: <== D/EGL_emulation( 3835): app_time_stats: avg=25918.55ms min=25918.55ms max=25918.55ms count=1
-[00:10:30]: ==> [{"id":"12","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:10:30]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"25","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:10:30]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"26","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:10:30]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"26","progressId":null,"finished":true}}]
-[00:10:31]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"25","progressId":"hot.reload","finished":true}}]
-[00:10:31]: <== Reloaded 1 of 666 libraries in 746ms (compile: 33 ms, reload: 246 ms, reassemble: 366 ms).
-[00:10:31]: <== [{"id":"12","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:10:31]: <== D/EGL_emulation( 3835): app_time_stats: avg=17917.36ms min=17917.36ms max=17917.36ms count=1
-[00:10:48]: ==> [{"id":"13","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:10:48]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"27","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:10:49]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"28","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:10:49]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"28","progressId":null,"finished":true}}]
-[00:10:49]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"27","progressId":"hot.reload","finished":true}}]
-[00:10:49]: <== Reloaded 1 of 666 libraries in 724ms (compile: 35 ms, reload: 223 ms, reassemble: 366 ms).
-[00:10:49]: <== [{"id":"13","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:10:49]: <== D/EGL_emulation( 3835): app_time_stats: avg=18216.25ms min=18216.25ms max=18216.25ms count=1
-[00:11:09]: ==> [{"id":"14","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:11:09]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"29","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:11:09]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"30","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:11:09]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"30","progressId":null,"finished":true}}]
-[00:11:10]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"29","progressId":"hot.reload","finished":true}}]
-[00:11:10]: <== Reloaded 1 of 666 libraries in 785ms (compile: 36 ms, reload: 250 ms, reassemble: 368 ms).
-[00:11:10]: <== [{"id":"14","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:11:10]: <== D/EGL_emulation( 3835): app_time_stats: avg=20429.19ms min=20429.19ms max=20429.19ms count=1
-[00:13:28]: ==> [{"id":"15","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:13:28]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"31","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:13:28]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"32","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:13:28]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"32","progressId":null,"finished":true}}]
-[00:13:28]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"31","progressId":"hot.reload","finished":true}}]
-[00:13:28]: <== Reloaded 1 of 666 libraries in 754ms (compile: 30 ms, reload: 245 ms, reassemble: 346 ms).
-[00:13:28]: <== [{"id":"15","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:13:28]: <== D/EGL_emulation( 3835): app_time_stats: avg=138783.25ms min=138783.25ms max=138783.25ms count=1
-[00:13:46]: ==> [{"id":"16","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:13:46]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"33","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:13:46]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"34","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:13:46]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"34","progressId":null,"finished":true}}]
-[00:13:47]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"33","progressId":"hot.reload","finished":true}}]
-[00:13:47]: <== Reloaded 1 of 666 libraries in 833ms (compile: 44 ms, reload: 287 ms, reassemble: 387 ms).
-[00:13:47]: <== [{"id":"16","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:13:47]: <== D/EGL_emulation( 3835): app_time_stats: avg=18233.74ms min=18233.74ms max=18233.74ms count=1
-[00:14:32]: ==> [{"id":"17","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:14:32]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"35","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:14:32]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"36","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:14:32]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"36","progressId":null,"finished":true}}]
-[00:14:33]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"35","progressId":"hot.reload","finished":true}}]
-[00:14:33]: <== Reloaded 1 of 666 libraries in 948ms (compile: 35 ms, reload: 289 ms, reassemble: 523 ms).
-[00:14:33]: <== [{"id":"17","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:14:33]: <== D/EGL_emulation( 3835): app_time_stats: avg=45921.40ms min=45921.40ms max=45921.40ms count=1
-[00:14:41]: ==> [{"id":"18","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:14:41]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"37","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:14:41]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"38","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:14:41]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"38","progressId":null,"finished":true}}]
-[00:14:42]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"37","progressId":"hot.reload","finished":true}}]
-[00:14:42]: <== Reloaded 1 of 666 libraries in 922ms (compile: 47 ms, reload: 287 ms, reassemble: 474 ms).
-[00:14:42]: <== [{"id":"18","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:14:42]: <== D/EGL_emulation( 3835): app_time_stats: avg=9163.78ms min=9163.78ms max=9163.78ms count=1
-[00:14:52]: ==> [{"id":"19","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:14:52]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"39","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:14:52]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"40","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:14:52]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"40","progressId":null,"finished":true}}]
-[00:14:53]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"39","progressId":"hot.reload","finished":true}}]
-[00:14:53]: <== Reloaded 1 of 666 libraries in 726ms (compile: 28 ms, reload: 237 ms, reassemble: 342 ms).
-[00:14:53]: <== [{"id":"19","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:14:53]: <== D/EGL_emulation( 3835): app_time_stats: avg=11010.85ms min=11010.85ms max=11010.85ms count=1
-[00:15:06]: ==> [{"id":"20","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:15:07]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"41","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:15:07]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"42","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:15:07]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"42","progressId":null,"finished":true}}]
-[00:15:07]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"41","progressId":"hot.reload","finished":true}}]
-[00:15:07]: <== Reloaded 1 of 666 libraries in 835ms (compile: 36 ms, reload: 264 ms, reassemble: 427 ms).
-[00:15:07]: <== [{"id":"20","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:15:07]: <== D/EGL_emulation( 3835): app_time_stats: avg=14635.83ms min=14635.83ms max=14635.83ms count=1
-[00:15:26]: ==> [{"id":"21","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:15:26]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"43","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:15:26]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"44","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:15:26]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"44","progressId":null,"finished":true}}]
-[00:15:27]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"43","progressId":"hot.reload","finished":true}}]
-[00:15:27]: <== Reloaded 1 of 666 libraries in 760ms (compile: 30 ms, reload: 260 ms, reassemble: 356 ms).
-[00:15:27]: <== [{"id":"21","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:15:27]: <== D/EGL_emulation( 3835): app_time_stats: avg=19579.78ms min=19579.78ms max=19579.78ms count=1
-[00:15:39]: ==> [{"id":"22","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:15:39]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"45","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:15:39]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"46","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:15:39]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"46","progressId":null,"finished":true}}]
-[00:15:40]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"45","progressId":"hot.reload","finished":true}}]
-[00:15:40]: <== Reloaded 1 of 666 libraries in 899ms (compile: 55 ms, reload: 311 ms, reassemble: 419 ms).
-[00:15:40]: <== [{"id":"22","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:15:40]: <== D/EGL_emulation( 3835): app_time_stats: avg=12750.35ms min=12750.35ms max=12750.35ms count=1
-[00:15:57]: ==> [{"id":"23","method":"app.restart","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:15:57]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"47","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
-[00:15:57]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"48","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
-[00:15:57]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"48","progressId":null,"finished":true}}]
-[00:15:57]: <== [{"event":"app.progress","params":{"appId":"23d2b970-f69d-4ffd-8ba7-1a020baa7b28","id":"47","progressId":"hot.reload","finished":true}}]
-[00:15:57]: <== Reloaded 1 of 666 libraries in 627ms (compile: 36 ms, reload: 261 ms, reassemble: 218 ms).
-[00:15:57]: <== [{"id":"23","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
-[00:15:57]: <== D/EGL_emulation( 3835): app_time_stats: avg=17512.83ms min=17512.83ms max=17512.83ms count=1
-me...","finished":false}}]
-[00:13:28]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"30","progressId":null,"finished":true}}]
-[00:13:28]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"29","progressId":"hot.restart","finished":true}}]
-[00:13:28]: <== Restarted application in 479ms.
-[00:13:28]: <== [{"id":"15","result":{"code":0,"message":""}}]
-[00:13:28]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:13:28]: <== The following assertion was thrown during layout:
-[00:13:28]: <== A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:28]: <== The relevant error-causing widget was:
-[00:13:28]: <==   Column Column:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:111:22
-[00:13:28]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
-[00:13:28]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:13:28]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:13:28]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:13:28]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:13:28]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:13:28]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:13:28]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:13:28]: <== like a ListView.
-[00:13:28]: <== The specific RenderFlex in question is: RenderFlex#ab931 relayoutBoundary=up1 OVERFLOWING:
-[00:13:28]: <==   creator: Column ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:13:28]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:13:28]: <==     NotificationListener<KeepAliveNotification> ← KeepAlive ← ⋯
-[00:13:28]: <==   parentData: offset=Offset(0.0, 0.0) (can use size)
-[00:13:28]: <==   constraints: BoxConstraints(0.0<=w<=80.0, 0.0<=h<=70.0)
-[00:13:28]: <==   size: Size(80.0, 70.0)
-[00:13:28]: <==   direction: vertical
-[00:13:28]: <==   mainAxisAlignment: start
-[00:13:28]: <==   mainAxisSize: max
-[00:13:28]: <==   crossAxisAlignment: center
-[00:13:28]: <==   verticalDirection: down
-[00:13:28]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[00:13:28]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[00:13:28]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:28]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:28]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:28]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:28]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:46]: ==> [{"id":"16","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:13:46]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"31","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:13:46]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"32","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:13:46]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"32","progressId":null,"finished":true}}]
-[00:13:46]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"31","progressId":"hot.restart","finished":true}}]
-[00:13:46]: <== Restarted application in 288ms.
-[00:13:46]: <== [{"id":"16","result":{"code":0,"message":""}}]
-[00:13:47]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:13:47]: <== The following assertion was thrown during layout:
-[00:13:47]: <== A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:47]: <== The relevant error-causing widget was:
-[00:13:47]: <==   Column Column:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:111:22
-[00:13:47]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
-[00:13:47]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:13:47]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:13:47]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:13:47]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:13:47]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:13:47]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:13:47]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:13:47]: <== like a ListView.
-[00:13:47]: <== The specific RenderFlex in question is: RenderFlex#91f60 relayoutBoundary=up1 OVERFLOWING:
-[00:13:47]: <==   creator: Column ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:13:47]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:13:47]: <==     NotificationListener<KeepAliveNotification> ← KeepAlive ← ⋯
-[00:13:47]: <==   parentData: offset=Offset(0.0, 0.0) (can use size)
-[00:13:47]: <==   constraints: BoxConstraints(0.0<=w<=80.0, 0.0<=h<=70.0)
-[00:13:47]: <==   size: Size(80.0, 70.0)
-[00:13:47]: <==   direction: vertical
-[00:13:47]: <==   mainAxisAlignment: start
-[00:13:47]: <==   mainAxisSize: max
-[00:13:47]: <==   crossAxisAlignment: center
-[00:13:47]: <==   verticalDirection: down
-[00:13:47]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[00:13:47]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[00:13:47]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:47]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:47]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:47]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:13:47]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:14:32]: ==> [{"id":"17","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:14:32]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"33","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:14:32]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"34","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:14:32]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"34","progressId":null,"finished":true}}]
-[00:14:32]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"33","progressId":"hot.restart","finished":true}}]
-[00:14:32]: <== Restarted application in 309ms.
-[00:14:32]: <== [{"id":"17","result":{"code":0,"message":""}}]
-[00:14:32]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:14:32]: <== The following assertion was thrown during layout:
-[00:14:32]: <== A RenderFlex overflowed by 20 pixels on the right.
-[00:14:32]: <== The relevant error-causing widget was:
-[00:14:32]: <==   Row Row:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:113:19
-[00:14:32]: <== The overflowing RenderFlex has an orientation of Axis.horizontal.
-[00:14:32]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:14:32]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:14:32]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:14:32]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:14:32]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:14:32]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:14:32]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:14:32]: <== like a ListView.
-[00:14:32]: <== The specific RenderFlex in question is: RenderFlex#74346 relayoutBoundary=up2 OVERFLOWING:
-[00:14:32]: <==   creator: Row ← Column ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:14:32]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:14:32]: <==     NotificationListener<KeepAliveNotification> ← ⋯
-[00:14:32]: <==   parentData: offset=Offset(0.0, 0.0); flex=null; fit=null (can use size)
-[00:14:32]: <==   constraints: BoxConstraints(0.0<=w<=80.0, 0.0<=h<=Infinity)
-[00:14:32]: <==   size: Size(80.0, 100.0)
-[00:14:32]: <==   direction: horizontal
-[00:14:32]: <==   mainAxisAlignment: start
-[00:14:32]: <==   mainAxisSize: max
-[00:14:32]: <==   crossAxisAlignment: center
-[00:14:32]: <==   textDirection: ltr
-[00:14:32]: <==   verticalDirection: down
-[00:14:32]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[00:14:32]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:32]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:33]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:41]: ==> [{"id":"18","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:14:41]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"35","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:14:41]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"36","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:14:41]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"36","progressId":null,"finished":true}}]
-[00:14:41]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"35","progressId":"hot.restart","finished":true}}]
-[00:14:41]: <== Restarted application in 643ms.
-[00:14:41]: <== [{"id":"18","result":{"code":0,"message":""}}]
-[00:14:42]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:14:42]: <== The following assertion was thrown during layout:
-[00:14:42]: <== A RenderFlex overflowed by 20 pixels on the right.
-[00:14:42]: <== The relevant error-causing widget was:
-[00:14:42]: <==   Row Row:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:113:19
-[00:14:42]: <== The overflowing RenderFlex has an orientation of Axis.horizontal.
-[00:14:42]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:14:42]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:14:42]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:14:42]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:14:42]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:14:42]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:14:42]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:14:42]: <== like a ListView.
-[00:14:42]: <== The specific RenderFlex in question is: RenderFlex#8fae9 relayoutBoundary=up2 OVERFLOWING:
-[00:14:42]: <==   creator: Row ← Column ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:14:42]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:14:42]: <==     NotificationListener<KeepAliveNotification> ← ⋯
-[00:14:42]: <==   parentData: offset=Offset(0.0, 0.0); flex=null; fit=null (can use size)
-[00:14:42]: <==   constraints: BoxConstraints(0.0<=w<=80.0, 0.0<=h<=Infinity)
-[00:14:42]: <==   size: Size(80.0, 100.0)
-[00:14:42]: <==   direction: horizontal
-[00:14:42]: <==   mainAxisAlignment: start
-[00:14:42]: <==   mainAxisSize: max
-[00:14:42]: <==   crossAxisAlignment: center
-[00:14:42]: <==   textDirection: ltr
-[00:14:42]: <==   verticalDirection: down
-[00:14:42]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[00:14:42]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:14:42]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:14:52]: ==> [{"id":"19","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:14:52]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"37","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:14:52]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"38","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:14:52]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"38","progressId":null,"finished":true}}]
-[00:14:52]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"37","progressId":"hot.restart","finished":true}}]
-[00:14:52]: <== Restarted application in 471ms.
-[00:14:52]: <== [{"id":"19","result":{"code":0,"message":""}}]
-[00:14:53]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:14:53]: <== The following assertion was thrown during layout:
-[00:14:53]: <== A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:14:53]: <== The relevant error-causing widget was:
-[00:14:53]: <==   Column Column:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:111:22
-[00:14:53]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
-[00:14:53]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:14:53]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:14:53]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:14:53]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:14:53]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:14:53]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:14:53]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:14:53]: <== like a ListView.
-[00:14:53]: <== The specific RenderFlex in question is: RenderFlex#9e210 relayoutBoundary=up1 OVERFLOWING:
-[00:14:53]: <==   creator: Column ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:14:53]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:14:53]: <==     NotificationListener<KeepAliveNotification> ← KeepAlive ← ⋯
-[00:14:53]: <==   parentData: offset=Offset(0.0, 0.0) (can use size)
-[00:14:53]: <==   constraints: BoxConstraints(0.0<=w<=80.0, 0.0<=h<=70.0)
-[00:14:53]: <==   size: Size(80.0, 70.0)
-[00:14:53]: <==   direction: vertical
-[00:14:53]: <==   mainAxisAlignment: start
-[00:14:53]: <==   mainAxisSize: max
-[00:14:53]: <==   crossAxisAlignment: center
-[00:14:53]: <==   verticalDirection: down
-[00:14:53]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[00:14:53]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[00:14:53]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:14:53]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:14:53]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:14:53]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:14:53]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:06]: ==> [{"id":"20","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:15:07]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"39","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:15:07]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"40","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:15:07]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"40","progressId":null,"finished":true}}]
-[00:15:07]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"39","progressId":"hot.restart","finished":true}}]
-[00:15:07]: <== Restarted application in 257ms.
-[00:15:07]: <== [{"id":"20","result":{"code":0,"message":""}}]
-[00:15:07]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:15:07]: <== The following assertion was thrown during layout:
-[00:15:07]: <== A RenderFlex overflowed by 28 pixels on the right.
-[00:15:07]: <== The relevant error-causing widget was:
-[00:15:07]: <==   Row Row:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:113:19
-[00:15:07]: <== The overflowing RenderFlex has an orientation of Axis.horizontal.
-[00:15:07]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:15:07]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:15:07]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:15:07]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:15:07]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:15:07]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:15:07]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:15:07]: <== like a ListView.
-[00:15:07]: <== The specific RenderFlex in question is: RenderFlex#c284d relayoutBoundary=up2 OVERFLOWING:
-[00:15:07]: <==   creator: Row ← Column ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:15:07]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:15:07]: <==     NotificationListener<KeepAliveNotification> ← ⋯
-[00:15:07]: <==   parentData: offset=Offset(0.0, 0.0); flex=null; fit=null (can use size)
-[00:15:07]: <==   constraints: BoxConstraints(0.0<=w<=80.0, 0.0<=h<=Infinity)
-[00:15:07]: <==   size: Size(80.0, 80.0)
-[00:15:07]: <==   direction: horizontal
-[00:15:07]: <==   mainAxisAlignment: start
-[00:15:07]: <==   mainAxisSize: max
-[00:15:07]: <==   crossAxisAlignment: center
-[00:15:07]: <==   textDirection: ltr
-[00:15:07]: <==   verticalDirection: down
-[00:15:07]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[00:15:07]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 28 pixels on the right.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 28 pixels on the right.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 28 pixels on the right.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 28 pixels on the right.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 28 pixels on the right.
-[00:15:07]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:26]: ==> [{"id":"21","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:15:26]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"41","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:15:26]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"42","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:15:26]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"42","progressId":null,"finished":true}}]
-[00:15:27]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"41","progressId":"hot.restart","finished":true}}]
-[00:15:27]: <== Restarted application in 462ms.
-[00:15:27]: <== [{"id":"21","result":{"code":0,"message":""}}]
-[00:15:27]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:15:27]: <== The following assertion was thrown during layout:
-[00:15:27]: <== A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:27]: <== The relevant error-causing widget was:
-[00:15:27]: <==   Column Column:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:111:22
-[00:15:27]: <== The overflowing RenderFlex has an orientation of Axis.vertical.
-[00:15:27]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:15:27]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:15:27]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:15:27]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:15:27]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:15:27]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:15:27]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:15:27]: <== like a ListView.
-[00:15:27]: <== The specific RenderFlex in question is: RenderFlex#6170d relayoutBoundary=up1 OVERFLOWING:
-[00:15:27]: <==   creator: Column ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:15:27]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:15:27]: <==     NotificationListener<KeepAliveNotification> ← KeepAlive ← ⋯
-[00:15:27]: <==   parentData: offset=Offset(0.0, 0.0) (can use size)
-[00:15:27]: <==   constraints: BoxConstraints(0.0<=w<=80.0, 0.0<=h<=70.0)
-[00:15:27]: <==   size: Size(80.0, 70.0)
-[00:15:27]: <==   direction: vertical
-[00:15:27]: <==   mainAxisAlignment: start
-[00:15:27]: <==   mainAxisSize: max
-[00:15:27]: <==   crossAxisAlignment: center
-[00:15:27]: <==   verticalDirection: down
-[00:15:27]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[00:15:27]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[00:15:27]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:27]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:27]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:27]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:27]: <== Another exception was thrown: A RenderFlex overflowed by 10.0 pixels on the bottom.
-[00:15:39]: ==> [{"id":"22","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:15:39]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"43","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:15:39]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"44","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:15:39]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"44","progressId":null,"finished":true}}]
-[00:15:39]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"43","progressId":"hot.restart","finished":true}}]
-[00:15:39]: <== Restarted application in 330ms.
-[00:15:39]: <== [{"id":"22","result":{"code":0,"message":""}}]
-[00:15:40]: <== ══╡ EXCEPTION CAUGHT BY RENDERING LIBRARY ╞═════════════════════════════════════════════════════════
-[00:15:40]: <== The following assertion was thrown during layout:
-[00:15:40]: <== A RenderFlex overflowed by 20 pixels on the right.
-[00:15:40]: <== The relevant error-causing widget was:
-[00:15:40]: <==   Row Row:file:///D:/Flutter/buoi1/lib/contact/listchat.dart:113:19
-[00:15:40]: <== The overflowing RenderFlex has an orientation of Axis.horizontal.
-[00:15:40]: <== The edge of the RenderFlex that is overflowing has been marked in the rendering with a yellow and
-[00:15:40]: <== black striped pattern. This is usually caused by the contents being too big for the RenderFlex.
-[00:15:40]: <== Consider applying a flex factor (e.g. using an Expanded widget) to force the children of the
-[00:15:40]: <== RenderFlex to fit within the available space instead of being sized to their natural size.
-[00:15:40]: <== This is considered an error condition because it indicates that there is content that cannot be
-[00:15:40]: <== seen. If the content is legitimately bigger than the available space, consider clipping it with a
-[00:15:40]: <== ClipRect widget before putting it in the flex, or using a scrollable container rather than a Flex,
-[00:15:40]: <== like a ListView.
-[00:15:40]: <== The specific RenderFlex in question is: RenderFlex#be4ec relayoutBoundary=up2 OVERFLOWING:
-[00:15:40]: <==   creator: Row ← Column ← Center ← Padding ← DecoratedBox ← ConstrainedBox ← Padding ← Container ←
-[00:15:40]: <==     RepaintBoundary ← IndexedSemantics ← _SelectionKeepAlive ←
-[00:15:40]: <==     NotificationListener<KeepAliveNotification> ← ⋯
-[00:15:40]: <==   parentData: offset=Offset(0.0, 0.0); flex=null; fit=null (can use size)
-[00:15:40]: <==   constraints: BoxConstraints(0.0<=w<=80.0, 0.0<=h<=Infinity)
-[00:15:40]: <==   size: Size(80.0, 100.0)
-[00:15:40]: <==   direction: horizontal
-[00:15:40]: <==   mainAxisAlignment: start
-[00:15:40]: <==   mainAxisSize: max
-[00:15:40]: <==   crossAxisAlignment: center
-[00:15:40]: <==   textDirection: ltr
-[00:15:40]: <==   verticalDirection: down
-[00:15:40]: <== ◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤◢◤
-[00:15:40]: <== ════════════════════════════════════════════════════════════════════════════════════════════════════
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 20 pixels on the right.
-[00:15:40]: <== Another exception was thrown: A RenderFlex overflowed by 30 pixels on the bottom.
-[00:15:57]: ==> [{"id":"23","method":"app.restart","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
-[00:15:57]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"45","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
-[00:15:57]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"46","progressId":null,"message":"Waiting for connection from debug service on Chrome...","finished":false}}]
-[00:15:57]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"46","progressId":null,"finished":true}}]
-[00:15:57]: <== [{"event":"app.progress","params":{"appId":"687fe9f5-67a2-4fe7-a28d-63c2c40d0a41","id":"45","progressId":"hot.restart","finished":true}}]
-[00:15:57]: <== Restarted application in 258ms.
-[00:15:57]: <== [{"id":"23","result":{"code":0,"message":""}}]
+[13:35:17]: Spawning C:\src\flutter\bin\flutter.bat with args ["run","--machine","--start-paused","-d","emulator-5554","--devtools-server-address","http://127.0.0.1:9100/","--target","lib\\main.dart"]
+[13:35:17]: ..  in D:\Flutter\buoi1
+[13:35:17]: ..  with {"toolEnv":{"FLUTTER_HOST":"VSCode","PUB_ENVIRONMENT":"vscode.dart-code"}}
+[13:35:17]: PID: 21792
+[13:35:19]: <== [{"event":"daemon.connected","params":{"version":"0.6.1","pid":22008}}]
+[13:35:19]: <== [{"event":"app.start","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","deviceId":"emulator-5554","directory":"D:\\Flutter\\buoi1","supportsRestart":true,"launchMode":"run","mode":"debug"}}]
+[13:35:19]: <== Launching lib\main.dart on sdk gphone64 x86 64 in debug mode...
+[13:35:20]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"0","progressId":null,"message":"Running Gradle task 'assembleDebug'...","finished":false}}]
+[13:35:46]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"0","progressId":null,"finished":true}}]
+[13:35:46]: <== √  Built build\app\outputs\flutter-apk\app-debug.apk.
+[13:35:47]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"1","progressId":null,"message":"Installing build\\app\\outputs\\flutter-apk\\app-debug.apk...","finished":false}}]
+[13:35:49]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"1","progressId":null,"finished":true}}]
+[13:35:52]: <== [{"event":"app.debugPort","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","port":52119,"wsUri":"ws://127.0.0.1:52119/OSgcmQhC1bo=/ws","baseUri":"file:///data/user/0/com.example.buoi1/code_cache/buoi1BAPTPI/buoi1/"}}]
+[13:35:53]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"2","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[13:35:53]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"2","progressId":null,"finished":true}}]
+[13:35:53]: <== [{"event":"app.started","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a"}}]
+[13:49:02]: ==> [{"id":"1","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[13:49:02]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"3","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[13:49:02]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"4","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[13:49:02]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"4","progressId":null,"finished":true}}]
+[13:49:02]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"3","progressId":"hot.reload","finished":true}}]
+[13:49:02]: <== Reloaded 0 libraries in 458ms (compile: 11 ms, reload: 0 ms, reassemble: 284 ms).
+[13:49:02]: <== [{"id":"1","result":{"code":0,"message":"Reloaded 0 libraries"}}]
+[13:49:02]: <== D/EGL_emulation( 4521): app_time_stats: avg=391427.09ms min=999.18ms max=781854.94ms count=2
+[13:49:08]: ==> [{"id":"2","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[13:49:08]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"5","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[13:49:08]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"6","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[13:49:08]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"6","progressId":null,"finished":true}}]
+[13:49:08]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"5","progressId":"hot.reload","finished":true}}]
+[13:49:08]: <== Reloaded 0 libraries in 158ms (compile: 11 ms, reload: 0 ms, reassemble: 90 ms).
+[13:49:08]: <== [{"id":"2","result":{"code":0,"message":"Reloaded 0 libraries"}}]
+[13:49:08]: <== D/EGL_emulation( 4521): app_time_stats: avg=5801.90ms min=5801.90ms max=5801.90ms count=1
+[13:49:12]: ==> [{"id":"3","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[13:49:12]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"7","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[13:49:12]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"8","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[13:49:12]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"8","progressId":null,"finished":true}}]
+[13:49:12]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"7","progressId":"hot.reload","finished":true}}]
+[13:49:12]: <== Reloaded 2 of 667 libraries in 383ms (compile: 34 ms, reload: 145 ms, reassemble: 135 ms).
+[13:49:12]: <== [{"id":"3","result":{"code":0,"message":"Reloaded 2 of 667 libraries"}}]
+[13:49:12]: <== D/EGL_emulation( 4521): app_time_stats: avg=4358.31ms min=4358.31ms max=4358.31ms count=1
+[13:50:50]: ==> [{"id":"4","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[13:50:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"9","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[13:50:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"10","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[13:50:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"10","progressId":null,"finished":true}}]
+[13:50:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"9","progressId":"hot.reload","finished":true}}]
+[13:50:50]: <== Reloaded 1 of 667 libraries in 264ms (compile: 27 ms, reload: 122 ms, reassemble: 59 ms).
+[13:50:50]: <== [{"id":"4","result":{"code":0,"message":"Reloaded 1 of 667 libraries"}}]
+[13:50:50]: <== D/EGL_emulation( 4521): app_time_stats: avg=97923.85ms min=97923.85ms max=97923.85ms count=1
+[14:09:01]: ==> [{"id":"5","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:09:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"11","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:09:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"12","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:09:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"12","progressId":null,"finished":true}}]
+[14:09:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"11","progressId":"hot.reload","finished":true}}]
+[14:09:01]: <== Reloaded 2 of 667 libraries in 341ms (compile: 39 ms, reload: 141 ms, reassemble: 103 ms).
+[14:09:01]: <== [{"id":"5","result":{"code":0,"message":"Reloaded 2 of 667 libraries"}}]
+[14:09:01]: <== D/EGL_emulation( 4521): app_time_stats: avg=1091162.50ms min=1091162.50ms max=1091162.50ms count=1
+[14:13:31]: ==> [{"id":"6","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:13:31]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"13","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:13:31]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"14","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:13:31]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"14","progressId":null,"finished":true}}]
+[14:13:31]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"13","progressId":"hot.reload","finished":true}}]
+[14:13:31]: <== Reloaded 1 of 667 libraries in 342ms (compile: 32 ms, reload: 145 ms, reassemble: 109 ms).
+[14:13:31]: <== [{"id":"6","result":{"code":0,"message":"Reloaded 1 of 667 libraries"}}]
+[14:13:31]: <== D/EGL_emulation( 4521): app_time_stats: avg=38547.72ms min=2.32ms max=269672.19ms count=7
+[14:13:35]: ==> [{"id":"7","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":true,"pause":false,"reason":"manual"}}]
+[14:13:35]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"15","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[14:13:35]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"16","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:13:36]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"16","progressId":null,"finished":true}}]
+[14:13:36]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"15","progressId":"hot.restart","finished":true}}]
+[14:13:36]: <== Restarted application in 1.029ms.
+[14:13:36]: <== [{"id":"7","result":{"code":0,"message":""}}]
+[14:13:37]: <== D/EGL_emulation( 4521): app_time_stats: avg=2729.86ms min=11.95ms max=5447.76ms count=2
+[14:19:11]: ==> [{"id":"8","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:19:11]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"17","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:19:11]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"18","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:19:11]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"18","progressId":null,"finished":true}}]
+[14:19:11]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"17","progressId":"hot.reload","finished":true}}]
+[14:19:11]: <== Reloaded 1 of 666 libraries in 338ms (compile: 24 ms, reload: 100 ms, reassemble: 157 ms).
+[14:19:11]: <== [{"id":"8","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:19:11]: <== D/EGL_emulation( 4521): app_time_stats: avg=111457.18ms min=27.65ms max=334103.56ms count=3
+[14:25:59]: ==> [{"id":"9","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:25:59]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"19","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:25:59]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"20","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:25:59]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"20","progressId":null,"finished":true}}]
+[14:25:59]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"19","progressId":"hot.reload","finished":true}}]
+[14:25:59]: <== Reloaded 1 of 666 libraries in 265ms (compile: 27 ms, reload: 102 ms, reassemble: 82 ms).
+[14:25:59]: <== [{"id":"9","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:25:59]: <== D/EGL_emulation( 4521): app_time_stats: avg=31381.29ms min=1.22ms max=407874.38ms count=13
+[14:27:00]: ==> [{"id":"10","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:27:00]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"21","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:27:00]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"22","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:27:00]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"22","progressId":null,"finished":true}}]
+[14:27:00]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"21","progressId":"hot.reload","finished":true}}]
+[14:27:00]: <== Reloaded 1 of 666 libraries in 274ms (compile: 31 ms, reload: 98 ms, reassemble: 84 ms).
+[14:27:00]: <== [{"id":"10","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:27:00]: <== D/EGL_emulation( 4521): app_time_stats: avg=30398.99ms min=31.25ms max=60766.74ms count=2
+[14:27:06]: ==> [{"id":"11","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":true,"pause":false,"reason":"manual"}}]
+[14:27:06]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"23","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[14:27:06]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"24","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:27:06]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"24","progressId":null,"finished":true}}]
+[14:27:07]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"23","progressId":"hot.restart","finished":true}}]
+[14:27:07]: <== Restarted application in 994ms.
+[14:27:07]: <== [{"id":"11","result":{"code":0,"message":""}}]
+[14:27:08]: <== D/EGL_emulation( 4521): app_time_stats: avg=3776.45ms min=21.07ms max=7531.82ms count=2
+[14:28:29]: ==> [{"id":"12","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:28:29]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"25","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:28:29]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"26","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:28:29]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"26","progressId":null,"finished":true}}]
+[14:28:29]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"25","progressId":"hot.reload","finished":true}}]
+[14:28:29]: <== Reloaded 1 of 666 libraries in 327ms (compile: 25 ms, reload: 110 ms, reassemble: 137 ms).
+[14:28:29]: <== [{"id":"12","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:28:29]: <== D/EGL_emulation( 4521): app_time_stats: avg=27205.75ms min=20.22ms max=81343.17ms count=3
+[14:28:31]: <== D/EGL_emulation( 4521): app_time_stats: avg=720.02ms min=22.05ms max=1417.99ms count=2
+[14:28:32]: <== D/EGL_emulation( 4521): app_time_stats: avg=10.94ms min=1.45ms max=85.19ms count=32
+[14:28:33]: <== D/EGL_emulation( 4521): app_time_stats: avg=15.30ms min=1.43ms max=210.79ms count=26
+[14:29:01]: ==> [{"id":"13","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:29:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"27","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:29:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"28","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:29:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"28","progressId":null,"finished":true}}]
+[14:29:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"27","progressId":"hot.reload","finished":true}}]
+[14:29:01]: <== Reloaded 0 libraries in 100ms (compile: 7 ms, reload: 0 ms, reassemble: 41 ms).
+[14:29:01]: <== [{"id":"13","result":{"code":0,"message":"Reloaded 0 libraries"}}]
+[14:29:01]: <== D/EGL_emulation( 4521): app_time_stats: avg=1410.33ms min=1.45ms max=28171.01ms count=20
+[14:29:16]: ==> [{"id":"14","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:29:16]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"29","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:29:16]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"30","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:29:16]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"30","progressId":null,"finished":true}}]
+[14:29:16]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"29","progressId":"hot.reload","finished":true}}]
+[14:29:16]: <== Reloaded 1 of 666 libraries in 278ms (compile: 17 ms, reload: 113 ms, reassemble: 94 ms).
+[14:29:16]: <== [{"id":"14","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:29:16]: <== D/EGL_emulation( 4521): app_time_stats: avg=7284.98ms min=12.20ms max=14557.76ms count=2
+[14:29:18]: <== D/EGL_emulation( 4521): app_time_stats: avg=935.67ms min=21.65ms max=1849.68ms count=2
+[14:29:19]: <== D/EGL_emulation( 4521): app_time_stats: avg=5.13ms min=1.53ms max=29.72ms count=30
+[14:29:50]: ==> [{"id":"15","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:29:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"31","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:29:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"32","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:29:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"32","progressId":null,"finished":true}}]
+[14:29:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"31","progressId":"hot.reload","finished":true}}]
+[14:29:50]: <== Reloaded 1 of 666 libraries in 283ms (compile: 25 ms, reload: 114 ms, reassemble: 93 ms).
+[14:29:50]: <== [{"id":"15","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:29:50]: <== D/EGL_emulation( 4521): app_time_stats: avg=3116.21ms min=1.58ms max=30455.07ms count=10
+[14:29:52]: <== D/EGL_emulation( 4521): app_time_stats: avg=788.97ms min=15.71ms max=1562.22ms count=2
+[14:29:53]: <== D/EGL_emulation( 4521): app_time_stats: avg=12.19ms min=1.62ms max=166.24ms count=31
+[14:29:55]: <== D/EGL_emulation( 4521): app_time_stats: avg=25.71ms min=1.62ms max=647.01ms count=32
+[14:30:05]: <== D/EGL_emulation( 4521): app_time_stats: avg=359.26ms min=1.31ms max=9243.02ms count=26
+[14:30:06]: <== D/EGL_emulation( 4521): app_time_stats: avg=5.38ms min=1.36ms max=52.70ms count=31
+[14:30:07]: <== D/EGL_emulation( 4521): app_time_stats: avg=10.81ms min=1.51ms max=126.90ms count=27
+[14:34:04]: ==> [{"id":"16","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:34:04]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"33","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:34:04]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"34","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:34:04]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"34","progressId":null,"finished":true}}]
+[14:34:04]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"33","progressId":"hot.reload","finished":true}}]
+[14:34:04]: <== Reloaded 1 of 666 libraries in 308ms (compile: 27 ms, reload: 118 ms, reassemble: 110 ms).
+[14:34:04]: <== [{"id":"16","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:34:04]: <== D/EGL_emulation( 4521): app_time_stats: avg=8162.58ms min=1.47ms max=236646.66ms count=29
+[14:34:45]: ==> [{"id":"17","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:34:45]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"35","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:34:45]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"36","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:34:45]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"36","progressId":null,"finished":true}}]
+[14:34:45]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"35","progressId":"hot.reload","finished":true}}]
+[14:34:45]: <== Reloaded 1 of 666 libraries in 281ms (compile: 24 ms, reload: 114 ms, reassemble: 88 ms).
+[14:34:45]: <== [{"id":"17","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:34:45]: <== D/EGL_emulation( 4521): app_time_stats: avg=20334.65ms min=18.33ms max=40650.98ms count=2
+[14:34:49]: ==> [{"id":"18","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":true,"pause":false,"reason":"manual"}}]
+[14:34:49]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"37","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[14:34:49]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"38","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:34:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"38","progressId":null,"finished":true}}]
+[14:34:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"37","progressId":"hot.restart","finished":true}}]
+[14:34:50]: <== Restarted application in 1.073ms.
+[14:34:50]: <== [{"id":"18","result":{"code":0,"message":""}}]
+[14:34:51]: <== D/EGL_emulation( 4521): app_time_stats: avg=2839.04ms min=15.29ms max=5662.80ms count=2
+[14:35:04]: ==> [{"id":"19","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:35:04]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"39","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:35:04]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"40","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:35:04]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"40","progressId":null,"finished":true}}]
+[14:35:05]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"39","progressId":"hot.reload","finished":true}}]
+[14:35:05]: <== Reloaded 1 of 666 libraries in 305ms (compile: 27 ms, reload: 93 ms, reassemble: 131 ms).
+[14:35:05]: <== [{"id":"19","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:35:05]: <== D/EGL_emulation( 4521): app_time_stats: avg=4603.09ms min=28.44ms max=13539.93ms count=3
+[14:37:50]: ==> [{"id":"20","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:37:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"41","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:37:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"42","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:37:50]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"42","progressId":null,"finished":true}}]
+[14:37:51]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"41","progressId":"hot.reload","finished":true}}]
+[14:37:51]: <== Reloaded 1 of 666 libraries in 307ms (compile: 43 ms, reload: 106 ms, reassemble: 93 ms).
+[14:37:51]: <== [{"id":"20","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:37:51]: <== D/EGL_emulation( 4521): app_time_stats: avg=83267.45ms min=25.33ms max=166509.58ms count=2
+[14:37:59]: ==> [{"id":"21","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:37:59]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"43","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:37:59]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"44","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:37:59]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"44","progressId":null,"finished":true}}]
+[14:38:00]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"43","progressId":"hot.reload","finished":true}}]
+[14:38:00]: <== Reloaded 2 of 666 libraries in 286ms (compile: 25 ms, reload: 109 ms, reassemble: 101 ms).
+[14:38:00]: <== [{"id":"21","result":{"code":0,"message":"Reloaded 2 of 666 libraries"}}]
+[14:38:00]: <== D/EGL_emulation( 4521): app_time_stats: avg=4341.16ms min=15.28ms max=8667.05ms count=2
+[14:40:01]: ==> [{"id":"22","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:40:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"45","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:40:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"46","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:40:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"46","progressId":null,"finished":true}}]
+[14:40:01]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"45","progressId":"hot.reload","finished":true}}]
+[14:40:01]: <== Reloaded 1 of 666 libraries in 284ms (compile: 26 ms, reload: 122 ms, reassemble: 82 ms).
+[14:40:01]: <== [{"id":"22","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:40:01]: <== D/EGL_emulation( 4521): app_time_stats: avg=60673.85ms min=11.60ms max=121336.11ms count=2
+[14:40:33]: ==> [{"id":"23","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:40:34]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"47","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:40:34]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"48","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:40:34]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"48","progressId":null,"finished":true}}]
+[14:40:34]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"47","progressId":"hot.reload","finished":true}}]
+[14:40:34]: <== Reloaded 0 libraries in 92ms (compile: 7 ms, reload: 0 ms, reassemble: 31 ms).
+[14:40:34]: <== [{"id":"23","result":{"code":0,"message":"Reloaded 0 libraries"}}]
+[14:40:34]: <== D/EGL_emulation( 4521): app_time_stats: avg=16319.94ms min=16.42ms max=32623.46ms count=2
+[14:40:37]: ==> [{"id":"24","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:40:37]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"49","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:40:37]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"50","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:40:37]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"50","progressId":null,"finished":true}}]
+[14:40:37]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"49","progressId":"hot.reload","finished":true}}]
+[14:40:37]: <== Reloaded 1 of 666 libraries in 290ms (compile: 15 ms, reload: 143 ms, reassemble: 84 ms).
+[14:40:37]: <== [{"id":"24","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:40:37]: <== D/EGL_emulation( 4521): app_time_stats: avg=1696.86ms min=21.58ms max=3372.13ms count=2
+[14:40:41]: ==> [{"id":"25","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":true,"pause":false,"reason":"manual"}}]
+[14:40:41]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"51","progressId":"hot.restart","message":"Performing hot restart...","finished":false}}]
+[14:40:41]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"52","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:40:42]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"52","progressId":null,"finished":true}}]
+[14:40:42]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"51","progressId":"hot.restart","finished":true}}]
+[14:40:42]: <== Restarted application in 909ms.
+[14:40:42]: <== [{"id":"25","result":{"code":0,"message":""}}]
+[14:40:43]: <== D/EGL_emulation( 4521): app_time_stats: avg=2791.86ms min=25.49ms max=5558.24ms count=2
+[14:40:56]: ==> [{"id":"26","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:40:56]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"53","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:40:56]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"54","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:40:56]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"54","progressId":null,"finished":true}}]
+[14:40:56]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"53","progressId":"hot.reload","finished":true}}]
+[14:40:56]: <== Reloaded 1 of 666 libraries in 336ms (compile: 26 ms, reload: 113 ms, reassemble: 139 ms).
+[14:40:56]: <== [{"id":"26","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:40:56]: <== D/EGL_emulation( 4521): app_time_stats: avg=4574.56ms min=15.73ms max=13171.03ms count=3
+[14:41:18]: ==> [{"id":"27","method":"app.restart","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","fullRestart":false,"pause":false,"reason":"save","debounce":true}}]
+[14:41:18]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"55","progressId":"hot.reload","message":"Performing hot reload...","finished":false}}]
+[14:41:18]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"56","progressId":null,"message":"Syncing files to device sdk gphone64 x86 64...","finished":false}}]
+[14:41:18]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"56","progressId":null,"finished":true}}]
+[14:41:18]: <== [{"event":"app.progress","params":{"appId":"d65a191f-3621-4c02-8315-c4181aab8b9a","id":"55","progressId":"hot.reload","finished":true}}]
+[14:41:18]: <== Reloaded 1 of 666 libraries in 311ms (compile: 20 ms, reload: 139 ms, reassemble: 88 ms).
+[14:41:18]: <== [{"id":"27","result":{"code":0,"message":"Reloaded 1 of 666 libraries"}}]
+[14:41:19]: <== D/EGL_emulation( 4521): app_time_stats: avg=11067.01ms min=12.37ms max=22121.65ms count=2

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'contact/listchat.dart';
+import 'contact/contact.dart';
 
 void main() {
   runApp(MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Tạo màn hình zalo',
-      home: ListChat(),
+      home: TestJson(),
     );
   }
 }
