@@ -36,15 +36,14 @@ class TestJson extends StatelessWidget {
                 String itemphone = itemData['Phone'] != null
                     ? itemData['Phone'].toString()
                     : 'No Phone';
-                return Container(
-                  child: Row(
-                    children: [
-                      ListTile(
-                        title: Text(itemName),
-                      ),
-                      Text(itemphone)
-                    ],
-                  ),
+                String itemImageUrl = itemData['Link'] ?? '';
+                return ListTile(
+                  title: Text(itemName),
+                  subtitle: Text(itemphone),
+                  leading: itemImageUrl.isNotEmpty
+                      ? Image.network(itemImageUrl)
+                      : Icon(Icons.image),
+                  trailing: Icon(Icons.call),
                 );
               },
             );

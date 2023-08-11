@@ -1,7 +1,7 @@
 import 'package:buoi1/home/primarymessage.dart';
 import 'package:flutter/material.dart';
 
-import 'othermessages.dart';
+import '../contact/contact.dart';
 
 class MyHome extends StatefulWidget {
   const MyHome({super.key});
@@ -47,7 +47,7 @@ class _MyHomeState extends State<MyHome> {
                 child: TabBarView(
                   children: [
                     Center(child: PrimaryMessage()),
-                    Center(child: OtherMessages()),
+                    Center(child: TestJson()),
                   ],
                 ),
               ),
